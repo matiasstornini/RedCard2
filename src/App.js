@@ -28,7 +28,7 @@ export default function ContainedButtons() {
       </Typography>
     );
 
-    if (i === 1) {
+    if (i === "1") {
       lis.push(
         <div className={classes.root}>
           <Btn Valor={ext[0]} />
