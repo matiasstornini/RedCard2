@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+
 import {
   makeStyles,
   createMuiTheme,
   ThemeProvider
 } from "@material-ui/core/styles";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
-
+import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import RefreshIcon from "@material-ui/icons/Refresh";
+import Brightness3Icon from "@material-ui/icons/Brightness3";
+import Brightness7Icon from "@material-ui/icons/Brightness7";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
@@ -35,18 +37,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ContainedButtons() {
+  const [theme, setTheme] = useState(true);
   const classes = useStyles();
-  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
+  const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
+  const appliedTheme = createMuiTheme(theme ? light : dark);
 
-  const theme = React.useMemo(
-    () =>
-      createMuiTheme({
-        palette: {
-          type: prefersDarkMode ? "dark" : "light"
-        }
-      }),
-    [prefersDarkMode]
-  );
   function refreshPage() {
     window.location.reload(false);
   }
@@ -79,8 +74,7 @@ export default function ContainedButtons() {
   }
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <ThemeProvider theme={appliedTheme}>
       <React.Fragment>
         <CssBaseline />
         <Container>
@@ -90,6 +84,14 @@ export default function ContainedButtons() {
             </Paper>
           </Grid>
           <div className={classes.root}>
+            <IconButton
+              edge="end"
+              color="inherit"
+              aria-label="mode"
+              onClick={() => setTheme(!theme)}
+            >
+              {icon}
+            </IconButton>
             <Button variant="outlined" color="secondary" onClick={refreshPage}>
               <RefreshIcon />
             </Button>
@@ -100,3 +102,13 @@ export default function ContainedButtons() {
     </ThemeProvider>
   );
 }
+export const light = {
+  palette: {
+    type: "light"
+  }
+};
+export const dark = {
+  palette: {
+    type: "dark"
+  }
+};
