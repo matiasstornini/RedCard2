@@ -58,7 +58,7 @@ export default function ContainedButtons() {
   var menu = [
     /*i*/ 2,
     /*dia*/ "16/06/2021",
-    /*btn=1*/ 1,
+    /*btn=1*/ 2,
     /*btn=2*/ 0,
     /*btn=3*/ 0
   ];
