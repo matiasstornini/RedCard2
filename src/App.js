@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import {
   makeStyles,
@@ -37,18 +37,32 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ContainedButtons() {
-  const [theme, setTheme] = useState(true);
+  const [theme, setTheme] = useState("light");
+
   const classes = useStyles();
   const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
   const appliedTheme = createMuiTheme(theme ? light : dark);
 
+  /*useEffect(() => {
+    setTheme(localStorage.getItem("theme"));
+  }, []);
+  /*const handleClick = (theme) => {
+    localStorage.setItem("theme", theme);
+    setTheme(theme);
+  };*/
   function refreshPage() {
     window.location.reload(false);
   }
   var lis = [];
-  //var abtn = [esp[0], esp[1], esp[2], ext[0], ext[1], ext[2]];
+  var menu = [
+    /*i*/ 2,
+    /*dia*/ "16/06/2021",
+    /*btn=1*/ "0",
+    /*btn=2*/ 0,
+    /*btn=3*/ 0
+  ];
 
-  for (var i = 0; i <= 1; i++) {
+  for (var i = 0; i <= menu[0]; i++) {
     lis.push(
       <Typography variant="h6" gutterBottom>
         {dta[i]}
@@ -56,7 +70,7 @@ export default function ContainedButtons() {
       </Typography>
     );
 
-    if (i === "1") {
+    if (i === menu[2]) {
       lis.push(
         <div className={classes.root}>
           <Btn Valor={ext[0]} />
@@ -95,6 +109,11 @@ export default function ContainedButtons() {
             <Button variant="outlined" color="secondary" onClick={refreshPage}>
               <RefreshIcon />
             </Button>
+          </div>
+          <div>
+            <Typography variant="h4" component="h5">
+              Calendario {menu[1]}
+            </Typography>
           </div>
           <div>{lis}</div>
         </Container>
