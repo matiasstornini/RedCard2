@@ -5,9 +5,14 @@ import Typography from "@material-ui/core/Typography";
 //componente a exportar
 const Titulo = () => {
   return (
-    <Typography variant="h3" component="h4">
-      Red Card FUT
-    </Typography>
+    <div>
+      <Typography variant="h3" component="h4">
+        Red Card FUT
+      </Typography>
+      <Typography variant="caption" display="block" gutterBottom>
+        BETA 0.4
+      </Typography>
+    </div>
   );
 };
 

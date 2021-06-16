@@ -17,6 +17,7 @@ import Titulo from "./titulo";
 import Btn from "./btn";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
+import Divider from "@material-ui/core/Divider";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -57,7 +58,7 @@ export default function ContainedButtons() {
   var menu = [
     /*i*/ 2,
     /*dia*/ "16/06/2021",
-    /*btn=1*/ "0",
+    /*btn=1*/ 1,
     /*btn=2*/ 0,
     /*btn=3*/ 0
   ];
@@ -73,7 +74,6 @@ export default function ContainedButtons() {
     if (i === menu[2]) {
       lis.push(
         <div className={classes.root}>
-          <Btn Valor={ext[0]} />
           <Btn Valor={ext[0]} />
         </div>
       );
@@ -114,6 +114,7 @@ export default function ContainedButtons() {
             <Typography variant="h4" component="h5">
               Calendario {menu[1]}
             </Typography>
+            <Divider />
           </div>
           <div>{lis}</div>
         </Container>
