@@ -58,12 +58,12 @@ export default function ContainedButtons() {
   var menu = [
     /*i*/ 2,
     /*dia*/ "16/06/2021",
-    /*btn=1*/ 2,
+    /*btn=1*/ "2",
     /*btn=2*/ 0,
     /*btn=3*/ 0
   ];
 
-  for (var i = 0; i <= menu[0]; i++) {
+  for (var i = 0; i < Match.length; i++) {
     lis.push(
       <Typography variant="h6" gutterBottom>
         {dta[i]}
