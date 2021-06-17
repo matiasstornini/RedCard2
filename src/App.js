@@ -87,13 +87,7 @@ export default function ContainedButtons() {
         );
         break;
       default:
-        lis.push(
-          <div className={classes.root}>
-            <Button variant="contained" color="primary" href={Est[i]}>
-              Estadisticas
-            </Button>
-          </div>
-        );
+        console.log("default");
     }
     /*SWITCH*/
     /*if (i === btn1) {
@@ -103,6 +97,13 @@ export default function ContainedButtons() {
         </div>
       );
     }*/
+    lis.push(
+      <div className={classes.root}>
+        <Button variant="contained" color="primary" href={Est[i]}>
+          Estadisticas
+        </Button>
+      </div>
+    );
   }
 
   return (
