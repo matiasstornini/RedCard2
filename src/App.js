@@ -72,7 +72,7 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case 3 /*btn1*/:
+      case "3" /*btn1*/:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={conmebol[0]} />
