@@ -70,21 +70,39 @@ export default function ContainedButtons() {
         {Match[i]}
       </Typography>
     );
-
-    if (i === menu[2]) {
+    /*SWITCH*/
+    switch (i) {
+      case btn1:
+        lis.push(
+          <div className={classes.root}>
+            <Btn Valor={ext[0]} />
+          </div>
+        );
+        break;
+      case "2":
+        lis.push(
+          <div className={classes.root}>
+            <Btn Valor={arg[0]} />
+          </div>
+        );
+        break;
+      default:
+        lis.push(
+          <div className={classes.root}>
+            <Button variant="contained" color="primary" href={Est[i]}>
+              Estadisticas
+            </Button>
+          </div>
+        );
+    }
+    /*SWITCH*/
+    /*if (i === btn1) {
       lis.push(
         <div className={classes.root}>
           <Btn Valor={ext[0]} />
         </div>
       );
-    }
-    lis.push(
-      <div className={classes.root}>
-        <Button variant="contained" color="primary" href={Est[i]}>
-          Estadisticas
-        </Button>
-      </div>
-    );
+    }*/
   }
 
   return (
