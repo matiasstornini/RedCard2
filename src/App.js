@@ -57,7 +57,7 @@ export default function ContainedButtons() {
   var lis = [];
   var menu = [
     /*i*/ 2,
-    /*dia*/ "16/06/2021",
+    /*dia*/ "17/06/2021",
     /*btn=1*/ "2",
     /*btn=2*/ 0,
     /*btn=3*/ 0
@@ -80,10 +80,10 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case "2":
+      case 5:
         lis.push(
           <div className={classes.root}>
-            <Btn Valor={arg[0]} />
+            <Btn Valor={col[0]} />
           </div>
         );
         break;
