@@ -65,14 +65,14 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case btn1:
+      case "0" /*btn1*/:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={ext[0]} />
           </div>
         );
         break;
-      case btn2:
+      case "1" /*btn2*/:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={ext[1]} />
