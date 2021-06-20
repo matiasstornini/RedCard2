@@ -72,10 +72,11 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case "1" /*btn2*/:
+      case 2 /*btn2*/:
         lis.push(
           <div className={classes.root}>
-            <Btn Valor={ext[1]} />
+            <Btn Valor={conmebol[0]} />
+            <Btn Valor={conmebol[1]} />
           </div>
         );
         break;
