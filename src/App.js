@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import {
   makeStyles,
@@ -55,13 +55,6 @@ export default function ContainedButtons() {
     window.location.reload(false);
   }
   var lis = [];
-  var menu = [
-    /*i*/ 2,
-    /*dia*/ "17/06/2021",
-    /*btn=1*/ "2",
-    /*btn=2*/ 0,
-    /*btn=3*/ 0
-  ];
 
   for (var i = 0; i < Match.length; i++) {
     lis.push(
@@ -72,33 +65,35 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case "0" /*btn1*/:
+      case btn1:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={ext[0]} />
           </div>
         );
         break;
-      case "4":
+      case btn2:
         lis.push(
           <div className={classes.root}>
+            <Btn Valor={ext[1]} />
+          </div>
+        );
+        break;
+      case "4":
+        lis.push(
+          <div className={classes.root}></div>
+          /*<div className={classes.root}>
             <Btn Valor={arg[0]} />
             <Btn Valor={arg[1]} />
             <Btn Valor={arg[2]} />
-          </div>
+          </div>*/
         );
         break;
       default:
       //console.log("default");
     }
     /*SWITCH*/
-    /*if (i === btn1) {
-      lis.push(
-        <div className={classes.root}>
-          <Btn Valor={ext[0]} />
-        </div>
-      );
-    }*/
+
     lis.push(
       <div className={classes.root}>
         <Button variant="contained" color="primary" href={Est[i]}>
