@@ -79,7 +79,7 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case 1:
+      case "1":
         lis.push(
           <div className={classes.root}>
             <Btn Valor={conmebol[0]} />
