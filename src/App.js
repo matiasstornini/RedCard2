@@ -13,7 +13,6 @@ import Brightness7Icon from "@material-ui/icons/Brightness7";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-import Titulo from "./titulo";
 import Btn from "./btn";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
@@ -38,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ContainedButtons() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const classes = useStyles();
   const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
@@ -65,7 +64,7 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case "btn1":
+      case btn1:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={ext[0]} />
@@ -118,7 +117,9 @@ export default function ContainedButtons() {
         <Container>
           <Grid item xs={12}>
             <Paper className={classes.paper}>
-              <Titulo />
+              <Typography variant="h4" component="h5">
+                Calendario {datef}
+              </Typography>
             </Paper>
           </Grid>
           <div className={classes.root}>
@@ -135,9 +136,6 @@ export default function ContainedButtons() {
             </Button>
           </div>
           <div>
-            <Typography variant="h4" component="h5">
-              Calendario {datef}
-            </Typography>
             <Divider />
           </div>
           <div>{lis}</div>
