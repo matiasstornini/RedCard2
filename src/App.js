@@ -79,7 +79,7 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case "3":
+      case "2":
         lis
           .push
           /*<div className={classes.root}>
@@ -88,7 +88,7 @@ export default function ContainedButtons() {
           </div>*/
           ();
         break;
-      case 3:
+      case "3":
         lis.push(
           /*<div className={classes.root}></div>*/
           <div className={classes.root}>
