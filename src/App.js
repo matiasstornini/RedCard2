@@ -55,7 +55,7 @@ export default function ContainedButtons() {
   }
   var lis = [];
 
-  for (var i = 0; i < Match.length; i++) {
+  for (let i = 0; i < Match.length; i++) {
     lis.push(
       <Typography variant="h6" gutterBottom>
         {dta[i]}
@@ -79,7 +79,7 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case 1:
+      case 10:
         lis.push(
           /*<div className={classes.root}></div>*/
           <div className={classes.root}>
