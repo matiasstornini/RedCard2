@@ -1,17 +1,29 @@
 import React from "react";
 
-import Typography from "@material-ui/core/Typography";
+//import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 //componente a exportar
 const Titulo = () => {
   return (
     <div>
-      <Typography variant="h3" component="h4">
-        Red Card FUT
-      </Typography>
-      <Typography variant="caption" display="block" gutterBottom>
-        BETA 0.4
-      </Typography>
+      <Button
+        color="primary"
+        target="_blank"
+        href="https://www.facebook.com/innovadesignalp"
+      >
+        <FacebookIcon />
+      </Button>
+      {""}
+      <Button
+        color="secondary"
+        target="_blank"
+        href="https://www.instagram.com/innovadesignalp/"
+      >
+        <InstagramIcon />
+      </Button>
     </div>
   );
 };

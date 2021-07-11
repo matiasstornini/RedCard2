@@ -14,6 +14,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Btn from "./btn";
+import Titulo from "./titulo";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
@@ -114,6 +115,7 @@ export default function ContainedButtons() {
               <Typography variant="h4" component="h5">
                 Calendario {datef}
               </Typography>
+              <Titulo />
             </Paper>
           </Grid>
           <div className={classes.root}>
