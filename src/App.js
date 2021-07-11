@@ -112,7 +112,7 @@ export default function ContainedButtons() {
         <Container>
           <Grid item xs={12}>
             <Paper className={classes.paper}>
-              <Typography variant="h4" component="h5">
+              <Typography variant="h5" component="h5">
                 Calendario {datef}
               </Typography>
               <Titulo />
