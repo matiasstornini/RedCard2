@@ -58,10 +58,15 @@ export default function ContainedButtons() {
 
   for (let i = 0; i < Match.length; i++) {
     lis.push(
-      <Typography variant="h6" gutterBottom>
-        {dta[i]}
-        {Match[i]}
-      </Typography>
+      <div>
+        <Typography variant="button" gutterBottom>
+          {Title[i]}
+        </Typography>
+        <Typography variant="h6" gutterBottom>
+          {dta[i]}
+          {Match[i]}
+        </Typography>
+      </div>
     );
     /*SWITCH*/
     switch (i) {
