@@ -68,7 +68,7 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case 3:
+      case 4:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={arg[0]} />
