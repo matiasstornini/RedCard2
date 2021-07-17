@@ -93,10 +93,11 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case 12:
+      case 5:
         lis.push(
           <div className={classes.root}>
-            <Btn Valor={ext[1]} />
+            <Btn Valor={col[0]} />
+            <Btn Valor={col[1]} />
           </div>
         );
         break;
