@@ -77,7 +77,7 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case 8:
+      case 80:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={esp[0]} />
