@@ -61,14 +61,13 @@ export default function ContainedButtons() {
       <div>
         <Typography variant="h6" gutterBottom></Typography>
         <Typography variant="h6" gutterBottom>
-          {dta[i]}
-          {Match[i]}
+          {dta[i]} {Match[i]}
         </Typography>
       </div>
     );
     /*SWITCH*/
     switch (i) {
-      case 2:
+      case 3:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={arg[0]} />
@@ -77,7 +76,7 @@ export default function ContainedButtons() {
           </div>
         );
         break;
-      case 0:
+      case 1:
         lis.push(
           <div className={classes.root}>
             <Btn Valor={esp[0]} />
