@@ -39,6 +39,12 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ContainedButtons() {
   const [theme, setTheme] = useState("dark");
+  const Title = [
+    "Super Copa de Europa",
+    "Conmebol Libertadores",
+    "Conmebol Libertadores" /*"Conmebol Libertadores","Conmebol Libertadores",/*"Conmebol Libertadores","Conmebol Libertadores",/*"Conmebol Libertadores",/*"Conmebol Libertadores",*/,
+    "Conmebol Sudamericana"
+  ];
 
   const classes = useStyles();
   const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
@@ -59,7 +65,9 @@ export default function ContainedButtons() {
   for (let i = 0; i < Match.length; i++) {
     lis.push(
       <div>
-        <Typography variant="h6" gutterBottom></Typography>
+        <Typography variant="h6" gutterBottom>
+          {Title[i]}{" "}
+        </Typography>
         <Typography variant="h6" gutterBottom>
           {dta[i]} {Match[i]}
         </Typography>
@@ -67,52 +75,11 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case 20:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={arg[0]} />
-            <Btn Valor={arg[1]} />
-            <Btn Valor={arg[2]} />
-          </div>
-        );
-        break;
-      case 10:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={esp[0]} />
-            <Btn Valor={esp[1]} />
-            <Btn Valor={esp[2]} />
-          </div>
-        );
-        break;
       case 1:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={ext[0]} />
-          </div>
-        );
+        lis.push(<Btn Valor={ext[0]} />);
         break;
       case 3:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={ext[1]} />
-          </div>
-        );
-        break;
-      case 8:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={col[0]} />
-            <Btn Valor={col[1]} />
-          </div>
-        );
-        break;
-      case 40:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={ext[4]} />
-          </div>
-        );
+        lis.push(<Btn Valor={ext[1]} />);
         break;
 
       default:
@@ -121,11 +88,9 @@ export default function ContainedButtons() {
     /*SWITCH*/
 
     lis.push(
-      <div className={classes.root}>
-        <Button variant="contained" color="primary" href={Est[i]}>
-          Estadisticas
-        </Button>
-      </div>
+      <Button variant="contained" color="primary" href={Est[i]}>
+        Estadisticas
+      </Button>
     );
   }
 
@@ -158,7 +123,7 @@ export default function ContainedButtons() {
           <div>
             <Divider />
           </div>
-          <div>{lis}</div>
+          <div className={classes.root}>{lis}</div>
         </Container>
       </React.Fragment>
     </ThemeProvider>
