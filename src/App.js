@@ -40,9 +40,8 @@ const useStyles = makeStyles((theme) => ({
 export default function ContainedButtons() {
   const [theme, setTheme] = useState("dark");
   const Title = [
-    "Super Copa de Europa",
     "Conmebol Libertadores",
-    "Conmebol Libertadores" /*"Conmebol Libertadores","Conmebol Libertadores",/*"Conmebol Libertadores","Conmebol Libertadores",/*"Conmebol Libertadores",/*"Conmebol Libertadores",*/,
+    "Conmebol Sudamericana",
     "Conmebol Sudamericana"
   ];
 
