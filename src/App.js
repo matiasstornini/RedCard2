@@ -75,11 +75,10 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case 1:
-        lis.push(<Btn Valor={ext[0]} />);
-        break;
-      case 3:
-        lis.push(<Btn Valor={ext[1]} />);
+      case 2:
+        lis.push(<Btn Valor={lib[0]} />);
+        lis.push(<Btn Valor={lib[1]} />);
+        lis.push(<Btn Valor={lib[2]} />);
         break;
 
       default:
