@@ -61,6 +61,17 @@ export default function ContainedButtons() {
   }
   var lis = [];
 
+  let BB = [
+    "",
+    "",
+    "",
+    <div>
+      {" "}
+      <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
+    </div>,
+    "",
+    "error"
+  ];
   for (let i = 0; i < Match.length; i++) {
     lis.push(
       <div>
@@ -73,14 +84,10 @@ export default function ContainedButtons() {
       </div>
     );
     /*SWITCH*/
+
     switch (i) {
-      case 110:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={ing[0]} />
-            <Btn Valor={ing[1]} />
-          </div>
-        );
+      case i:
+        lis.push(<div className={classes.root}>{BB[i]}</div>);
         break;
       case 120:
         lis.push(
