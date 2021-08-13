@@ -77,7 +77,6 @@ export default function ContainedButtons() {
       case 2:
         lis.push(
           <Btn Valor={ale[0]} />
-<Btn Valor={ale[1]} />
         );
 
         break;
