@@ -39,11 +39,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ContainedButtons() {
   const [theme, setTheme] = useState("dark");
-  const Title = [
+  /*const Title = [
     "Conmebol Libertadores",
     "Conmebol Sudamericana",
     "Conmebol Sudamericana"
-  ];
+  ];*/
 
   const classes = useStyles();
   const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
@@ -74,10 +74,10 @@ export default function ContainedButtons() {
     );
     /*SWITCH*/
     switch (i) {
-      case 0:
+      case 110:
         lis.push(<Btn Valor={ext[0]} />);
         break;
-      case 2:
+      case 112:
         lis.push(<Btn Valor={ext[1]} />);
         break;
       default:
