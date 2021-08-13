@@ -75,11 +75,28 @@ export default function ContainedButtons() {
     /*SWITCH*/
     switch (i) {
       case 2:
-        lis.push(<Btn Valor={ale[0]} />);
-
+        lis.push(
+          <div className={classes.root}>
+            <Btn Valor={ale[0]} />
+          </div>
+        );
         break;
-      case 112:
-        lis.push(<Btn Valor={ext[1]} />);
+      case 0:
+        lis.push(
+          <div className={classes.root}>
+            <Btn Valor={ing[0]} />
+            <Btn Valor={ing[1]} />
+          </div>
+        );
+        break;
+      case 1:
+        lis.push(
+          <div className={classes.root}>
+            <Btn Valor={esp[0]} />
+            <Btn Valor={esp[1]} />
+            <Btn Valor={esp[2]} />
+          </div>
+        );
         break;
       default:
       //console.log("default");
@@ -87,9 +104,11 @@ export default function ContainedButtons() {
     /*SWITCH*/
 
     lis.push(
-      <Button variant="contained" color="primary" href={Est[i]}>
-        Estadisticas
-      </Button>
+      <div className={classes.root}>
+        <Button variant="contained" color="primary" href={Est[i]}>
+          Estadisticas
+        </Button>
+      </div>
     );
   }
 
@@ -122,7 +141,7 @@ export default function ContainedButtons() {
           <div>
             <Divider />
           </div>
-          <div className={classes.root}>{lis}</div>
+          <div>{lis}</div>
         </Container>
       </React.Fragment>
     </ThemeProvider>
