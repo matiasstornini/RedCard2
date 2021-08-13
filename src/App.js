@@ -70,6 +70,7 @@ export default function ContainedButtons() {
       <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
     </div>,
     "",
+    "",
     "error"
   ];
   for (let i = 0; i < Match.length; i++) {
