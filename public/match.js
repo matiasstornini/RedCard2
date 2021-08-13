@@ -1,3 +1,19 @@
+let Title = [
+  "Premier League (Inglaterra)",
+
+  "LaLiga (España)",
+
+  "Bundesliga (Alemania)",
+  /*"Ligue 1 (Francia)","Ligue 1 (Francia)",/**/
+
+  /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
+  "Liga Profesional (Argentina)",
+  "Liga Profesional (Argentina)",
+
+  "Liga BetPlay (Colombia)",
+
+  "ERROR"
+];
 let Match = [
   " Brentford - Arsenal ",
   " Valencia - Getafe ",
@@ -16,25 +32,8 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060739/deportes-tolima-vs-deportivo-pasto/ "
 ];
 
-let Enl = [AIng[0], AEsp[0], AAle[0], "", "", "", ""];
+let Enl = [AIng[0], AEsp[0], "", "", "", "", ""];
 
 let HOY = "13/08/2021";
-let Abtns = [1, 0, 0];
 
-let Title = [
-  "Premier League (Inglaterra)",
-
-  "LaLiga (España)",
-
-  "Bundesliga (Alemania)",
-  /*"Ligue 1 (Francia)","Ligue 1 (Francia)",/**/
-
-  /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
-  "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
-
-  "Liga BetPlay (Colombia)",
-
-  "ERROR"
-];
 //console.log<b>(Est)</b></b>;
