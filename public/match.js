@@ -92,7 +92,41 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060734/deportivo-cali-vs-millonarios/ "
 ];
 
-let Enl = ["", "", "", "", AArg[0], ACol[0], "error"];
+let Enl = [
+  AIng[0],
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
+
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
+  "",
+
+  "error"
+];
 
 let HOY = "13/08/2021";
 
