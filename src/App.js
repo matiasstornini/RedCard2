@@ -65,12 +65,15 @@ export default function ContainedButtons() {
     "",
     "",
     "",
+    "",
     <div>
       {" "}
       <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
     </div>,
-    "",
-    "",
+    <div>
+      {" "}
+      <Btn Valor={col[0]} /> <Btn Valor={col[1]} /> />{" "}
+    </div>,
     "error"
   ];
   for (let i = 0; i < Match.length; i++) {
@@ -89,15 +92,6 @@ export default function ContainedButtons() {
     switch (i) {
       case i:
         lis.push(<div className={classes.root}>{BB[i]}</div>);
-        break;
-      case 120:
-        lis.push(
-          <div className={classes.root}>
-            <Btn Valor={esp[0]} />
-            <Btn Valor={esp[1]} />
-            <Btn Valor={esp[2]} />
-          </div>
-        );
         break;
       default:
       //console.log("default");
