@@ -67,7 +67,10 @@ export default function ContainedButtons() {
       <Btn Valor={ing[0]} /> <Btn Valor={ing[1]} />{" "}
     </div>,
     "",
-    "",
+    <div>
+      {" "}
+      <Btn Valor={ing[0]} /> <Btn Valor={ing[1]} />{" "}
+    </div>,
     "",
     "",
     "",
