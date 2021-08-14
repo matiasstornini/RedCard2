@@ -70,6 +70,8 @@ export default function ContainedButtons() {
     "",
     "",
 
+    "",
+    "",
     <div>
       {" "}
       <Btn Valor={esp[0]} /> <Btn Valor={esp[1]} /> <Btn Valor={esp[2]} />{" "}
@@ -78,8 +80,6 @@ export default function ContainedButtons() {
       {" "}
       <Btn Valor={esp[3]} /> <Btn Valor={esp[4]} /> <Btn Valor={esp[5]} />{" "}
     </div>,
-    "",
-    "",
 
     "",
     <div>
