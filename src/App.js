@@ -64,10 +64,7 @@ export default function ContainedButtons() {
   let BB = [
     "",
     "",
-    <div>
-      {" "}
-      <Btn Valor={ing[0]} /> <Btn Valor={ing[1]} />{" "}
-    </div>,
+    "",
     "",
     "",
     "",
@@ -97,7 +94,10 @@ export default function ContainedButtons() {
       <Btn Valor={ale[0]} /> <Btn Valor={ale[1]} />{" "}
     </div>,
 
-    "",
+    <div>
+      {" "}
+      <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} />{" "}
+    </div>,
     "",
     "",
     "",
