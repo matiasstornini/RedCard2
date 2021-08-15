@@ -122,8 +122,8 @@ let Enl = [
   AArg[0],
 
   "",
-  ACol[0],
   "",
+  ACol[0],
 
   "error"
 ];
