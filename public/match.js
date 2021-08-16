@@ -1,7 +1,7 @@
 let Title = [
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
   /*"Premier League (Inglaterra)",
+  "Premier League (Inglaterra)",
+  "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -9,10 +9,10 @@ let Title = [
 
   "LaLiga (España)",
   "LaLiga (España)",
-  "LaLiga (España)",
+  /*"LaLiga (España)",*/
   /*"LaLiga (España)",*/
 
-  "Ligue 1 (Francia)",
+  /*"Ligue 1 (Francia)",*/
   /*"Ligue 1 (Francia)",*/
 
   /*"Bundesliga (Alemania)",
@@ -35,35 +35,19 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Newcastle United - West Ham United ",
-  " Tottenham Hotspur - Manchester City ",
-  " Celta de Vigo - Atlético Madrid ",
-  " Barcelona - Real Sociedad ",
-  " Sevilla - Rayo Vallecano ",
-  " Angers SCO - Olympique Lyonnais ",
-  " Patronato - Central Córdoba SdE ",
-  " Platense - Arsenal ",
-  " Estudiantes - Boca Juniors ",
-  " Racing Club - Newell's Old Boys ",
-  " Jaguares de Córdoba - Junior ",
-  " Patriotas Boyacá - Atlético Nacional ",
-  " Once Caldas - Deportivo Pereira "
+  " Villarreal - Granada ",
+  " Elche - Athletic Club ",
+  " Talleres Córdoba - San Lorenzo ",
+  " Defensa y Justicia - Sarmiento ",
+  " Lanús - Godoy Cruz "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027026/newcastle-united-vs-west-ham-united/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027027/tottenham-hotspur-vs-manchester-city/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4045993/celta-de-vigo-vs-atletico-madrid/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4045992/barcelona-vs-real-sociedad/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4045997/sevilla-vs-rayo-vallecano/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4042771/angers-sco-vs-olympique-lyonnais/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043849/patronato-vs-central-cordoba-sde/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043848/platense-vs-arsenal/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043850/estudiantes-vs-boca-juniors/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043847/racing-club-vs-newells-old-boys/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060736/jaguares-de-cordoba-vs-junior/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060737/patriotas-boyaca-vs-atletico-nacional/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060738/once-caldas-vs-deportivo-pereira/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4045999/villarreal-vs-granada/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046000/elche-vs-athletic-club/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043852/talleres-cordoba-vs-san-lorenzo/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043845/defensa-y-justicia-vs-sarmiento/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043841/lanus-vs-godoy-cruz/ "
 ];
 
 let Enl = [
@@ -73,17 +57,18 @@ let Enl = [
   "",
   "",
   "",
-
   "",
 
-  "",
-  "",
-  "",
   "",
 
   "",
   "",
-  ACol[0],
+  "",
+  "",
+
+  "",
+  "",
+  "",
 
   "",
   "",
@@ -103,6 +88,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "15/08/2021";
+let HOY = "16/08/2021";
 
 //console.log<b>(Est)</b></b>;
