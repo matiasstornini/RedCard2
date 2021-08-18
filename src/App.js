@@ -62,10 +62,16 @@ export default function ContainedButtons() {
   var lis = [];
 
   let BB = [
-    "",
+    <div>
+      {" "}
+      <Btn Valor={lib[0]} /> <Btn Valor={lib[1]} /> <Btn Valor={lib[2]} />{" "}
+    </div>,
 
     "",
-    "",
+    <div>
+      {" "}
+      <Btn Valor={conmebol[0]} /> <Btn Valor={conmebol[1]} />{" "}
+    </div>,
 
     "",
     "",
