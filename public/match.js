@@ -21,7 +21,6 @@ let Title = [
   "Bundesliga (Alemania)",
   "Bundesliga (Alemania)",
   "Bundesliga (Alemania)",*/
-  "SUPERCOPA ALEMANIA",
 
   /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
   /*"Liga Profesional (Argentina)",
@@ -34,28 +33,28 @@ let Title = [
   "Liga BetPlay (Colombia)",*/
 
   "Conmebol Libertadores",
+  "Conmebol Libertadores",
   "Conmebol Sudamericana",
 
   "ERROR"
 ];
 let Match = [
-  " Borussia Dortmund - Bayern München ",
-  " Palmeiras - São Paulo ",
-  " RB Bragantino - Rosario Central "
+  " Flamengo - Olimpia ",
+  " Atlético Mineiro - River Plate ",
+  " Peñarol - Sporting Cristal "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4014085/borussia-dortmund-vs-bayern-m-nchen/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4075514/palmeiras-vs-sao-paulo/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4014085/borussia-dortmund-vs-bayern-m-nchen/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4077470/flamengo-vs-olimpia/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4075516/atletico-mineiro-vs-river-plate/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4077464/penarol-vs-sporting-cristal/ "
 ];
 
 let Enl = [
   "",
-
-  AConmebol[0],
   "",
 
+  "",
   "",
   "",
   "",
