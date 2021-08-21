@@ -83,18 +83,21 @@ export default function ContainedButtons() {
 
     "",
     "",
+    "",
     <div>
       {" "}
       <Btn Valor={ext[0]} />{" "}
     </div>,
-    "",
     "",
 
     <div>
       {" "}
       <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
     </div>,
-    "",
+    <div>
+      {" "}
+      <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
+    </div>,
     "",
     "",
 
