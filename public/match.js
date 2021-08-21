@@ -1,18 +1,22 @@
 let Title = [
+  "Premier League (Inglaterra)",
+  "Premier League (Inglaterra)",
+  "Premier League (Inglaterra)",
+  "Premier League (Inglaterra)",
+  "Premier League (Inglaterra)",
   /*"Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",*/
 
   "LaLiga (España)",
-  /*"LaLiga (España)",
-  /*"LaLiga (España)",*/
-  /*"LaLiga (España)",*/
+  "LaLiga (España)",
+  "LaLiga (España)",
+  "LaLiga (España)",
 
-  "Ligue 1 (Francia)",
+  "Serie A (Italia)",
+  "Serie A (Italia)",
+  "Serie A (Italia)",
+  "Serie A (Italia)",
+  /*"Ligue 1 (Francia)",
   /*"Ligue 1 (Francia)",*/
 
   /*"Bundesliga (Alemania)",
@@ -27,7 +31,9 @@ let Title = [
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
+  "Liga Profesional (Argentina)",
 
+  "Liga BetPlay (Colombia)",
   "Liga BetPlay (Colombia)",
   "Liga BetPlay (Colombia)",
   "Liga BetPlay (Colombia)",
@@ -40,35 +46,60 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Real Betis - Cádiz ",
-  " Brest - PSG ",
-  " Aldosivi - Colón ",
-  " Banfield - Estudiantes ",
-  " Sarmiento - Atlético Tucumán ",
-  " Independiente - Defensa y Justicia ",
-  " América de Cali - Patriotas Boyacá "
+  " Liverpool - Burnley ",
+  " Aston Villa - Newcastle United ",
+  " Crystal Palace - Brentford ",
+  " Leeds United - Everton ",
+  " Manchester City - Norwich City ",
+  " Deportivo Alavés - Mallorca ",
+  " Espanyol - Villarreal ",
+  " Granada - Valencia ",
+  " Athletic Club - Barcelona ",
+  " Hellas Verona - Sassuolo ",
+  " Internazionale - Genoa ",
+  " Empoli - Lazio ",
+  " Torino - Atalanta ",
+  " Central Córdoba SdE - Platense ",
+  " Godoy Cruz - Huracán ",
+  " Vélez Sarsfield - Lanús ",
+  " Arsenal - Racing Club ",
+  " Boca Juniors - Patronato ",
+  " Deportivo Pereira - Santa Fe ",
+  " Atlético Nacional - Deportes Quindío ",
+  " Junior - Once Caldas ",
+  " Millonarios - Medellín "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046004/real-betis-vs-cadiz/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4042782/brest-vs-psg/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043862/aldosivi-vs-colon/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043855/banfield-vs-estudiantes/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043861/sarmiento-vs-atletico-tucuman/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043860/independiente-vs-defensa-y-justicia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060742/america-de-cali-vs-patriotas-boyaca/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027028/liverpool-vs-burnley/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027029/aston-villa-vs-newcastle-united/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027030/crystal-palace-vs-brentford/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027031/leeds-united-vs-everton/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027032/manchester-city-vs-norwich-city/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046001/deportivo-alaves-vs-mallorca/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046007/espanyol-vs-villarreal/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046006/granada-vs-valencia/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046002/athletic-club-vs-barcelona/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064534/hellas-verona-vs-sassuolo/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064535/internazionale-vs-genoa/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064533/empoli-vs-lazio/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064539/torino-vs-atalanta/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043857/central-cordoba-sde-vs-platense/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043865/godoy-cruz-vs-huracan/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043864/velez-sarsfield-vs-lanus/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043858/arsenal-vs-racing-club/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043856/boca-juniors-vs-patronato/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060749/deportivo-pereira-vs-santa-fe/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060744/atletico-nacional-vs-deportes-quindio/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060747/junior-vs-once-caldas/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060748/millonarios-vs-medellin/ "
 ];
 
 let Enl = [
-  "",
-  "",
-
+  AIng[0],
   "",
   "",
   "",
-  AArg[0],
-  ACol[0],
-
   "",
 
   "",
@@ -76,6 +107,7 @@ let Enl = [
   "",
   "",
 
+  "",
   "",
   "",
   "",
@@ -93,8 +125,6 @@ let Enl = [
 
   "",
   "",
-  "",
-
   "error"
 ];
 
