@@ -2,7 +2,7 @@ let Title = [
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
+  /*"Premier League (Inglaterra)",*/
   /*"Premier League (Inglaterra)",*/
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",*/
@@ -15,8 +15,8 @@ let Title = [
   "Serie A (Italia)",
   "Serie A (Italia)",
   "Serie A (Italia)",
-  /*"Serie A (Italia)",
-  "Ligue 1 (Francia)",
+  "Serie A (Italia)",
+  /*"Ligue 1 (Francia)",*/
   /*"Ligue 1 (Francia)",*/
 
   "Bundesliga (Alemania)",
