@@ -62,41 +62,42 @@ export default function ContainedButtons() {
   var lis = [];
 
   let BB = [
-    "",
-    "",
-    "",
-    "",
-    "",
-
-    "",
-    "",
-    "",
-    "",
-
-    "",
-    "",
-    "",
-    "",
-
-    "",
-    "",
-    "",
-    "",
-    "",
-
-    "",
-    "",
-    "",
     <div>
       {" "}
-      <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
+      <Btn Valor={ing[0]} /> <Btn Valor={ing[1]} />{" "}
     </div>,
+    <div>
+      {" "}
+      <Btn Valor={ing[2]} /> <Btn Valor={ing[3]} />{" "}
+    </div>,
+    "",
+
+    "",
+    "",
+    "",
+
+    "",
+    "",
+    "",
+    "",
 
     "",
     "",
 
+    "",
+    "",
+    "",
+    "",
+
+    "",
+    "",
+    "",
+
+    "",
+    "",
     "error"
   ];
+
   for (let i = 0; i < Match.length; i++) {
     lis.push(
       <div>
