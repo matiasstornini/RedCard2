@@ -82,10 +82,7 @@ export default function ContainedButtons() {
     "",
 
     "",
-    <div>
-      {" "}
-      <Btn Valor={ale[0]} /> <Btn Valor={ale[1]} />{" "}
-    </div>,
+    "",
 
     <div>
       {" "}
