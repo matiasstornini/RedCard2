@@ -1,5 +1,5 @@
 let Title = [
-  "Premier League (Inglaterra)",
+  /*"Premier League (Inglaterra)",
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -7,19 +7,19 @@ let Title = [
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",*/
 
-  "LaLiga (España)",
+  /*"LaLiga (España)",
   "LaLiga (España)",
   "LaLiga (España)",
   /*"LaLiga (España)",*/
 
-  "Serie A (Italia)",
+  /*"Serie A (Italia)",
   "Serie A (Italia)",
   "Serie A (Italia)",
   /*"Serie A (Italia)",
   "Ligue 1 (Francia)",
   /*"Ligue 1 (Francia)",*/
 
-  "Bundesliga (Alemania)",
+  /*"Bundesliga (Alemania)",
   "Bundesliga (Alemania)",
   /*"Bundesliga (Alemania)",
   "Bundesliga (Alemania)",
@@ -46,15 +46,17 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " West Ham United - Leicester City ",
-  " Getafe - Sevilla ",
-  " Osasuna - Celta de Vigo "
+  " Patronato - Banfield ",
+  " Colón - Sarmiento ",
+  " Atlético Tucumán - Independiente ",
+  " Racing Club - Central Córdoba SdE "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027037/west-ham-united-vs-leicester-city/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046005/getafe-vs-sevilla/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046009/osasuna-vs-celta-de-vigo/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043876/patronato-vs-banfield/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043870/colon-vs-sarmiento/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043871/atletico-tucuman-vs-independiente/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043874/racing-club-vs-central-cordoba-sde/ "
 ];
 
 let Enl = [
