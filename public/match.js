@@ -91,6 +91,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "23/08/2021";
+let HOY = datef;
 
 //console.log<b>(Est)</b></b>;
