@@ -47,24 +47,25 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Rosario Central - Arsenal ",
-  " Defensa y Justicia - Newell's Old Boys ",
-  " Lanús - Gimnasia La Plata ",
-  " Huracán - Vélez Sarsfield ",
-  " Platense - Boca Juniors "
+  " Godoy Cruz - Unión Santa Fe ",
+  " Argentinos Juniors - Talleres Córdoba ",
+  " Estudiantes - San Lorenzo ",
+  " River Plate - Aldosivi "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043873/rosario-central-vs-arsenal/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043872/defensa-y-justicia-vs-newells-old-boys/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043868/lanus-vs-gimnasia-la-plata/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043867/huracan-vs-velez-sarsfield/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043875/platense-vs-boca-juniors/ "
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043866/godoy-cruz-vs-union-santa-fe/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043878/argentinos-juniors-vs-talleres-cordoba/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043877/estudiantes-vs-san-lorenzo/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043869/river-plate-vs-aldosivi/ "
 ];
 
 let Enl = [
   "",
+
   "",
+  "",
+
   "",
   "",
   "",
@@ -88,6 +89,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "25/08/2021";
+let HOY = "23/08/2021";
 
 //console.log<b>(Est)</b></b>;
