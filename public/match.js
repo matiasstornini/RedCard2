@@ -7,27 +7,27 @@ let Title = [
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",*/
 
+  "LaLiga (España)",
+  "LaLiga (España)",
   /*"LaLiga (España)",
-  "LaLiga (España)",
-  "LaLiga (España)",
   /*"LaLiga (España)",*/
 
+  "Serie A (Italia)",
+  "Serie A (Italia)",
   /*"Serie A (Italia)",
-  "Serie A (Italia)",
-  "Serie A (Italia)",
   /*"Serie A (Italia)",
   "Ligue 1 (Francia)",
   /*"Ligue 1 (Francia)",*/
 
-  /*"Bundesliga (Alemania)",
   "Bundesliga (Alemania)",
+  /*"Bundesliga (Alemania)",
   /*"Bundesliga (Alemania)",
   "Bundesliga (Alemania)",
   "Bundesliga (Alemania)",
   "Bundesliga (Alemania)",*/
 
   /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
-  "Liga Profesional (Argentina)",
+  /*"Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
@@ -47,24 +47,29 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Godoy Cruz - Unión Santa Fe ",
-  " Argentinos Juniors - Talleres Córdoba ",
-  " Estudiantes - San Lorenzo ",
-  " River Plate - Aldosivi "
+  " Mallorca - Espanyol ",
+  " Valencia - Deportivo Alavés ",
+  " Udinese - Venezia ",
+  " Hellas Verona - Internazionale ",
+  " Borussia Dortmund - Hoffenheim ",
+  " Deportes Quindío - Once Caldas "
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043866/godoy-cruz-vs-union-santa-fe/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043878/argentinos-juniors-vs-talleres-cordoba/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043877/estudiantes-vs-san-lorenzo/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043869/river-plate-vs-aldosivi/ "
+  " Mallorca - Espanyol ",
+  " Valencia - Deportivo Alavés ",
+  " Udinese - Venezia ",
+  " Hellas Verona - Internazionale ",
+  " Borussia Dortmund - Hoffenheim ",
+  " Deportes Quindío - Once Caldas "
 ];
 
 let Enl = [
   "",
-  "",
 
   "",
+  "",
+
   "",
   "",
   "",
