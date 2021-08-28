@@ -64,10 +64,13 @@ export default function ContainedButtons() {
   let BB = [
     "",
     "",
-
     "",
     "",
     "",
+    <div>
+      {" "}
+      <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
+    </div>,
     "",
 
     "",
