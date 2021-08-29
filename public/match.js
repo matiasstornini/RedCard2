@@ -104,11 +104,11 @@ let Est = [
 let Enl = [
   "",
   "",
-  AIng[0],
+  "",
 
   "",
   AEsp[0],
-  AEsp[1],
+  "",
   "",
 
   AIta[0],
