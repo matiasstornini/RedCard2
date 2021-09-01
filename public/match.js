@@ -1,4 +1,6 @@
 let Title = [
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -31,7 +33,7 @@ let Title = [
   /**/
 
   /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
-  "Liga Profesional (Argentina)",
+  /*"Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
@@ -51,32 +53,22 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Newell's Old Boys - Atlético Tucumán ",
-  " Unión Santa Fe - Argentinos Juniors ",
-  " San Lorenzo - Patronato ",
-  " Sarmiento - River Plate ",
-  " Talleres Córdoba - Estudiantes ",
-  " Atlético Nacional - Rionegro Águilas ",
-  " Atlético Bucaramanga - Alianza Petrolera "
+  " Francia - Bosnia-Herzegovina ",
+  " Portugal - República de Irlanda "
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043886/newells-old-boys-vs-atletico-tucuman/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043879/union-santa-fe-vs-argentinos-juniors/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043881/san-lorenzo-vs-patronato/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043888/sarmiento-vs-river-plate/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043880/talleres-cordoba-vs-estudiantes/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060750/atletico-nacional-vs-rionegro-aguilas/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060751/atletico-bucaramanga-vs-alianza-petrolera/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863193/france-vs-bosnia-and-herzegovina/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863192/portugal-vs-ireland-republic/ "
 ];
 
 let Enl = [
   "",
   "",
   "",
-  "",
-  "",
 
+  "",
+  "",
   "",
   "",
 
@@ -106,6 +98,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "30/08/2021";
+let HOY = "01/09/2021";
 
 //console.log<b>(Est)</b></b>;
