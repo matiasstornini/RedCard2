@@ -85,10 +85,10 @@ let Est = [
 ];
 
 let Enl = [
-  AIta[0],
-  AEsp[0],
-  AIng[0],
-  AAle[0],
+  "",
+  "",
+  "",
+  "",
 
   Extra[0],
   Extra[1],
