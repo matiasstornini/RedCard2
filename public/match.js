@@ -1,6 +1,14 @@
 let Title = [
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -53,13 +61,27 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Francia - Bosnia-Herzegovina ",
-  " Portugal - República de Irlanda "
+  "Italia - Bulgaria",
+  "Suecia - España",
+  "Hungria- Inglaterra",
+  "Liechtenstein - Alemania",
+  "Bolivia - Colombia",
+  "Ecuador - Paraguay",
+  "Venezuela - Argentina",
+  "Peru - Uruguay",
+  "Chile - Brasil"
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863193/france-vs-bosnia-and-herzegovina/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863192/portugal-vs-ireland-republic/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863205/italy-vs-bulgaria/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863204/sweden-vs-spain/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863210/hungary-vs-england/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863213/liechtenstein-vs-germany/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757895/bolivia-vs-colombia/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757897/ecuador-vs-paraguay/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757894/venezuela-vs-argentina/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757893/peru-vs-uruguay/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757896/chile-vs-brazil/"
 ];
 
 let Enl = [
@@ -98,6 +120,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "01/09/2021";
+let HOY = "30/08/2021";
 
 //console.log<b>(Est)</b></b>;
