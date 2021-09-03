@@ -1,14 +1,4 @@
 let Title = [
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -41,7 +31,7 @@ let Title = [
   /**/
 
   /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
-  /*"Liga Profesional (Argentina)",
+  "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
@@ -57,31 +47,26 @@ let Title = [
   /*"Conmebol Libertadores",*/
   /*"Conmebol Sudamericana",
   "Conmebol Sudamericana",*/
-
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
   "ERROR"
 ];
 let Match = [
-  "Italia - Bulgaria",
-  "Suecia - España",
-  "Hungria- Inglaterra",
-  "Liechtenstein - Alemania",
-  "Bolivia - Colombia",
-  "Ecuador - Paraguay",
-  "Venezuela - Argentina",
-  "Peru - Uruguay",
-  "Chile - Brasil"
+  " Defensa y Justicia - Central Córdoba SdE ",
+  " Huracán - Aldosivi "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863205/italy-vs-bulgaria/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863204/sweden-vs-spain/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863210/hungary-vs-england/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863213/liechtenstein-vs-germany/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757895/bolivia-vs-colombia/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757897/ecuador-vs-paraguay/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757894/venezuela-vs-argentina/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757893/peru-vs-uruguay/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757896/chile-vs-brazil/"
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043899/defensa-y-justicia-vs-central-cordoba-sde/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043894/huracan-vs-aldosivi/ "
 ];
 
 let Enl = [
