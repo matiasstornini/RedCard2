@@ -1,4 +1,6 @@
 let Title = [
+  "Clasificatorio para la Copa del Mundo" /*"Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo",*/,
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -47,26 +49,25 @@ let Title = [
   /*"Conmebol Libertadores",*/
   /*"Conmebol Sudamericana",
   "Conmebol Sudamericana",*/
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
+
   "ERROR"
 ];
 let Match = [
-  " Defensa y Justicia - Central Córdoba SdE ",
-  " Huracán - Aldosivi "
+  "Ucrania - Francia",
+  " Atlético Tucumán - Arsenal ",
+  " Colón - Newell's Old Boys ",
+  " Lanús - Sarmiento ",
+  " Platense - San Lorenzo ",
+  " Rosario Central - Boca Juniors "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043899/defensa-y-justicia-vs-central-cordoba-sde/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043894/huracan-vs-aldosivi/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863219/ukraine-vs-france/",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043898/atletico-tucuman-vs-arsenal/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043897/colon-vs-newells-old-boys/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043895/lanus-vs-sarmiento/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043902/platense-vs-san-lorenzo/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043900/rosario-central-vs-boca-juniors/ "
 ];
 
 let Enl = [
@@ -74,8 +75,6 @@ let Enl = [
   "",
   "",
 
-  "",
-  "",
   "",
   "",
   "",
@@ -107,6 +106,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "30/08/2021";
+let HOY = "04/09/2021";
 
 //console.log<b>(Est)</b></b>;
