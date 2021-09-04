@@ -58,7 +58,9 @@ let Match = [
   " Colón - Newell's Old Boys ",
   " Lanús - Sarmiento ",
   " Platense - San Lorenzo ",
-  " Rosario Central - Boca Juniors "
+  " Rosario Central - Boca Juniors ",
+  " América de Cali - Deportes Quindío ",
+  " La Equidad - Jaguares de Córdoba "
 ];
 
 let Est = [
@@ -67,7 +69,9 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043897/colon-vs-newells-old-boys/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043895/lanus-vs-sarmiento/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043902/platense-vs-san-lorenzo/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043900/rosario-central-vs-boca-juniors/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043900/rosario-central-vs-boca-juniors/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060762/america-de-cali-vs-deportes-quindio/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060766/la-equidad-vs-jaguares-de-cordoba/ "
 ];
 
 let Enl = [
