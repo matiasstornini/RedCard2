@@ -63,24 +63,15 @@ export default function ContainedButtons() {
 
   let BB = [
     "",
-    <div>
-      {" "}
-      <Btn Valor={esp[0]} /> <Btn Valor={esp[1]} />{" "}
-    </div>,
-    <div>
-      {" "}
-      <Btn Valor={ita[0]} /> <Btn Valor={ita[1]} />{" "}
-    </div>,
-    <div>
-      {" "}
-      <Btn Valor={ale[0]} /> <Btn Valor={ale[1]} />{" "}
-    </div>,
-
-    <div>
-      {" "}
-      <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
-    </div>,
     "",
+    "",
+    "",
+
+    "",
+    <div>
+      {" "}
+      <Btn Valor={conmebol[0]} /> <Btn Valor={conmebol[1]} />{" "}
+    </div>,
     "",
     "",
     "",
@@ -94,7 +85,7 @@ export default function ContainedButtons() {
     "",
     <div>
       {" "}
-      <Btn Valor={col[0]} /> <Btn Valor={col[1]} /> <Btn Valor={col[2]} />{" "}
+      <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
     </div>,
     "",
     "",
