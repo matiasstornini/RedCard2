@@ -74,7 +74,6 @@ let Match = [
   " Patronato - Talleres Córdoba ",
   " Racing Club - Banfield ",
   " River Plate - Independiente ",
-  " Junior - Atlético Huila ",
   " Once Caldas - Atlético Bucaramanga ",
   " Deportivo Pasto - Deportivo Cali ",
   " Medellín - Santa Fe ",
@@ -95,7 +94,6 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043903/patronato-vs-talleres-cordoba/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043901/racing-club-vs-banfield/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043896/river-plate-vs-independiente/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060767/junior-vs-atletico-huila/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060763/once-caldas-vs-atletico-bucaramanga/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060764/deportivo-pasto-vs-deportivo-cali/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060768/medellin-vs-santa-fe/ ",
@@ -115,12 +113,11 @@ let Enl = [
   "",
 
   AArg[0],
+  AArg[1],
+  "",
   "",
 
-  "",
-
-  "",
-  "",
+  ACol[0],
   "",
   "",
   "",
