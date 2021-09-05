@@ -1,6 +1,13 @@
 let Title = [
-  "Clasificatorio para la Copa del Mundo" /*"Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo","Clasificatorio para la Copa del Mundo",*/,
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -37,9 +44,10 @@ let Title = [
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
+  /*"Liga Profesional (Argentina)",
   /*"Liga Profesional (Argentina)",*/
 
+  "Liga BetPlay (Colombia)",
   "Liga BetPlay (Colombia)",
   "Liga BetPlay (Colombia)",
   "Liga BetPlay (Colombia)",
@@ -53,33 +61,52 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Ucrania - Francia",
-  " Atlético Tucumán - Arsenal ",
-  " Colón - Newell's Old Boys ",
-  " Lanús - Sarmiento ",
-  " Platense - San Lorenzo ",
-  " Rosario Central - Boca Juniors ",
-  " América de Cali - Deportes Quindío ",
-  " La Equidad - Jaguares de Córdoba "
+  "Inglaterra - Andorra",
+  "España - Georgia",
+  "Suiza - Italia",
+  "Alemania - Armenia",
+  "Brasil - Argentina",
+  "Ecuador - Chile",
+  "Uruguay - Bolivia",
+  "Paraguay - Colombia",
+  "Peru - Venezuela",
+  " Godoy Cruz - Gimnasia La Plata ",
+  " Patronato - Talleres Córdoba ",
+  " Racing Club - Banfield ",
+  " River Plate - Independiente ",
+  " Junior - Atlético Huila ",
+  " Once Caldas - Atlético Bucaramanga ",
+  " Deportivo Pasto - Deportivo Cali ",
+  " Medellín - Santa Fe ",
+  " Alianza Petrolera - Atlético Nacional "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863219/ukraine-vs-france/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043898/atletico-tucuman-vs-arsenal/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043897/colon-vs-newells-old-boys/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043895/lanus-vs-sarmiento/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043902/platense-vs-san-lorenzo/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043900/rosario-central-vs-boca-juniors/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060762/america-de-cali-vs-deportes-quindio/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060766/la-equidad-vs-jaguares-de-cordoba/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863231/england-vs-andorra/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863234/spain-vs-georgia/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863235/switzerland-vs-italy/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863238/germany-vs-armenia/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101558/brazil-vs-argentina/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101560/ecuador-vs-chile/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101556/uruguay-vs-bolivia/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101559/paraguay-vs-colombia/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101557/peru-vs-venezuela/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043893/godoy-cruz-vs-gimnasia-la-plata/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043903/patronato-vs-talleres-cordoba/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043901/racing-club-vs-banfield/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043896/river-plate-vs-independiente/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060767/junior-vs-atletico-huila/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060763/once-caldas-vs-atletico-bucaramanga/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060764/deportivo-pasto-vs-deportivo-cali/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060768/medellin-vs-santa-fe/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060761/alianza-petrolera-vs-atletico-nacional/ "
 ];
 
 let Enl = [
   "",
   "",
   "",
-  "",
-  "",
+
   "",
   "",
   "",
@@ -111,6 +138,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "04/09/2021";
+let HOY = "05/09/2021";
 
 //console.log<b>(Est)</b></b>;
