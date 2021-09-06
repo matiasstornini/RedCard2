@@ -1,4 +1,5 @@
 let Title = [
+  /*"Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
@@ -6,8 +7,8 @@ let Title = [
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo",*/
+
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -42,7 +43,7 @@ let Title = [
   /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
   "Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
+  /*"Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   /*"Liga Profesional (Argentina)",
   /*"Liga Profesional (Argentina)",*/
@@ -61,43 +62,19 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Inglaterra - Andorra",
-  "España - Georgia",
-  "Suiza - Italia",
-  "Alemania - Armenia",
-  "Brasil - Argentina",
-  "Ecuador - Chile",
-  "Uruguay - Bolivia",
-  "Paraguay - Colombia",
-  "Peru - Venezuela",
-  " Godoy Cruz - Gimnasia La Plata ",
-  " Patronato - Talleres Córdoba ",
-  " Racing Club - Banfield ",
-  " River Plate - Independiente ",
-  " Once Caldas - Atlético Bucaramanga ",
-  " Deportivo Pasto - Deportivo Cali ",
-  " Medellín - Santa Fe ",
-  " Alianza Petrolera - Atlético Nacional "
+  " Estudiantes - Argentinos Juniors ",
+  " Vélez Sarsfield - Unión Santa Fe ",
+  " Rionegro Águilas - Deportivo Pereira ",
+  " Deportes Tolima - Envigado ",
+  " Millonarios - Patriotas Boyacá "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863231/england-vs-andorra/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863234/spain-vs-georgia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863235/switzerland-vs-italy/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863238/germany-vs-armenia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101558/brazil-vs-argentina/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101560/ecuador-vs-chile/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101556/uruguay-vs-bolivia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101559/paraguay-vs-colombia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4101557/peru-vs-venezuela/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043893/godoy-cruz-vs-gimnasia-la-plata/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043903/patronato-vs-talleres-cordoba/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043901/racing-club-vs-banfield/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043896/river-plate-vs-independiente/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060763/once-caldas-vs-atletico-bucaramanga/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060764/deportivo-pasto-vs-deportivo-cali/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060768/medellin-vs-santa-fe/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060761/alianza-petrolera-vs-atletico-nacional/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043904/estudiantes-vs-argentinos-juniors/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043892/velez-sarsfield-vs-union-santa-fe/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060760/rionegro-aguilas-vs-deportivo-pereira/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060765/deportes-tolima-vs-envigado/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060769/millonarios-vs-patriotas-boyaca/ "
 ];
 
 let Enl = [
@@ -119,7 +96,6 @@ let Enl = [
   "",
   "",
   "",
-  "",
 
   "",
   "",
@@ -134,6 +110,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "05/09/2021";
+let HOY = "06/09/2021";
 
 //console.log<b>(Est)</b></b>;
