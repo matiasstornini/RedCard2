@@ -64,6 +64,7 @@ export default function ContainedButtons() {
   var lis = [];
 
   let BB = [
+    "",
     <div>
       {" "}
       <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
@@ -73,7 +74,6 @@ export default function ContainedButtons() {
       {" "}
       <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
     </div>,
-    "",
 
     "",
     "",
