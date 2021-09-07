@@ -1,5 +1,4 @@
 let Title = [
-  /*"Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
@@ -7,7 +6,8 @@ let Title = [
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",*/
+  "Clasificatorio para la Copa del Mundo",
+  "Clasificatorio para la Copa del Mundo" /**/,
 
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -61,29 +61,20 @@ let Title = [
 
   "ERROR"
 ];
-let Match = [
-  " Estudiantes - Argentinos Juniors ",
-  " Vélez Sarsfield - Unión Santa Fe ",
-  " Rionegro Águilas - Deportivo Pereira ",
-  " Deportes Tolima - Envigado ",
-  " Millonarios - Patriotas Boyacá "
-];
+let Match = ["Azerbaiyan - Portugal", "Francia - Finlandia"];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043904/estudiantes-vs-argentinos-juniors/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043892/velez-sarsfield-vs-union-santa-fe/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060760/rionegro-aguilas-vs-deportivo-pereira/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060765/deportes-tolima-vs-envigado/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060769/millonarios-vs-patriotas-boyaca/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863240/azerbaijan-vs-portugal/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863243/france-vs-finland/"
 ];
 
 let Enl = [
   "",
   "",
+  "",
+  "",
 
   "",
-  "",
-  ACol[0],
   "",
   "",
   "",
