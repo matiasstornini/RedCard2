@@ -76,6 +76,10 @@ let Est = [
 ];
 
 let Enl = [
+  AEsp[0],
+  AIta[0],
+  AIng[0],
+  AAle[0],
   "",
   "",
   "",
