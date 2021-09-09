@@ -87,15 +87,12 @@ export default function ContainedButtons() {
     "",
     "",
     "",
-
     "",
     "",
     "",
-
     "",
     "",
     "",
-
     "",
     "error"
   ];

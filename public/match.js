@@ -62,17 +62,19 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Kosovo - España",
-  "Italia - Lituania",
-  "Polonia - Inglaterra",
-  "Islandia - Alemania"
+  " Paraguay - Venezuela ",
+  " Uruguay - Ecuador ",
+  " Colombia - Chile ",
+  " Argentina - Bolivia ",
+  " Brasil - Perú "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863255/kosovo-vs-spain/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863256/italy-vs-lithuania/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863262/poland-vs-england/",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3863263/iceland-vs-germany/"
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/competitions/international/world-cup-qualifying/tables/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757901/paraguay-vs-venezuela/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757898/uruguay-vs-ecuador/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757899/colombia-vs-chile/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757902/argentina-vs-bolivia/ "
 ];
 
 let Enl = [
@@ -108,6 +110,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "08/09/2021";
+let HOY = "09/09/2021";
 
 //console.log<b>(Est)</b></b>;
