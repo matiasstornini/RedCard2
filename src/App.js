@@ -64,10 +64,6 @@ export default function ContainedButtons() {
   var lis = [];
 
   let BB = [
-    <div>
-      {" "}
-      <Btn Valor={fra[0]} /> <Btn Valor={fra[1]} />{" "}
-    </div>,
     "",
     "",
     "",
