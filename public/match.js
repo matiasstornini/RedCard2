@@ -1,4 +1,5 @@
 let Title = [
+  /*"Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
@@ -6,8 +7,7 @@ let Title = [
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
   "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo" /**/,
+  "Clasificatorio para la Copa del Mundo",/**/
 
   /*"Premier League (Inglaterra)",
   "Premier League (Inglaterra)",
@@ -27,7 +27,7 @@ let Title = [
   /*"Serie A (Italia)",
   "Serie A (Italia)",
   "Serie A (Italia)",
-  "Serie A (Italia)",
+  "Serie A (Italia)",*/
 
   "Ligue 1 (Francia)",
   /*"Ligue 1 (Francia)",*/
@@ -41,7 +41,7 @@ let Title = [
   /**/
 
   /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
-  "Liga Profesional (Argentina)",
+  /*"Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
   /*"Liga Profesional (Argentina)",
   "Liga Profesional (Argentina)",
@@ -61,28 +61,14 @@ let Title = [
 
   "ERROR"
 ];
-let Match = [
-  " Paraguay - Venezuela ",
-  " Uruguay - Ecuador ",
-  " Colombia - Chile ",
-  " Argentina - Bolivia ",
-  " Brasil - Perú "
-];
+let Match = [" Lorient - Lille ", " Jaguares de Córdoba - Medellín "];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757901/paraguay-vs-venezuela/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757898/uruguay-vs-ecuador/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757899/colombia-vs-chile/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757902/argentina-vs-bolivia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/3757900/brazil-vs-peru/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/competitions/france/ligue-1/tables/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/competitions/colombia/primera-a/tables/ "
 ];
 
 let Enl = [
-  "",
-  "",
-  "",
-  "",
-  "",
   "",
   "",
   "",
@@ -115,6 +101,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "09/09/2021";
+let HOY = "10/09/2021";
 
 //console.log<b>(Est)</b></b>;
