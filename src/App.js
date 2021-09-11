@@ -67,10 +67,11 @@ export default function ContainedButtons() {
     
     "" /*1*/,
 bloque.Extra[0],
-    "",
+    
     "",
     bloque.AIng[0],
     bloque.AIng[1],
+"",
     "",
     "",
 
