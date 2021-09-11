@@ -64,21 +64,20 @@ export default function ContainedButtons() {
   var lis = [];
 
   let BB = [
-    
     "" /*1*/,
-bloque.Extra[0],
-    
+    bloque.Extra[0],
+
     "",
     bloque.AIng[0],
     bloque.AIng[1],
-"",
     "",
-    "",
-
     "",
     "",
 
     "",
+    "",
+
+    bloque.AFra[0],
 
     "",
     "",

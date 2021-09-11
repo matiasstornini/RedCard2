@@ -99,8 +99,7 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027056/southampton-vs-west-ham-united/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027057/watford-vs-wolverhampton-wanderers/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027050/chelsea-vs-aston-villa/ ",
-  " Sevilla - Barcelona ",
-  " Villarreal - Deportivo Alavés ",
+
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4042809/psg-vs-clermont/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064554/empoli-vs-venezia/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064556/napoli-vs-juventus/ ",
@@ -118,21 +117,20 @@ let Est = [
 ];
 
 let Enl = [
-  
   "" /*1*/,
-Extra[0],
+  Extra[0],
   "",
-  
+
   AIng[0],
   AIng[1],
-"",
   "",
-  "",
-
   "",
   "",
 
   "",
+  "",
+
+  AFra[0],
 
   "",
   "",
@@ -156,4 +154,5 @@ Extra[0],
 
 let HOY = "11/09/2021";
 
+//console.log<b>(Est)</b></b>;
 //console.log<b>(Est)</b></b>;
