@@ -39,6 +39,13 @@ export const AAle = [
     <Btn Valor={ale[0]} /> <Btn Valor={ale[1]} />{" "}
   </div>
 ];
+
+export const ACol = [
+  <div>
+    {" "}
+    <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
+  </div>
+];
 export const Extra = [
   <div>
     {" "}
