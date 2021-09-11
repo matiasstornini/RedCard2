@@ -14,7 +14,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Btn from "./btn";
-import BloquesBtn from "./btns";
+import * as bloque from "./btns";
 
 import Titulo from "./titulo";
 import Paper from "@material-ui/core/Paper";
@@ -64,11 +64,28 @@ export default function ContainedButtons() {
   var lis = [];
 
   let BB = [
+    bloque.AIng[0],
+    "" /*1*/,
     "",
-    <div>
-      {" "}
-      <Btn Valor={col[0]} /> <Btn Valor={col[1]} />{" "}
-    </div>,
+    "",
+    "" /*1*/,
+    "" /*1*/,
+    "",
+    "",
+
+    "",
+    "",
+
+    "",
+
+    "",
+    "",
+    "",
+
+    "" /*1*/,
+    "",
+    "",
+    "",
     "",
     "",
 
@@ -76,31 +93,7 @@ export default function ContainedButtons() {
     "",
     "",
     "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+
     "",
     "error"
   ];

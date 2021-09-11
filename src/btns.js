@@ -5,24 +5,55 @@ import Button from "@material-ui/core/Button";
 import Btn from "./btn";
 
 //componente a exportar
-const BloquesBtn = () => {
-  const AEsp = [
-    <div>
-      {" "}
-      <Btn Valor={esp[0]} /> <Btn Valor={esp[1]} /> <Btn Valor={esp[2]} />{" "}
-    </div>,
-    <div>
-      {" "}
-      <Btn Valor={ing[0]} /> <Btn Valor={ing[1]} />{" "}
-    </div>,
-    <div>
-      {" "}
-      <Btn Valor={fra[0]} /> <Btn Valor={fra[1]} />{" "}
-    </div>,
-    ""
-  ];
-  return <div></div>;
-};
-
-//exportando el componente deseado
-export default BloquesBtn;
+export const AEsp = [
+  <div>
+    {" "}
+    <Btn Valor={esp[0]} /> <Btn Valor={esp[1]} /> <Btn Valor={esp[2]} />{" "}
+  </div>
+];
+export const AIng = [
+  <div>
+    {" "}
+    <Btn Valor={ing[0]} /> <Btn Valor={ing[1]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={ing[2]} /> <Btn Valor={ing[3]} />{" "}
+  </div>
+];
+export const AFra = [
+  <div>
+    {" "}
+    <Btn Valor={fra[0]} /> <Btn Valor={fra[1]} />{" "}
+  </div>
+];
+export const AIta = [
+  <div>
+    {" "}
+    <Btn Valor={ita[0]} /> <Btn Valor={ita[1]} />{" "}
+  </div>
+];
+export const AAle = [
+  <div>
+    {" "}
+    <Btn Valor={ale[0]} /> <Btn Valor={ale[1]} />{" "}
+  </div>
+];
+export const Extra = [
+  <div>
+    {" "}
+    <Btn Valor={ext[0]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={ext[1]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={ext[2]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={ext[3]} />{" "}
+  </div>
+];
