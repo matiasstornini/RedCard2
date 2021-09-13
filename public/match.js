@@ -74,7 +74,9 @@ let Match = [
   " Sarmiento - Huracán ",
   " Independiente - Lanús ",
   " San Lorenzo - Racing Club ",
-  " Gimnasia La Plata - Vélez Sarsfield "
+  " Gimnasia La Plata - Vélez Sarsfield ",
+  " Deportes Quindío - Deportivo Pasto ",
+  " Atlético Huila - Deportes Tolima "
 ];
 
 let Est = [
@@ -84,12 +86,14 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043915/sarmiento-vs-huracan/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043914/independiente-vs-lanus/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043908/san-lorenzo-vs-racing-club/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043917/gimnasia-la-plata-vs-velez-sarsfield/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043917/gimnasia-la-plata-vs-velez-sarsfield/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060774/deportes-quindio-vs-deportivo-pasto/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060777/atletico-huila-vs-deportes-tolima/ "
 ];
 
 let Enl = [
   "",
-  AEsp[0],
+  "",
 
   "",
   "",
