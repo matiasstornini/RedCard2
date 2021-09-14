@@ -1,128 +1,50 @@
 let Title = [
-  /*"Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",
-  "Clasificatorio para la Copa del Mundo",/**/
-
-  /*"Premier League (Inglaterra)",
-  /*"Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  "Premier League (Inglaterra)",
-  /**/
-
-  "LaLiga (España)",
-  "LaLiga (España)",
-  /*"LaLiga (España)",
-  "LaLiga (España)",
-  /**/
-
-  /*"Ligue 1 (Francia)",
-  /**/
-
-  /*"Serie A (Italia)",
-  "Serie A (Italia)",
-  "Serie A (Italia)",
-  "Serie A (Italia)",
-  "Serie A (Italia)",
-  "Serie A (Italia)",
-  /*"Serie A (Italia)",*/
-
-  /*"Ligue 1 (Francia)",*/
-
-  /*"Bundesliga (Alemania)",
-  "Bundesliga (Alemania)",
-  "Bundesliga (Alemania)",
-  "Bundesliga (Alemania)",
-  "Bundesliga (Alemania)",
-  "Bundesliga (Alemania)",
-  /**/
-
-  /*"Copa Argentina","Copa Argentina",/*"Copa Argentina",*/
-  "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
-  "Liga Profesional (Argentina)",
-  /*"Liga Profesional (Argentina)",*/
-
-  "Liga BetPlay (Colombia)",
-  "Liga BetPlay (Colombia)",
-  "Liga BetPlay (Colombia)",
-  "Liga BetPlay (Colombia)",
-  "Liga BetPlay (Colombia)",
-
-  /*"Conmebol Libertadores",
-  /*"Conmebol Libertadores",*/
-  /*"Conmebol Sudamericana",
-  "Conmebol Sudamericana",*/
-
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
   "ERROR"
 ];
 let Match = [
-  " Getafe - Elche ",
-  " Granada - Real Betis ",
-  " Aldosivi - Godoy Cruz ",
-  " Sarmiento - Huracán ",
-  " Independiente - Lanús ",
-  " San Lorenzo - Racing Club ",
-  " Gimnasia La Plata - Vélez Sarsfield ",
-  " Deportes Quindío - Deportivo Pasto ",
-  " Atlético Huila - Deportes Tolima "
+  " Sevilla - Salzburg ",
+  " Young Boys - Manchester United ",
+  " Barcelona - Bayern München ",
+  " Chelsea - Zenit ",
+  " Dynamo Kyiv - Benfica ",
+  " Lille - Wolfsburg ",
+  " Malmö FF - Juventus ",
+  " Villarreal - Atalanta ",
+  " Talleres Córdoba - Platense ",
+  " Arsenal - Colón ",
+  " Central Córdoba SdE - Atlético Tucumán ",
+  " Boca Juniors - Defensa y Justicia "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046022/getafe-vs-elche/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046024/granada-vs-real-betis/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043916/aldosivi-vs-godoy-cruz/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043915/sarmiento-vs-huracan/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043914/independiente-vs-lanus/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043908/san-lorenzo-vs-racing-club/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043917/gimnasia-la-plata-vs-velez-sarsfield/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060774/deportes-quindio-vs-deportivo-pasto/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060777/atletico-huila-vs-deportes-tolima/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126152/sevilla-vs-salzburg/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126151/young-boys-vs-manchester-united/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126153/barcelona-vs-bayern-m-nchen/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126157/chelsea-vs-zenit/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126154/dynamo-kyiv-vs-benfica/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126156/lille-vs-wolfsburg/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126158/malmo-ff-vs-juventus/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126155/villarreal-vs-atalanta/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043907/talleres-cordoba-vs-platense/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043912/arsenal-vs-colon/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043911/central-cordoba-sde-vs-atletico-tucuman/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043910/boca-juniors-vs-defensa-y-justicia/ "
 ];
 
-let Enl = [
-  "",
-  "",
+let Enl = ["", "", "", "", "", "", "", "", "", "", "", "", "", "error"];
 
-  "",
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  ACol[0],
-
-  "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  "error"
-];
-
-let HOY = "13/09/2021";
+let HOY = "14/09/2021";
 
 //console.log<b>(Est)</b></b>;
