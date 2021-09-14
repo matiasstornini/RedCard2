@@ -43,7 +43,26 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043910/boca-juniors-vs-defensa-y-justicia/ "
 ];
 
-let Enl = ["", "", "", "", "", "", "", "", "", "", "", "", "", "error"];
+let Enl = [
+  AEsp[0],
+  AIng[0],
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
+  "",
+  "",
+  "",
+  "error",
+  "",
+  "",
+  ""
+];
 
 let HOY = "14/09/2021";
 

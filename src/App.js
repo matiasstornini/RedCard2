@@ -63,7 +63,29 @@ export default function ContainedButtons() {
   }
   var lis = [];
 
-  let BB = ["", "", "", "", "", "", "", "", "", "", "", "", "", "error"];
+  let BB = [
+    bloque.AEsp[0],
+    bloque.AIng[0],
+    "",
+    "",
+    "",
+    "",
+    "",
+
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "error",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ];
 
   for (let i = 0; i < Match.length; i++) {
     lis.push(
