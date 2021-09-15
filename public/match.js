@@ -44,17 +44,17 @@ let Est = [
 ];
 
 let Enl = [
-  AAle[0],
-  Extra[0],
   "",
   "",
-  "",
-  "",
-  "",
+  AEsp[1],
+  AFra[0],
+  AEsp[0],
+  AIta[0],
+  AIng[0],
   "",
 
-  AArg[0],
   "",
+  AArg[0],
   "",
   "",
 

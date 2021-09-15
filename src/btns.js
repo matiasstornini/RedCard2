@@ -9,6 +9,10 @@ export const AEsp = [
   <div>
     {" "}
     <Btn Valor={esp[0]} /> <Btn Valor={esp[1]} /> <Btn Valor={esp[2]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={esp[3]} /> <Btn Valor={esp[4]} /> <Btn Valor={esp[5]} />{" "}
   </div>
 ];
 export const AIng = [
