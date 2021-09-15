@@ -14,33 +14,33 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  " Sevilla - Salzburg ",
-  " Young Boys - Manchester United ",
-  " Barcelona - Bayern München ",
-  " Chelsea - Zenit ",
-  " Dynamo Kyiv - Benfica ",
-  " Lille - Wolfsburg ",
-  " Malmö FF - Juventus ",
-  " Villarreal - Atalanta ",
-  " Talleres Córdoba - Platense ",
-  " Arsenal - Colón ",
-  " Central Córdoba SdE - Atlético Tucumán ",
-  " Boca Juniors - Defensa y Justicia "
+  " Beşiktaş - Borussia Dortmund ",
+  " Sheriff - Shakhtar Donetsk ",
+  " Atlético Madrid - Porto ",
+  " Club Brugge - PSG ",
+  " Internazionale - Real Madrid ",
+  " Liverpool - Milan ",
+  " Manchester City - RB Leipzig ",
+  " Sporting CP - Ajax ",
+  " Unión Santa Fe - Estudiantes ",
+  " Argentinos Juniors - Patronato ",
+  " Banfield - Rosario Central ",
+  " Newell's Old Boys - River Plate "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126152/sevilla-vs-salzburg/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126151/young-boys-vs-manchester-united/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126153/barcelona-vs-bayern-m-nchen/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126157/chelsea-vs-zenit/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126154/dynamo-kyiv-vs-benfica/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126156/lille-vs-wolfsburg/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126158/malmo-ff-vs-juventus/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126155/villarreal-vs-atalanta/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043907/talleres-cordoba-vs-platense/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043912/arsenal-vs-colon/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043911/central-cordoba-sde-vs-atletico-tucuman/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043910/boca-juniors-vs-defensa-y-justicia/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126159/be-ikta-vs-borussia-dortmund/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126160/sheriff-vs-shakhtar-donetsk/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126163/atletico-madrid-vs-porto/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126162/club-brugge-vs-psg/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126166/internazionale-vs-real-madrid/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126164/liverpool-vs-milan/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126161/manchester-city-vs-rb-leipzig/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126165/sporting-cp-vs-ajax/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043905/union-santa-fe-vs-estudiantes/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043906/argentinos-juniors-vs-patronato/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043909/banfield-vs-rosario-central/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043913/newells-old-boys-vs-river-plate/ "
 ];
 
 let Enl = [
@@ -56,17 +56,14 @@ let Enl = [
   "",
   "",
   "",
-  AArg[0],
+  "",
 
   "",
-  "",
   "error",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  "error",
+  "error",
+  "error",
+  "error"
 ];
 
 let HOY = "14/09/2021";
