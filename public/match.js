@@ -1,46 +1,29 @@
 let Title = [
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
+  " UEFA Europa League ",
+  " UEFA Europa League ",
+  " UEFA Europa League ",
+  " UEFA Europa League ",
+  " UEFA Europa League ",
+  " UEFA Europa League ",
+  " UEFA Europa League ",
   "ERROR"
 ];
 let Match = [
-  " Beşiktaş - Borussia Dortmund ",
-  " Sheriff - Shakhtar Donetsk ",
-  " Atlético Madrid - Porto ",
-  " Club Brugge - PSG ",
-  " Internazionale - Real Madrid ",
-  " Liverpool - Milan ",
-  " Manchester City - RB Leipzig ",
-  " Sporting CP - Ajax ",
-  " Unión Santa Fe - Estudiantes ",
-  " Argentinos Juniors - Patronato ",
-  " Banfield - Rosario Central ",
-  " Newell's Old Boys - River Plate "
+  " Lokomotiv Moskva - Olympique Marseille ",
+  " Real Betis - Celtic ",
+  " Leicester City - Napoli ",
+  " Mónaco - Sturm Graz ",
+  " PSV - Real Sociedad ",
+  " Rangers - Olympique Lyonnais "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126159/be-ikta-vs-borussia-dortmund/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126160/sheriff-vs-shakhtar-donetsk/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126163/atletico-madrid-vs-porto/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126162/club-brugge-vs-psg/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126166/internazionale-vs-real-madrid/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126164/liverpool-vs-milan/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126161/manchester-city-vs-rb-leipzig/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126165/sporting-cp-vs-ajax/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043905/union-santa-fe-vs-estudiantes/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043906/argentinos-juniors-vs-patronato/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043909/banfield-vs-rosario-central/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043913/newells-old-boys-vs-river-plate/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126868/lokomotiv-moskva-vs-olympique-marseille/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126870/real-betis-vs-celtic/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126877/leicester-city-vs-napoli/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126876/monaco-vs-sturm-graz/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126875/psv-vs-real-sociedad/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4126873/rangers-vs-olympique-lyonnais/ "
 ];
 
 let Enl = [
@@ -50,22 +33,24 @@ let Enl = [
   "",
   "",
   "",
-  "",
-  "",
 
   "",
   "",
   "",
-  AArg[0],
-
   "",
-  "error",
-  "error",
-  "error",
-  "error",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   "error"
 ];
 
-let HOY = "15/09/2021";
+let HOY = "16/09/2021";
 
 //console.log<b>(Est)</b></b>;
