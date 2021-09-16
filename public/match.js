@@ -29,10 +29,10 @@ let Est = [
 let Enl = [
   "",
   "",
-  AIng[0],
-  Extra[0],
-  AEsp[0],
-  Extra[1],
+  "",
+  "",
+  "",
+  "",
 
   "",
   "",
