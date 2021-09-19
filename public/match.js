@@ -70,7 +70,7 @@ let Est = [
 let Enl = [
   "",
   "",
-  AIng[0],
+  "",
 
   "",
   "",
@@ -78,12 +78,12 @@ let Enl = [
   "",
 
   "",
-  "",
+  AFra[0],
+
+  AIta[0],
 
   "",
-
   "",
-  AAle[0],
 
   AArg[0],
   "",
@@ -98,6 +98,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "18/09/2021";
+let HOY = "19/09/2021";
 
 //console.log<b>(Est)</b></b>;
