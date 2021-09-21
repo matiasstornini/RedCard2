@@ -1,41 +1,33 @@
 let Title = [
   " LaLiga ",
+  " LaLiga ",
+  " LaLiga ",
   " Serie A ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga BetPlay Colombia ",
-  " Liga BetPlay Colombia ",
-  " Liga BetPlay Colombia ",
+  " Conmebol Libertadores ",
   "ERROR"
 ];
 let Match = [
-  " Barcelona - Granada ",
-  " Udinese - Napoli ",
-  " Gimnasia La Plata - Unión Santa Fe ",
-  " Lanús - Newell's Old Boys ",
-  " Rosario Central - San Lorenzo ",
-  " Defensa y Justicia - Banfield ",
-  " La Equidad - Deportivo Pereira ",
-  " Alianza Petrolera - Patriotas Boyacá "
+  " Getafe - Atlético Madrid ",
+  " Athletic Club - Rayo Vallecano ",
+  " Levante - Celta de Vigo ",
+  " Fiorentina - Internazionale ",
+  " Palmeiras - Atlético Mineiro "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046033/barcelona-vs-granada/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064569/udinese-vs-napoli/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043918/gimnasia-la-plata-vs-union-santa-fe/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043922/lanus-vs-newells-old-boys/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043927/rosario-central-vs-san-lorenzo/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043926/defensa-y-justicia-vs-banfield/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060785/la-equidad-vs-deportivo-pereira/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060781/alianza-petrolera-vs-patriotas-boyaca/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046042/getafe-vs-atletico-madrid/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046041/athletic-club-vs-rayo-vallecano/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046046/levante-vs-celta-de-vigo/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064574/fiorentina-vs-internazionale/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4118853/palmeiras-vs-atletico-mineiro/ "
 ];
 
 let Enl = [
   "",
   "",
+  "",
 
+  "",
   "",
   "",
   "",
@@ -61,6 +53,6 @@ let Enl = [
   "error"
 ];
 
-let HOY = "20/09/2021";
+let HOY = "21/09/2021";
 
 //console.log<b>(Est)</b></b>;
