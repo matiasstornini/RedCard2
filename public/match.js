@@ -42,10 +42,10 @@ let Est = [
 ];
 
 let Enl = [
-  Extra[0],
+  "",
+  "",
   AEsp[0],
-  "",
-  "",
+  Extra[0],
 
   AFra[0],
 
