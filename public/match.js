@@ -11,6 +11,7 @@ let Title = [
   " Serie A ",
   " Conmebol Libertadores ",
   " Conmebol Sudamericana ",
+  " Liga Dimayor ",
   "ERROR"
 ];
 let Match = [
@@ -24,7 +25,8 @@ let Match = [
   " Cagliari - Empoli ",
   " Milan - Venezia ",
   " Flamengo - Barcelona ",
-  " RB Bragantino - Libertad "
+  " RB Bragantino - Libertad ",
+  " Junior - Atlético Huila "
 ];
 
 let Est = [
@@ -38,7 +40,8 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064573/cagliari-vs-empoli/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064575/milan-vs-venezia/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120446/flamengo-vs-barcelona/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120444/rb-bragantino-vs-libertad/ "
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120444/rb-bragantino-vs-libertad/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4137711/junior-vs-atletico-huila/ "
 ];
 
 let Enl = [
@@ -57,7 +60,7 @@ let Enl = [
   ALib[0],
   "",
 
-  "",
+  ACol[0],
   "",
   "",
   "",
