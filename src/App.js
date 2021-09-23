@@ -76,8 +76,8 @@ export default function ContainedButtons() {
     "",
     "",
 
+    bloque.ALib[0],
     "",
-    bloque.Extra[0],
 
     "",
     "",
