@@ -23,7 +23,6 @@ let Est = [
 ];
 
 let Enl = [
-  AAle[0],
   "",
   "",
 
