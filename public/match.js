@@ -6,6 +6,7 @@ let Title = [
   " LaLiga ",
   " LaLiga ",
   " LaLiga ",
+  " LaLiga ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
@@ -23,6 +24,7 @@ let Match = [
   " Barcelona - Levante ",
   " Rayo Vallecano - Cádiz ",
   " Real Sociedad - Elche ",
+  " Real Betis - Getafe ",
   " Unión Santa Fe - Patronato ",
   " San Lorenzo - Defensa y Justicia ",
   " Independiente - Godoy Cruz ",
@@ -40,6 +42,7 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046052/barcelona-vs-levante/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046060/rayo-vallecano-vs-cadiz/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046057/real-sociedad-vs-elche/ ",
+  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046053/real-betis-vs-getafe/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043931/union-santa-fe-vs-patronato/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043935/san-lorenzo-vs-defensa-y-justicia/ ",
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043941/independiente-vs-godoy-cruz/ ",
@@ -53,15 +56,16 @@ let Enl = [
   "",
 
   "",
-  AIng[0],
+  "",
 
   "",
   "",
   Extra[0],
   Extra[1],
-
-  AArg[0],
   "",
+
+  "",
+  AArg[0],
   "",
   "",
 
