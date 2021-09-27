@@ -52,29 +52,7 @@ let Est = [
   "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060793/deportes-quindio-vs-medellin/ "
 ];
 
-let Enl = [
-  "",
-
-  "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  "",
-  ACol[0],
-
-  "error"
-];
+let Enl = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "error"];
 
 let HOY = "26/09/2021";
 
