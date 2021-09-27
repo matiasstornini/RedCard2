@@ -22,7 +22,7 @@ let Est = [
   "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060796/atletico-huila-vs-la-equidad/ "
 ];
 
-let Enl = [AIng[0], AEsp[0], "", "", "", "", "error"];
+let Enl = ["", "", AArg[0], "", "", "", "error"];
 
 let HOY = "27/09/2021";
 
