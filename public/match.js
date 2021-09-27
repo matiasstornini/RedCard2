@@ -1,59 +1,29 @@
 let Title = [
-  " Serie A ",
-  " Premier League ",
   " Premier League ",
   " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga BetPlay Colombia ",
-  " Liga BetPlay Colombia ",
   " Liga BetPlay Colombia ",
   "ERROR"
 ];
 let Match = [
-  " Juventus - Sampdoria ",
-  " Southampton - Wolverhampton Wanderers ",
-  " Arsenal - Tottenham Hotspur ",
-  " Mallorca - Osasuna ",
-  " Barcelona - Levante ",
-  " Rayo Vallecano - Cádiz ",
-  " Real Sociedad - Elche ",
-  " Real Betis - Getafe ",
-  " Unión Santa Fe - Patronato ",
-  " San Lorenzo - Defensa y Justicia ",
-  " Independiente - Godoy Cruz ",
-  " Boca Juniors - Colón ",
-  " Patriotas Boyacá - Deportes Tolima ",
-  " Jaguares de Córdoba - Millonarios ",
-  " Deportes Quindío - Medellín "
+  " Crystal Palace - Brighton & Hove Albion ",
+  " Celta de Vigo - Granada ",
+  " Argentinos Juniors - Racing Club ",
+  " Newell's Old Boys - Huracán ",
+  " Atlético Huila - La Equidad "
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4064584/juventus-vs-sampdoria/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027076/southampton-vs-wolverhampton-wanderers/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027068/arsenal-vs-tottenham-hotspur/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046055/mallorca-vs-osasuna/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046052/barcelona-vs-levante/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046060/rayo-vallecano-vs-cadiz/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046057/real-sociedad-vs-elche/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046053/real-betis-vs-getafe/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043931/union-santa-fe-vs-patronato/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043935/san-lorenzo-vs-defensa-y-justicia/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043941/independiente-vs-godoy-cruz/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043937/boca-juniors-vs-colon/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060799/patriotas-boyaca-vs-deportes-tolima/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060797/jaguares-de-cordoba-vs-millonarios/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060793/deportes-quindio-vs-medellin/ "
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027071/crystal-palace-vs-brighton-hove-albion/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046054/celta-de-vigo-vs-granada/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043933/argentinos-juniors-vs-racing-club/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043940/newells-old-boys-vs-huracan/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060796/atletico-huila-vs-la-equidad/ "
 ];
 
-let Enl = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "error"];
+let Enl = ["", "", "", "", "", "", "error"];
 
-let HOY = "26/09/2021";
+let HOY = "27/09/2021";
 
 //console.log<b>(Est)</b></b>;
