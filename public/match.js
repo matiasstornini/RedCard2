@@ -1,29 +1,59 @@
 let Title = [
-  " Premier League ",
-  " LaLiga ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga BetPlay Colombia ",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Conmebol Libertadores",
+
   "ERROR"
 ];
 let Match = [
-  " Crystal Palace - Brighton & Hove Albion ",
-  " Celta de Vigo - Granada ",
-  " Argentinos Juniors - Racing Club ",
-  " Newell's Old Boys - Huracán ",
-  " Atlético Huila - La Equidad "
+  " Ajax - Beşiktaş ",
+  " Shakhtar Donetsk - Internazionale ",
+  " Borussia Dortmund - Sporting CP ",
+  " Milan - Atlético Madrid ",
+  " Porto - Liverpool ",
+  " PSG - Manchester City ",
+  " RB Leipzig - Club Brugge ",
+  " Real Madrid - Sheriff ",
+  " Atlético Mineiro - Palmeiras "
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4027071/crystal-palace-vs-brighton-hove-albion/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046054/celta-de-vigo-vs-granada/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043933/argentinos-juniors-vs-racing-club/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043940/newells-old-boys-vs-huracan/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060796/atletico-huila-vs-la-equidad/ "
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127332/ajax-vs-be-ikta/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127333/shakhtar-donetsk-vs-internazionale/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127338/borussia-dortmund-vs-sporting-cp/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127337/milan-vs-atletico-madrid/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127336/porto-vs-liverpool/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127334/psg-vs-manchester-city/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127335/rb-leipzig-vs-club-brugge/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4127339/real-madrid-vs-sheriff/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/competitions/international/copa-libertadores/tables/ "
 ];
 
-let Enl = ["", "", "", "", ACol[0], "", "error"];
+let Enl = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 
-let HOY = "27/09/2021";
+  "",
+
+  "error1",
+  "error1",
+  "error1",
+  "error1",
+  "error1"
+];
+
+let HOY = "28/09/2021";
 
 //console.log<b>(Est)</b></b>;
