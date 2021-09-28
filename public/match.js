@@ -37,13 +37,13 @@ let Est = [
 
 let Enl = [
   "",
-  Extra[0],
   "",
+  AAle[0],
+  AIta[0],
+  AIng[0],
+  AFra[0],
   "",
-  "",
-  "",
-  "",
-  "",
+  AEsp[0],
 
   "",
 
