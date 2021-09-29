@@ -7,6 +7,7 @@ let Title = [
   "Champions League",
   "Champions League",
   "Champions League",
+  "Conmebol Sudamericana",
   "Conmebol Libertadores",
 
   "ERROR"
