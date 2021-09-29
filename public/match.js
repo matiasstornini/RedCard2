@@ -38,16 +38,14 @@ let Est = [
 ];
 
 let Enl = [
-  Extra[0],
   "",
   "",
+  AAle[0],
+  AEsp[0],
+  AIta[0],
+  AIng[0],
   "",
-  "",
-  "",
-  "",
-  "",
-
-  "",
+  AEsp[1],
 
   "",
 
