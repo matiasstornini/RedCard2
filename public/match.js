@@ -26,27 +26,27 @@ let Match = [
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128265/atalanta-vs-young-boys/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128266/zenit-vs-malmo-ff/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128267/bayern-m-nchen-vs-dynamo-kyiv/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128268/benfica-vs-barcelona/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128272/juventus-vs-chelsea/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128269/manchester-united-vs-villarreal/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128270/salzburg-vs-lille/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128271/wolfsburg-vs-sevilla/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120445/libertad-vs-rb-bragantino/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120447/barcelona-vs-flamengo/ "
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128265/atalanta-vs-young-boys/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128266/zenit-vs-malmo-ff/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128267/bayern-m-nchen-vs-dynamo-kyiv/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128268/benfica-vs-barcelona/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128272/juventus-vs-chelsea/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128269/manchester-united-vs-villarreal/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128270/salzburg-vs-lille/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128271/wolfsburg-vs-sevilla/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120445/libertad-vs-rb-bragantino/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120447/barcelona-vs-flamengo/ "
 ];
 
 let Enl = [
   "",
   "",
-  AAle[0],
-  AEsp[0],
-  AIta[0],
-  AIng[0],
   "",
-  AEsp[1],
+  "",
+  "",
+  "",
+  "",
+  "",
 
   "",
 
