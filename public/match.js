@@ -1,41 +1,31 @@
 let Title = [
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
+  "Europa League",
+  "Europa League",
+  "Europa League",
+  "Europa League",
+  "Europa League",
+  "Europa League",
   "Conmebol Sudamericana",
-  "Conmebol Libertadores",
 
   "ERROR"
 ];
 let Match = [
-  " Atalanta - Young Boys ",
-  " Zenit - Malmö FF ",
-  " Bayern München - Dynamo Kyiv ",
-  " Benfica - Barcelona ",
-  " Juventus - Chelsea ",
-  " Manchester United - Villarreal ",
-  " Salzburg - Lille ",
-  " Wolfsburg - Sevilla ",
-  " Libertad - RB Bragantino ",
-  " Barcelona - Flamengo "
+  " Legia Warszawa - Leicester City ",
+  " Napoli - Spartak Moskva ",
+  " Olympique Lyonnais - Brøndby ",
+  " Real Sociedad - Mónaco ",
+  " Olympique Marseille - Galatasaray ",
+  " Ferencváros - Real Betis ",
+  " Athletico-PR - Peñarol "
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128265/atalanta-vs-young-boys/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128266/zenit-vs-malmo-ff/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128267/bayern-m-nchen-vs-dynamo-kyiv/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128268/benfica-vs-barcelona/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128272/juventus-vs-chelsea/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128269/manchester-united-vs-villarreal/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128270/salzburg-vs-lille/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128271/wolfsburg-vs-sevilla/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120445/libertad-vs-rb-bragantino/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120447/barcelona-vs-flamengo/ "
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128761/legia-warszawa-vs-leicester-city/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128762/napoli-vs-spartak-moskva/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128758/olympique-lyonnais-vs-brondby/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128759/real-sociedad-vs-monaco/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128770/ferencvaros-vs-real-betis/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120443/athletico-pr-vs-penarol/ "
 ];
 
 let Enl = [
@@ -49,6 +39,7 @@ let Enl = [
   "",
 
   "",
+
   "",
 
   "error1",
@@ -58,6 +49,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "29/09/2021";
+let HOY = "30/09/2021";
 
 //console.log<b>(Est)</b></b>;
