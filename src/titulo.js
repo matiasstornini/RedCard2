@@ -20,7 +20,7 @@ const Titulo = () => {
       <Button
         color="secondary"
         target="_blank"
-        href="http://matiasstornini00.shortcm.li/fb1.mpd"
+        href="https://www.instagram.com/innovadesignalp/"
       >
         <InstagramIcon />
       </Button>

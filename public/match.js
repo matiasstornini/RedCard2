@@ -15,15 +15,15 @@ let Match = [
 ];
 
 let Est = [
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4046061/athletic-club-vs-deportivo-alaves/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043944/aldosivi-vs-union-santa-fe/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4043949/lanus-vs-central-cordoba-sde/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060809/deportes-tolima-vs-santa-fe/ ",
-  "https://pirlotv4.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4060806/junior-vs-patriotas-boyaca/ "
+  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
+  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
+  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
+  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
+  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html"
 ];
 
 let Enl = [
-  "",
+  Extra[0],
 
   "",
   "",
