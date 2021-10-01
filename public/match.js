@@ -6,6 +6,7 @@ let Title = [
   "Europa League",
   "Europa League",
   "Conmebol Sudamericana",
+  "Liga Dimayor",
 
   "ERROR"
 ];
@@ -16,7 +17,8 @@ let Match = [
   " Real Sociedad - Mónaco ",
   " Olympique Marseille - Galatasaray ",
   " Ferencváros - Real Betis ",
-  " Athletico-PR - Peñarol "
+  " Athletico-PR - Peñarol ",
+  " Deportivo Pasto - Once Caldas "
 ];
 
 let Est = [
@@ -25,7 +27,8 @@ let Est = [
   "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128758/olympique-lyonnais-vs-brondby/ ",
   "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128759/real-sociedad-vs-monaco/ ",
   "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4128770/ferencvaros-vs-real-betis/ ",
-  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120443/athletico-pr-vs-penarol/ "
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4120443/athletico-pr-vs-penarol/ ",
+  "https://pirlotv2.herokuapp.com/full/app/test/statistics?url=https://m.livesoccertv.com/es/match/4150506/deportivo-pasto-vs-once-caldas/ "
 ];
 
 let Enl = [
@@ -35,11 +38,12 @@ let Enl = [
   "",
   "",
   "",
-  "",
-  "",
+
+  ALib[0],
+
+  ACol[0],
 
   "",
-
   "",
 
   "error1",
