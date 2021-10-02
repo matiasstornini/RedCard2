@@ -66,15 +66,30 @@ export default function ContainedButtons() {
   let BB = [
     "",
     "",
-    bloque.AArg[0],
     "",
-    bloque.ACol[0],
+    "",
+    "",
+    "",
+
+    "",
+    "",
+    "",
+    "",
+
+    "",
     "",
 
     "",
 
     "",
+    "",
+    "",
+    "",
+    "",
 
+    "",
+    "",
+    "",
     "",
     "",
 
