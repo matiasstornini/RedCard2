@@ -1,58 +1,56 @@
 let Title = [
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
-  "Serie A",
-  "Serie A",
-  "Bundesliga",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  " Premier League ",
+  " Premier League ",
+  " Premier League ",
+  " Premier League ",
+
+  " LaLiga ",
+  " LaLiga ",
+  " LaLiga ",
+  " LaLiga ",
+  " LaLiga ",
+
+  " Ligue 1 ",
+
+  " Serie A ",
+  " Serie A ",
+  " Serie A ",
+
+  " Bundesliga ",
+
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+
+  " Liga Dimayor Colombia ",
+  " Liga Dimayor Colombia ",
+  " Liga Dimayor Colombia ",
 
   "ERROR"
 ];
 let Match = [
-  "Manchester United vs Everton",
-  "Burnley vs Norwich City",
-  "Chelsea vs Southampton",
-  "Leeds United vs Watford",
-  "Wolverhampton Wanderers vs Newcastle United",
-  "Brighton & Hove Albion vs Arsenal",
-
-  "Osasuna vs Rayo Vallecano",
-  "Mallorca vs Levante",
-  "Cádiz vs Valencia",
-  "Atlético Madrid vs Barcelona",
-
-  "Torino vs Juventus",
-  "Sassuolo vs Internazionale",
-
-  "Borussia Dortmund vs Augsburg",
-
-  "Godoy Cruz vs Newell's Old Boys",
-  "Platense vs Patronato",
-  "Huracán vs Arsenal",
-  "Atlético Tucumán vs San Lorenzo",
-  "Vélez Sarsfield vs Independiente",
-
-  "La Equidad vs Deportes Quindío",
-  "Envigado vs Deportivo Cali",
-  "Deportivo Pereira vs Atlético Nacional",
-  "América de Cali vs Atlético Huila"
+  "Crystal Palace vs Leicester City",
+  "Tottenham Hotspur vs Aston Villa",
+  "West Ham United vs Brentford",
+  "Liverpool vs Manchester City",
+  "Elche vs Celta de Vigo",
+  "Espanyol vs Real Madrid",
+  "Getafe vs Real Sociedad",
+  "Villarreal vs Real Betis",
+  "Granada vs Sevilla",
+  "Rennes vs PSG",
+  "Fiorentina vs Napoli",
+  "Roma vs Empoli",
+  "Atalanta vs Milan",
+  "Bayern München vs Eintracht Frankfurt",
+  "Gimnasia La Plata vs Sarmiento",
+  "Rosario Central vs Argentinos Juniors",
+  "River Plate vs Boca Juniors",
+  "Racing Club vs Estudiantes",
+  "Millonarios vs Rionegro Águilas",
+  "Medellín vs Atlético Bucaramanga",
+  "Alianza Petrolera vs Jaguares de Córdoba"
 ];
 
 let Est = [
@@ -82,10 +80,22 @@ let Est = [
 
 let Enl = [
   "",
+  AIng[0],
+  "",
+  "",
+
+  AEsp[0],
   "",
   "",
   "",
   "",
+
+  AFra[0],
+
+  "",
+  "",
+  "",
+
   "",
 
   "",
@@ -95,19 +105,6 @@ let Enl = [
 
   "",
   "",
-
-  "",
-
-  "",
-  "",
-  "",
-  AArg[0],
-  "",
-
-  "",
-  "",
-  "",
-  ACol[0],
   "",
 
   "error1",
@@ -117,6 +114,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "02/10/2021";
+let HOY = "03/10/2021";
 
 //console.log<b>(Est)</b></b>;
