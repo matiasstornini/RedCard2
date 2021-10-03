@@ -100,7 +100,7 @@ let Enl = [
 
   "",
   "",
-  bloque.AArg[0],
+  AArg[0],
   "",
 
   "",
