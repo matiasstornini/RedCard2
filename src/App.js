@@ -74,8 +74,6 @@ export default function ContainedButtons() {
     "",
 
     "",
-
-    "",
     "",
     "",
 
@@ -100,12 +98,13 @@ export default function ContainedButtons() {
   for (let i = 0; i < Match.length; i++) {
     lis.push(
       <div>
-        <Typography variant="h6" gutterBottom>
+        <Typography variant="h5" gutterBottom>
           {Title[i]}{" "}
         </Typography>
         <Typography variant="h6" gutterBottom>
           {dta[i]} {Match[i]}
         </Typography>
+        <Divider />
       </div>
     );
     /*SWITCH*/
@@ -119,13 +118,13 @@ export default function ContainedButtons() {
     }
     /*SWITCH*/
 
-    lis.push(
+    /*lis.push(
       <div className={classes.root}>
         <Button variant="contained" color="primary" href={Est[i]}>
           Estadisticas
         </Button>
       </div>
-    );
+    );*/
   }
 
   return (
