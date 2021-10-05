@@ -7,7 +7,7 @@ let Title = [
 let Match = ["Defensa y Justicia vs Talleres Córdoba", "Colón vs Banfield"];
 
 let Est = [
-  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
+  "https://www.google.com/search?q=liga%20argentina#sie=m;/g/11rgwj6hx7;2;/m/04hpk1;dt;fp;1;;",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
