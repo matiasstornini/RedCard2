@@ -86,7 +86,6 @@ export default function ContainedButtons() {
 
     "",
     "",
-    bloque.ACol[0],
 
     "error1",
     "error1",
@@ -118,13 +117,13 @@ export default function ContainedButtons() {
     }
     /*SWITCH*/
 
-    /*lis.push(
+    lis.push(
       <div className={classes.root}>
         <Button variant="contained" color="primary" href={Est[i]}>
           Estadisticas
         </Button>
       </div>
-    );*/
+    );
   }
 
   return (

@@ -1,12 +1,8 @@
-let Title = [
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-
-  "ERROR"
-];
-let Match = ["Defensa y Justicia vs Talleres Córdoba", "Colón vs Banfield"];
+let Title = ["UEFA Nations League", "ERROR"];
+let Match = ["Italia vs España"];
 
 let Est = [
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://betsapi.com//t/4504/Spain ",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -64,6 +60,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "04/10/2021";
+let HOY = "06/10/2021";
 
 //console.log<b>(Est)</b></b>;
