@@ -4,7 +4,6 @@ let Title = [
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
