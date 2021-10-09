@@ -4,6 +4,7 @@ let Title = [
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
@@ -11,26 +12,29 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Alemania - Rumania",
-  "Unión Santa Fe - Platense",
-  "Central Córdoba SdE - Huracán",
-  "Estudiantes - Rosario Central",
-  "Newell's Old Boys - Vélez Sarsfield",
-  "Jaguares de Córdoba - Deportivo Pasto",
-  "Rionegro Águilas - Alianza Petrolera",
-  "Medellín - Envigado"
+  "Andorra - Inglaterra",
+  "Argentinos Juniors - Defensa y Justicia",
+  "Sarmiento - Aldosivi",
+  "Patronato - Racing Club",
+  "Banfield - River Plate",
+  "Boca Juniors - Lanús",
+  "Once Caldas - Deportes Tolima",
+  "Deportivo Cali - La Equidad",
+  "Millonarios - América de Cali",
+  "Atlético Huila - Atlético Nacional"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3018643/Germany-v-Romania ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710548/Union-Santa-Fe-v-CA-Platense ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710543/Central-Cordoba-SdE-v-Huracan ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710266/Estudiantes-LP-v-Rosario-Central ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710130/Newell%27s-v-Velez-Sarsfield ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3797184/Jaguares-de-Cordoba-v-Deportivo-Pasto ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3797186/Aguilas-Doradas-v-Alianza-Petrolera ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3797262/Independiente-Medellin-v-Envigado-FC ",
-
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3016875/Andorra-v-England ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710170/Argentinos-Jrs-v-Defensa-y-Justicia ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710546/Sarmiento-v-CA-Aldosivi ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710545/Patronato-Parana-v-Racing-Club ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710542/Banfield-v-River-Plate ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3710711/Boca-Juniors-v-Lanus ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3796625/Once-Caldas-v-Deportes-Tolima ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3796624/Deportivo-Cali-v-La-Equidad ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3797185/Millonarios-v-America-de-Cali ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3797260/Atletico-Huila-v-Atletico-Nacional-Medellin ",
   /**/
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
