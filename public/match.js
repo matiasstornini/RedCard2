@@ -1,32 +1,29 @@
 let Title = [
-  " UEFA Nations League ",
-  " UEFA Nations League ",
-  " Eliminatorias Conmebol ",
-  " Eliminatorias Conmebol ",
-  " Eliminatorias Conmebol ",
-  " Eliminatorias Conmebol ",
-  " Eliminatorias Conmebol ",
+  " Eliminatorias UEFA ",
+  " Eliminatorias UEFA ",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   "ERROR"
 ];
 let Match = [
-  "Italia - Bélgica",
-  "España - Francia",
-  "Bolivia - Peru",
-  "Venezuela - Ecuador",
-  "Colombia - Brazil",
-  "Argentina - Uruguay",
-  "Chile - Paraguay"
+  "Países Bajos - Gibraltar",
+  "Macedonia del Norte - Alemania",
+  "Arsenal - Godoy Cruz",
+  "San Lorenzo - Colón",
+  "Independiente - Gimnasia La Plata",
+  "Talleres Córdoba - Atlético Tucumán",
+  "Patriotas Boyacá - Santa Fe",
+  "Atlético Bucaramanga - Junior"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4167258/Italy-v-Belgium ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4167240/Spain-v-France ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4076780/Bolivia-v-Peru ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4076781/Venezuela-v-Ecuador ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4076782/Colombia-v-Brazil ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4076783/Argentina-v-Uruguay ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/4076784/Chile-v-Paraguay ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3016621/Netherlands-v-Gibraltar ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3018647/North-Macedonia-v-Germany ",
 
   /**/
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
