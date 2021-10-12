@@ -1,30 +1,18 @@
 let Title = [
   " Eliminatorias UEFA ",
   " Eliminatorias UEFA ",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Dimayor Colombia",
+
   "Liga Dimayor Colombia",
 
   "ERROR"
 ];
 let Match = [
-  "Países Bajos - Gibraltar",
-  "Macedonia del Norte - Alemania",
-  "Arsenal - Godoy Cruz",
-  "San Lorenzo - Colón",
-  "Independiente - Gimnasia La Plata",
-  "Talleres Córdoba - Atlético Tucumán",
-  "Patriotas Boyacá - Santa Fe",
-  "Atlético Bucaramanga - Junior"
+  "Inglaterra - Hungría",
+  "Portugal - Luxemburgo",
+  "Deportes Quindío - Deportivo Pereira"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3016621/Netherlands-v-Gibraltar ",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3018647/North-Macedonia-v-Germany ",
-
   /**/
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
