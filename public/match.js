@@ -1,15 +1,18 @@
 let Title = [
-  " Eliminatorias UEFA ",
-  " Eliminatorias UEFA ",
-
-  "Liga Dimayor Colombia",
+  "Eliminatorias CONMEBOL",
+  "Eliminatorias CONMEBOL",
+  "Eliminatorias CONMEBOL",
+  "Eliminatorias CONMEBOL",
+  "Eliminatorias CONMEBOL",
 
   "ERROR"
 ];
 let Match = [
-  "Inglaterra - Hungría",
-  "Portugal - Luxemburgo",
-  "Deportes Quindío - Deportivo Pereira"
+  "Bolivia - Paraguay",
+  "Colombia - Ecuador",
+  "Argentina - Perú",
+  "Chile - Venezuela",
+  "Brasil - Uruguay"
 ];
 
 let Est = [
