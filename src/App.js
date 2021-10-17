@@ -69,18 +69,18 @@ export default function ContainedButtons() {
     "",
     "",
     "",
-    bloque.AEsp[0],
+    "",
 
     "",
-    bloque.AIta[0],
+    "",
 
+    "",
+    "",
     bloque.AArg[0],
-    bloque.AArg[1],
-    "",
     "",
 
-    bloque.ACol[0],
     "",
+    bloque.ACol[0],
     "",
     "",
 
@@ -94,13 +94,14 @@ export default function ContainedButtons() {
   for (let i = 0; i < Match.length; i++) {
     lis.push(
       <div>
+        <Divider />
         <Typography variant="h5" gutterBottom>
-          {Title[i]}{" "}
+          {Title[i]}
+          {": "}
         </Typography>
         <Typography variant="h6" gutterBottom>
           {dta[i]} {Match[i]}
         </Typography>
-        <Divider />
       </div>
     );
     /*SWITCH*/
