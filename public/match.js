@@ -1,11 +1,7 @@
 let Title = [
   " Premier League ",
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
+  " LaLiga ",
+  " LaLiga ",
   " LaLiga ",
   " LaLiga ",
   " Serie A ",
@@ -14,39 +10,31 @@ let Title = [
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
-
   "ERROR"
 ];
 let Match = [
-  "Watford - Liverpool",
-  "Aston Villa - Wolverhampton Wanderers",
-  "Leicester City - Manchester United",
-  "Manchester City - Burnley",
-  "Norwich City - Brighton & Hove Albion",
-  "Southampton - Leeds United",
-  "Brentford - Chelsea",
-  "Levante - Getafe",
-  "Real Sociedad - Mallorca",
-  "Lazio - Internazionale",
-  "Milan - Hellas Verona",
-  "Sarmiento - Unión Santa Fe",
-  "Gimnasia La Plata - Newell's Old Boys",
-  "Lanús - Banfield",
-  "Huracán - Boca Juniors",
-  "La Equidad - Patriotas Boyacá",
-  "América de Cali - Deportivo Cali",
-  "Deportivo Pereira - Once Caldas",
-  "Atlético Nacional - Medellín"
+  "Newcastle United - Tottenham Hotspur",
+  "Rayo Vallecano - Elche",
+  "Celta de Vigo - Sevilla",
+  "Villarreal - Osasuna",
+  "Barcelona - Valencia",
+  "Napoli - Torino",
+  "Juventus - Roma",
+  "Atlético Tucumán - Argentinos Juniors",
+  "Colón - Talleres Córdoba",
+  "Aldosivi - Independiente",
+  "River Plate - San Lorenzo",
+  "Deportivo Pasto - Deportes Quindío",
+  "Alianza Petrolera - Atlético Bucaramanga",
+  "Santa Fe - Millonarios",
+  "Junior - Jaguares de Córdoba"
 ];
 
 let Est = [
-  /**/
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -73,9 +61,8 @@ let Est = [
 
 let Enl = [
   "",
-  "",
-  "",
-  "",
+
+  AEsp[0],
   "",
   "",
   "",
@@ -85,16 +72,12 @@ let Enl = [
 
   "",
   "",
+  "",
+  "",
 
   "",
   "",
   "",
-  AArg[0],
-
-  "",
-  "",
-  "",
-  ACol[0],
   "",
 
   "error1",
@@ -104,6 +87,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "16/10/2021";
+let HOY = "17/10/2021";
 
 //console.log<b>(Est)</b></b>;
