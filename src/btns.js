@@ -35,6 +35,10 @@ export const AIta = [
   <div>
     {" "}
     <Btn Valor={ita[0]} /> <Btn Valor={ita[1]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={ita[2]} /> <Btn Valor={ita[3]} />{" "}
   </div>
 ];
 export const AAle = [
