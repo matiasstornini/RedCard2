@@ -1,8 +1,16 @@
 let Title = [
-  " Premier League",
-  " LaLiga",
-  " LaLiga",
-  " Liga Dimayor Colombia",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Champions League ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
 
   /**/
   "ERROR",
@@ -14,10 +22,18 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Arsenal - Crystal Palace",
-  "Deportivo Alavés - Real Betis",
-  "Espanyol - Cádiz",
-  "Envigado - Rionegro Águilas"
+  "Beşiktaş - Sporting CP",
+  "Club Brugge - Manchester City",
+  "Ajax - Borussia Dortmund",
+  "Atlético Madrid - Liverpool",
+  "Internazionale - Sheriff",
+  "Porto - Milan",
+  "PSG - RB Leipzig",
+  "Shakhtar Donetsk - Real Madrid",
+  "Platense - Rosario Central",
+  "Unión Santa Fe - Racing Club",
+  "Patronato - Defensa y Justicia",
+  "Central Córdoba SdE - Vélez Sarsfield"
 ];
 
 let Est = [
@@ -25,7 +41,6 @@ let Est = [
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
-  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://betsapi.com/r/3713668/Barcelona-v-Valencia",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -51,10 +66,17 @@ let Est = [
 
 let Enl = [
   "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 
   "",
   "",
-
+  "",
   "",
 
   "error1",
