@@ -37,6 +37,15 @@ let Match = [
 ];
 
 let Est = [
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3983269/Besiktas-v-Sporting ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3982932/Club-Brugge-v-Man-City ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3982759/Ajax-v-Borussia-Dortmund ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3982937/Atletico-Madrid-v-Liverpool ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3982765/Inter-Milan-v-Sheriff-Tiraspol ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3983265/FC-Porto-v-AC-Milan ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3982756/PSG-v-RB-Leipzig ",
+  "https://pirlotv2.herokuapp.com/full/app/test/general-ext?url=https://es.betsapi.com//r/3983272/Shakhtar-Donetsk-v-Real-Madrid ",
+
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -66,7 +75,7 @@ let Est = [
 
 let Enl = [
   "",
-  "",
+  AIng[0],
   "",
   "",
   "",
