@@ -1,17 +1,13 @@
 let Title = [
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
+  "Europa League ",
+  "Europa League ",
+  "Europa League ",
+  "Europa League ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -23,19 +19,15 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Barcelona - Dynamo Kyiv",
-  "Salzburg - Wolfsburg",
-  "Benfica - Bayern München",
-  "Chelsea - Malmö FF",
-  "Lille - Sevilla",
-  "Manchester United - Atalanta",
-  "Young Boys - Villarreal",
-  "Zenit - Juventus",
-  "Arsenal - Gimnasia La Plata",
-  "San Lorenzo - Lanús",
-  "Banfield - Huracán",
-  "Estudiantes - Atlético Tucumán",
-  "Boca Juniors - Godoy Cruz"
+  "Real Betis - Bayer Leverkusen",
+  "Napoli - Legia Warszawa",
+  "PSV - Mónaco",
+  "Sturm Graz - Real Sociedad",
+  "Argentinos Juniors - Colón",
+  "Newell's Old Boys - Aldosivi",
+  "Independiente - Sarmiento",
+  "Talleres Córdoba - River Plate",
+  "Once Caldas - La Equidad"
 ];
 
 let Est = [
