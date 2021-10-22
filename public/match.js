@@ -1,12 +1,7 @@
 let Title = [
-  "Europa League ",
-  "Europa League ",
-  "Europa League ",
-  "Europa League ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
+  "Premier League ",
+  "LaLiga ",
+  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
   /**/
@@ -19,15 +14,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Real Betis - Bayer Leverkusen",
-  "Napoli - Legia Warszawa",
-  "PSV - Mónaco",
-  "Sturm Graz - Real Sociedad",
-  "Argentinos Juniors - Colón",
-  "Newell's Old Boys - Aldosivi",
-  "Independiente - Sarmiento",
-  "Talleres Córdoba - River Plate",
-  "Once Caldas - La Equidad"
+  "Arsenal - Aston Villa",
+  "Osasuna - Granada",
+
+  "Jaguares de Córdoba - Envigado",
+  "Deportes Quindío - Alianza Petrolera"
 ];
 
 let Est = [
