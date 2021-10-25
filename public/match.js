@@ -1,22 +1,11 @@
 let Title = [
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
   " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-  " Ligue 1 ",
-  " Serie A ",
-  " Serie A ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
-  " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
+  " Liga Profesional Argentina ",
+  " Liga Profesional Argentina ",
 
   /**/
   "ERROR",
@@ -28,24 +17,13 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Brentford - Leicester City",
-  "West Ham United - Tottenham Hotspur",
-  "Manchester United - Liverpool",
-  "Sevilla - Levante",
-  "Barcelona - Real Madrid",
-  "Real Betis - Rayo Vallecano",
-  "Atlético Madrid - Real Sociedad",
-  "Olympique Marseille - PSG",
-
-  "Roma - Napoli",
-  "Internazionale - Juventus",
-  "Colón - Estudiantes",
-  "Godoy Cruz - Banfield",
-  "Huracán - San Lorenzo",
-  "Vélez Sarsfield - Boca Juniors",
-  "Rionegro Águilas - Deportivo Cali",
-  "América de Cali - Atlético Nacional",
-  "Atlético Huila - Santa Fe"
+  "Getafe - Celta de Vigo",
+  "Aldosivi - Arsenal",
+  "Sarmiento - Newell's Old Boys",
+  "Atlético Tucumán - Patronato",
+  "Lanús - Talleres Córdoba",
+  "River Plate - Argentinos Juniors",
+  "Independiente - Unión Santa Fe"
 ];
 
 let Est = [
