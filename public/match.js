@@ -1,11 +1,14 @@
 let Title = [
   " LaLiga ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
+  " LaLiga ",
+  " LaLiga ",
+  " Serie A ",
+  " EFL Cup ",
+  " EFL Cup ",
+  " EFL Cup ",
+  " Liga Dimayor Colombia ",
+  " Liga Dimayor Colombia ",
+  " Liga Dimayor Colombia ",
 
   /**/
   "ERROR",
@@ -17,13 +20,15 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Getafe - Celta de Vigo",
-  "Aldosivi - Arsenal",
-  "Sarmiento - Newell's Old Boys",
-  "Atlético Tucumán - Patronato",
-  "Lanús - Talleres Córdoba",
-  "River Plate - Argentinos Juniors",
-  "Independiente - Unión Santa Fe"
+  "Deportivo Alavés - Elche",
+  "Espanyol - Athletic Club",
+  "Villarreal - Cádiz",
+  "Milan - Torino",
+  "Arsenal - Leeds United",
+  "Chelsea - Southampton",
+  "Envigado - Millonarios",
+  "Alianza Petrolera - Medellín",
+  "Deportivo Pereira - Atlético Bucaramanga"
 ];
 
 let Est = [
@@ -57,18 +62,11 @@ let Est = [
 
 let Enl = [
   "",
-
-  "",
-  "",
-  "",
-  "",
-  "",
-  AArg[0],
-
   "",
   "",
 
   "",
+
   "",
   "",
   "",
@@ -77,6 +75,12 @@ let Enl = [
   "",
   "",
 
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   "",
   "",
 
@@ -91,6 +95,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "25/10/2021";
+let HOY = "26/10/2021";
 
 //console.log<b>(Est)</b></b>;
