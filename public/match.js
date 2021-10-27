@@ -2,7 +2,14 @@ let Title = [
   " LaLiga ",
   " LaLiga ",
   " LaLiga ",
+  " LaLiga ",
   " Serie A ",
+  " Serie A ",
+  " Serie A ",
+  " Serie A ",
+  " Serie A ",
+  " EFL Cup ",
+  " EFL Cup ",
   " EFL Cup ",
   " EFL Cup ",
   " EFL Cup ",
@@ -20,15 +27,24 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Deportivo Alavés - Elche",
-  "Espanyol - Athletic Club",
-  "Villarreal - Cádiz",
-  "Milan - Torino",
-  "Arsenal - Leeds United",
-  "Chelsea - Southampton",
-  "Envigado - Millonarios",
-  "Alianza Petrolera - Medellín",
-  "Deportivo Pereira - Atlético Bucaramanga"
+  "Mallorca - Sevilla",
+  "Rayo Vallecano - Barcelona",
+  "Real Betis - Valencia",
+  "Real Madrid - Osasuna",
+  "Juventus - Sassuolo",
+  "Sampdoria - Atalanta",
+  "Udinese - Hellas Verona",
+  "Cagliari - Roma",
+  "Empoli - Internazionale",
+  "Burnley - Tottenham Hotspur",
+  "Leicester City - Brighton & Hove Albion",
+  "Preston North End - Liverpool",
+  "Stoke City - Brentford",
+  "West Ham United - Manchester City",
+
+  "La Equidad - Rionegro Águilas",
+  "Deportivo Cali - Patriotas Boyacá",
+  "Atlético Nacional - Once Caldas"
 ];
 
 let Est = [
@@ -64,21 +80,20 @@ let Enl = [
   "",
   "",
   "",
-
   "",
 
   "",
   "",
+  "",
+  "",
+  "",
 
   "",
   "",
-  ACol[0],
+  "",
+  "",
+  "",
 
-  "",
-  "",
-  "",
-  "",
-  "",
   "",
   "",
   "",
@@ -94,6 +109,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "26/10/2021";
+let HOY = "27/10/2021";
 
 //console.log<b>(Est)</b></b>;
