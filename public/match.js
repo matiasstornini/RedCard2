@@ -2,17 +2,8 @@ let Title = [
   " LaLiga ",
   " LaLiga ",
   " LaLiga ",
-  " LaLiga ",
   " Serie A ",
-  " Serie A ",
-  " Serie A ",
-  " Serie A ",
-  " Serie A ",
-  " EFL Cup ",
-  " EFL Cup ",
-  " EFL Cup ",
-  " EFL Cup ",
-  " EFL Cup ",
+  " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
@@ -27,24 +18,15 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Mallorca - Sevilla",
-  "Rayo Vallecano - Barcelona",
-  "Real Betis - Valencia",
-  "Real Madrid - Osasuna",
-  "Juventus - Sassuolo",
-  "Sampdoria - Atalanta",
-  "Udinese - Hellas Verona",
-  "Cagliari - Roma",
-  "Empoli - Internazionale",
-  "Burnley - Tottenham Hotspur",
-  "Leicester City - Brighton & Hove Albion",
-  "Preston North End - Liverpool",
-  "Stoke City - Brentford",
-  "West Ham United - Manchester City",
+  "Celta de Vigo - Real Sociedad",
+  "Granada - Getafe",
+  "Levante - Atlético Madrid",
+  "Napoli - Bologna",
 
-  "La Equidad - Rionegro Águilas",
-  "Deportivo Cali - Patriotas Boyacá",
-  "Atlético Nacional - Once Caldas"
+  "Deportivo Pasto - Atlético Huila",
+  "Santa Fe - Jaguares de Córdoba",
+  "Junior - Deportes Quindío",
+  "Deportes Tolima - América de Cali"
 ];
 
 let Est = [
@@ -80,23 +62,13 @@ let Enl = [
   "",
   "",
   "",
+
   "",
 
   "",
   "",
   "",
   "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  ACol[0],
-  ACol[0],
 
   "error1",
   "error1",
@@ -109,6 +81,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "27/10/2021";
+let HOY = "28/10/2021";
 
 //console.log<b>(Est)</b></b>;
