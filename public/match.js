@@ -78,12 +78,12 @@ let Est = [
 let Enl = [
   "",
   "",
-  AEsp[0],
   "",
+  AEsp[0],
 
   "",
-  AIta[0],
   "",
+  AIta[0],
 
   AArg[0],
   AArg[1],
@@ -94,7 +94,6 @@ let Enl = [
   "",
   "",
   "",
-
   "error1",
   "error1",
   "error1",
