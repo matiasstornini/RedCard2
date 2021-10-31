@@ -85,13 +85,13 @@ let Enl = [
   "",
   AIta[0],
 
-  AArg[0],
-  AArg[1],
   "",
+  "",
+  AArg[0],
   "",
 
   ACol[0],
-  "",
+  ACol[0],
   "",
   "",
   "error1",
