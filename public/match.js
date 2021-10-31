@@ -1,23 +1,20 @@
 let Title = [
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
   "LaLiga",
   "LaLiga",
   "LaLiga",
   "LaLiga",
+
   "Serie A",
-  "Bundesliga",
-  "Bundesliga",
+  "Serie A",
+  "Serie A",
+
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
+
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
@@ -31,28 +28,22 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Leicester City - Arsenal",
-  "Burnley - Brentford",
-  "Liverpool - Brighton & Hove Albion",
-  "Manchester City - Crystal Palace",
-  "Newcastle United - Chelsea",
-  "Watford - Southampton",
-  "Tottenham Hotspur - Manchester United",
-  "Elche - Real Madrid",
-  "Sevilla - Osasuna",
-  "Valencia - Villarreal",
-  "Barcelona - Deportivo Alavés",
-  "Hellas Verona - Juventus",
+  "Cádiz - Mallorca",
+  "Atlético Madrid - Real Betis",
+  "Getafe - Espanyol",
+  "Real Sociedad - Athletic Club",
+  "Internazionale - Udinese",
 
-  "Union Berlin - Bayern München",
-  "Borussia Dortmund - Köln",
-  "Arsenal - Sarmiento",
-  "Platense - Atlético Tucumán",
-  "Banfield - Vélez Sarsfield",
-  "Talleres Córdoba - Huracán",
-  "Boca Juniors - Gimnasia La Plata",
-  "Atlético Bucaramanga - Envigado",
-  "Millonarios - La Equidad"
+  "Salernitana - Napoli",
+  "Roma - Milan",
+  "San Lorenzo - Godoy Cruz",
+  "Unión Santa Fe - Rosario Central",
+  "Newell's Old Boys - Independiente",
+  "Estudiantes - River Plate",
+  "Once Caldas - Patriotas Boyacá",
+  "Jaguares de Córdoba - Atlético Nacional",
+  "Medellín - Deportivo Pereira",
+  "América de Cali - Alianza Petrolera"
 ];
 
 let Est = [
@@ -89,7 +80,8 @@ let Enl = [
   "",
   "",
   "",
-  "",
+
+  AIta[0],
   "",
   "",
 
@@ -99,18 +91,9 @@ let Enl = [
   "",
 
   "",
-
-  "",
-  "",
-
   "",
   "",
   "",
-  "",
-  "",
-
-  "",
-  ACol[0],
 
   "error1",
   "error1",
@@ -123,6 +106,6 @@ let Enl = [
   "error1"
 ];
 
-let HOY = "30/10/2021";
+let HOY = "31/10/2021";
 
 //console.log<b>(Est)</b></b>;
