@@ -73,17 +73,15 @@ export default function ContainedButtons() {
     "",
     "",
 
-    bloque.ACol[0],
-
-    "error1",
-    "error1",
-    "error1",
-    "error1",
-    "error1",
-    "error1",
-    "error1",
-    "error1",
-    "error1"
+    "error!!1",
+    "error!!1",
+    "error!!1",
+    "error!!1",
+    "error!!1",
+    "error!!1",
+    "error!!1",
+    "error!!1",
+    "error!!1"
   ];
 
   for (let i = 0; i < Match.length; i++) {
