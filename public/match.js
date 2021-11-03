@@ -1,12 +1,12 @@
 let Title = [
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
-  " Champions League ",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
+  "Champions League",
 
   /**/
   "ERROR",
@@ -58,13 +58,13 @@ let Est = [
 ];
 
 let Enl = [
-  AIta[0],
+  "",
+  "",
+  AAle[0],
   AEsp[0],
-  "",
-  "",
-  "",
-  "",
-  "",
+  AIng[0],
+  AFra[0],
+  AIta[0],
   "",
 
   "error!!1",
