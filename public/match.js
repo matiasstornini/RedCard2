@@ -1,12 +1,8 @@
 let Title = [
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
-  "Champions League",
+  "Europa League",
+  "Europa League",
+  "Europa League",
+  "Europa League",
 
   /**/
   "ERROR",
@@ -18,14 +14,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Milan - Porto",
-  "Real Madrid - Shakhtar Donetsk",
-  "Borussia Dortmund - Ajax",
-  "Liverpool - Atlético Madrid",
-  "Manchester City - Club Brugge",
-  "RB Leipzig - PSG",
-  "Sheriff - Internazionale",
-  "Sporting CP - Beşiktaş"
+  "Legia Warszawa - Napoli",
+  "Mónaco - PSV",
+  "Real Sociedad - Sturm Graz",
+  "Bayer Leverkusen - Real Betis"
 ];
 
 let Est = [
