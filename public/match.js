@@ -1,8 +1,8 @@
 let Title = [
-  "Europa League",
-  "Europa League",
-  "Europa League",
-  "Europa League",
+  "LaLiga",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -14,10 +14,12 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Legia Warszawa - Napoli",
-  "Mónaco - PSV",
-  "Real Sociedad - Sturm Graz",
-  "Bayer Leverkusen - Real Betis"
+  "Athletic Club - Cádiz",
+
+  "Defensa y Justicia - Rosario Central",
+  "Lanús - Estudiantes",
+
+  "Deportivo Pereira - Jaguares de Córdoba"
 ];
 
 let Est = [
@@ -66,6 +68,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "04/11/2021";
+let HOY = "05/11/2021";
 
 //console.log<b>(Est)</b></b>;
