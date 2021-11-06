@@ -11,6 +11,9 @@ let Title = [
 
   " Serie A ",
 
+  " Bundesliga ",
+  " Bundesliga ",
+
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
