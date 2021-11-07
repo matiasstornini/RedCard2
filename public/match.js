@@ -1,18 +1,17 @@
 let Title = [
   " Premier League ",
   " Premier League ",
+  " Premier League ",
+  " Premier League ",
 
   " LaLiga ",
   " LaLiga ",
   " LaLiga ",
   " LaLiga ",
-
-  " Ligue 1 ",
+  " LaLiga ",
 
   " Serie A ",
-
-  " Bundesliga ",
-  " Bundesliga ",
+  " Serie A ",
 
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
@@ -34,29 +33,25 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Manchester United - Manchester City",
-  "Chelsea - Burnley",
-
-  "Espanyol - Granada",
-  "Celta de Vigo - Barcelona",
-  "Deportivo Alavés - Levante",
-  "Real Madrid - Rayo Vallecano",
-  "Bordeaux - PSG",
-
-  "Juventus - Fiorentina",
-
-  "Bayern München - Freiburg",
-
-  "RB Leipzig - Borussia Dortmund",
-
-  "Colón - Platense",
-  "Godoy Cruz - Talleres Córdoba",
-  "Independiente - Arsenal",
-  "Atlético Tucumán - Racing Club",
-  "Envigado - Once Caldas",
-  "Alianza Petrolera - Atlético Huila",
-  "La Equidad - América de Cali",
-  "Atlético Nacional - Atlético Bucaramanga"
+  "Arsenal - Watford",
+  "Everton - Tottenham Hotspur",
+  "Leeds United - Leicester City",
+  "West Ham United - Liverpool",
+  "Villarreal - Getafe",
+  "Valencia - Atlético Madrid",
+  "Mallorca - Elche",
+  "Osasuna - Real Sociedad",
+  "Real Betis - Sevilla",
+  "Napoli - Hellas Verona",
+  "Milan - Internazionale",
+  "Gimnasia La Plata - Banfield",
+  "Sarmiento - Central Córdoba SdE",
+  "Vélez Sarsfield - San Lorenzo",
+  "River Plate - Patronato",
+  "Patriotas Boyacá - Medellín",
+  "Santa Fe - Junior",
+  "Deportes Tolima - Millonarios",
+  "Deportivo Cali - Deportes Quindío"
 ];
 
 let Est = [
@@ -91,6 +86,17 @@ let Est = [
 let Enl = [
   "",
   "",
+  "",
+  "",
+
+  AEsp[0],
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
 
   "",
   "",
@@ -98,21 +104,9 @@ let Enl = [
   "",
 
   "",
-
-  "",
-
-  "",
-  "",
-
   "",
   "",
   "",
-  AArg[0],
-
-  "",
-  "",
-  "",
-  ACol[0],
 
   /** */
   "error!!1",
@@ -126,6 +120,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "06/11/2021";
+let HOY = "07/11/2021";
 
 //console.log<b>(Est)</b></b>;
