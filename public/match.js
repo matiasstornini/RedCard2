@@ -52,10 +52,10 @@ let Est = [
 
 let Enl = [
   "",
+  "",
   AArg[0],
-  "",
 
-  "",
+  ACol[0],
 
   /** */
   "error!!1",
