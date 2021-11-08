@@ -1,26 +1,8 @@
 let Title = [
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
-  " Premier League ",
-
-  " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-  " LaLiga ",
-
-  " Serie A ",
-  " Serie A ",
-
-  " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
 
-  " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
 
   /**/
@@ -33,25 +15,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Arsenal - Watford",
-  "Everton - Tottenham Hotspur",
-  "Leeds United - Leicester City",
-  "West Ham United - Liverpool",
-  "Villarreal - Getafe",
-  "Valencia - Atlético Madrid",
-  "Mallorca - Elche",
-  "Osasuna - Real Sociedad",
-  "Real Betis - Sevilla",
-  "Napoli - Hellas Verona",
-  "Milan - Internazionale",
-  "Gimnasia La Plata - Banfield",
-  "Sarmiento - Central Córdoba SdE",
-  "Vélez Sarsfield - San Lorenzo",
-  "River Plate - Patronato",
-  "Patriotas Boyacá - Medellín",
-  "Santa Fe - Junior",
-  "Deportes Tolima - Millonarios",
-  "Deportivo Cali - Deportes Quindío"
+  "Newell's Old Boys - Unión Santa Fe",
+  "Huracán - Argentinos Juniors",
+  "Aldosivi - Boca Juniors",
+  "Deportivo Pasto - Rionegro Águilas"
 ];
 
 let Est = [
@@ -87,25 +54,7 @@ let Enl = [
   "",
   "",
   "",
-  "",
 
-  "",
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-
-  "",
-  "",
-  "",
   "",
 
   /** */
@@ -120,6 +69,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "07/11/2021";
+let HOY = "08/11/2021";
 
 //console.log<b>(Est)</b></b>;
