@@ -1,9 +1,12 @@
 let Title = [
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
-
-  " Liga Dimayor Colombia ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
 
   /**/
   "ERROR",
@@ -15,10 +18,14 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Newell's Old Boys - Unión Santa Fe",
-  "Huracán - Argentinos Juniors",
-  "Aldosivi - Boca Juniors",
-  "Deportivo Pasto - Rionegro Águilas"
+  "Greece - Spain",
+  "Rep of Ireland - Portugal",
+  "Germany - Liechtenstein",
+
+  "Ecuador - Venezuela",
+  "Paraguay - Chile",
+  "Brazil - Colombia",
+  "Peru - Bolivia"
 ];
 
 let Est = [
@@ -54,7 +61,10 @@ let Enl = [
   "",
   "",
   "",
-
+  "",
+  "",
+  "",
+  "",
   "",
 
   /** */
@@ -69,6 +79,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "08/11/2021";
+let HOY = "11/11/2021";
 
 //console.log<b>(Est)</b></b>;
