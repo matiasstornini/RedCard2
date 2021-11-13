@@ -1,7 +1,7 @@
 let Title = [
   " Emilinatorias ",
   " Emilinatorias ",
-  " Emilinatorias ",
+  " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
 
   /**/
@@ -14,10 +14,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Inglaterra - Albania",
-  "Italia - Suiza",
-  "Uruguay - Argentina",
-  "Jaguares de Córdoba - Deportivo Cali"
+  "France - Kazakhstan",
+  "Belgium - Estonia",
+  "América de Cali - Deportivo Pasto",
+  "Rionegro Águilas - Envigado"
 ];
 
 let Est = [
@@ -54,8 +54,7 @@ let Enl = [
   "",
 
   "",
-
-  ACol[0],
+  "",
 
   /** */
   "error!!1",
@@ -69,6 +68,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "12/11/2021";
+let HOY = "13/11/2021";
 
 //console.log<b>(Est)</b></b>;
