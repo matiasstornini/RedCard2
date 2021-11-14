@@ -1,6 +1,9 @@
 let Title = [
   " Emilinatorias ",
   " Emilinatorias ",
+  " Emilinatorias ",
+  " Liga Dimayor Colombia ",
+  " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
   " Liga Dimayor Colombia ",
 
@@ -14,10 +17,14 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "France - Kazakhstan",
-  "Belgium - Estonia",
-  "América de Cali - Deportivo Pasto",
-  "Rionegro Águilas - Envigado"
+  "Armenia - Alemania",
+  "Portugal - Serbia",
+  "España - Suecia",
+
+  "Deportes Quindío - Patriotas Boyacá",
+  "Medellín - Atlético Nacional",
+  "Millonarios - Alianza Petrolera",
+  "Atlético Huila - Deportivo Pereira"
 ];
 
 let Est = [
@@ -52,9 +59,12 @@ let Est = [
 let Enl = [
   "",
   "",
+  "",
 
   "",
-  ACol[0],
+  "",
+  "",
+  "",
 
   /** */
   "error!!1",
