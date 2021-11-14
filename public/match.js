@@ -58,8 +58,8 @@ let Est = [
 
 let Enl = [
   "",
-  Extra[0],
-  AEsp[0],
+  "",
+  "",
 
   "",
   ACol[0],
