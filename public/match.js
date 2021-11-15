@@ -51,12 +51,11 @@ let Est = [
 ];
 
 let Enl = [
-  "",
-  "",
+  AIta[0],
+  AIng[0],
 
   "",
   "",
-
   /** */
   "error!!1",
   "error!!1",
