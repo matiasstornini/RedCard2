@@ -70,7 +70,7 @@ export default function ContainedButtons() {
 
     "",
     bloque.Extra[2],
-    "",
+    bloque.Extra[0],
     "",
     "",
 
