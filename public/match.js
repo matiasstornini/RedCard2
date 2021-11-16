@@ -59,9 +59,9 @@ let Est = [
 ];
 
 let Enl = [
-  AFra[0],
-  Extra[0],
-  Extra[1],
+  "",
+  "",
+  "",
 
   AConmebol[0],
   Extra[2],
