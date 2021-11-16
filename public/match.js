@@ -1,8 +1,12 @@
 let Title = [
   " Emilinatorias ",
   " Emilinatorias ",
-  " Liga Dimayor Colombia ",
-  " Liga Dimayor Colombia ",
+
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
+  " Emilinatorias ",
 
   /**/
   "ERROR",
@@ -14,11 +18,13 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Irlanda del Norte - Italia",
-  "San Marino - Inglaterra",
-
-  "Atlético Bucaramanga - Deportes Tolima",
-  "Once Caldas - Santa Fe"
+  "Finland - France",
+  "Wales - Belgium",
+  "Bolivia - Uruguay",
+  "Venezuela - Peru",
+  "Colombia - Paraguay",
+  "Argentina - Brazil",
+  "Chile - Ecuador"
 ];
 
 let Est = [
@@ -56,6 +62,9 @@ let Enl = [
 
   "",
   "",
+  "",
+  "",
+  "",
 
   /** */
   /** */
@@ -70,6 +79,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "15/11/2021";
+let HOY = "16/11/2021";
 
 //console.log<b>(Est)</b></b>;
