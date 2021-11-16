@@ -48,6 +48,17 @@ export const AAle = [
   </div>
 ];
 /*CONMEBOL*/
+export const AConmebol = [
+  <div>
+    {" "}
+    <Btn Valor={conmebol[0]} /> <Btn Valor={conmebol[1]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={conmebol[2]} /> <Btn Valor={conmebol[3]} />{" "}
+  </div>
+];
+/* */
 export const ALib = [
   <div>
     {" "}
