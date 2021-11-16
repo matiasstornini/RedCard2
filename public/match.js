@@ -1,6 +1,7 @@
 let Title = [
   " Emilinatorias ",
   " Emilinatorias ",
+  " Emilinatorias ",
 
   " Emilinatorias ",
   " Emilinatorias ",
@@ -20,6 +21,7 @@ let Title = [
 let Match = [
   "Finland - France",
   "Wales - Belgium",
+  "Paises Bajos - Noruega",
   "Bolivia - Uruguay",
   "Venezuela - Peru",
   "Colombia - Paraguay",
