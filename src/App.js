@@ -72,7 +72,7 @@ export default function ContainedButtons() {
     "",
     "",
     "",
-    bloque.AConmebol[0],
+    "",
 
     /** */
     "error!!1",
