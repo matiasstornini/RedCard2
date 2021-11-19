@@ -1,4 +1,7 @@
 let Title = [
+  "LaLiga",
+  "Bundesliga",
+  "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
@@ -13,9 +16,14 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Unión Santa Fe - Defensa y Justicia",
-  "Patronato - Lanús",
-  "Banfield - Aldosivi"
+  "Levante - Athletic Club",
+
+  "Augsburg - Bayern München",
+
+  "Estudiantes - Huracán",
+  "San Lorenzo - Gimnasia La Plata",
+  "Argentinos Juniors - Godoy Cruz",
+  "Talleres Córdoba - Vélez Sarsfield"
 ];
 
 let Est = [
@@ -49,10 +57,9 @@ let Est = [
 
 let Enl = [
   "",
-  "",
-  "",
 
   "",
+
   "",
   "",
   "",
@@ -71,6 +78,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "18/11/2021";
+let HOY = "19/11/2021";
 
 //console.log<b>(Est)</b></b>;
