@@ -70,8 +70,8 @@ export default function ContainedButtons() {
 
     "",
     "",
-    bloque.AArg[1],
-    bloque.AArg[0],
+    "",
+    "",
 
     /** */
     "error!!1",
