@@ -43,11 +43,11 @@ let Match = [
   "Racing Club - Colón",
   "Platense - River Plate",
 
-  "América de Cali - Deportivo Pasto",
-  "Jaguares de Córdoba - Deportivo Cali",
-  "Junior - La Equidad",
-  "Medellín - Atlético Nacional",
-  "Millonarios - Alianza Petrolera"
+  "Alianza Petrolera - Junior",
+  "Atlético Nacional - Millonarios",
+  "Deportivo Cali - Once Caldas",
+  "Deportivo Pasto - Medellín",
+  "Deportivo Pereira - América de Cali"
 ];
 
 let Est = [
