@@ -81,7 +81,7 @@ let Est = [
 
 let Enl = [
   "",
-  AIng[0],
+  "",
 
   "",
   "",
