@@ -1,5 +1,3 @@
-import { AEsp } from "../src/btns";
-
 let Title = [
   " LaLiga ",
 
