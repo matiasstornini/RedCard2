@@ -11,7 +11,6 @@ let Title = [
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
   " Liga Profesional Argentina ",
-  " Liga Profesional Argentina ",
 
   /**/
   "ERROR",
@@ -23,20 +22,19 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Dynamo Kyiv - Bayern München",
-  "Villarreal - Manchester United",
-  "Barcelona - Benfica",
-  "Chelsea - Juventus",
-  "Lille - Salzburg",
-  "Malmö FF - Zenit",
-  "Sevilla - Wolfsburg",
-  "Young Boys - Atalanta",
+  "Beşiktaş - Ajax",
+  "Internazionale - Shakhtar Donetsk",
+  "Atlético Madrid - Milan",
+  "Club Brugge - RB Leipzig",
+  "Liverpool - Porto",
+  "Manchester City - PSG",
+  "Sheriff - Real Madrid",
+  "Sporting CP - Borussia Dortmund",
 
-  "Gimnasia La Plata - Talleres Córdoba",
-  "Huracán - Patronato",
-  "Aldosivi - San Lorenzo",
-  "Godoy Cruz - Estudiantes",
-  "Vélez Sarsfield - Argentinos Juniors"
+  "Newell's Old Boys - Central Córdoba SdE",
+  "Sarmiento - Banfield",
+  "Atlético Tucumán - Defensa y Justicia",
+  "Independiente - Boca Juniors"
 ];
 
 let Est = [
@@ -77,7 +75,6 @@ let Enl = [
   "",
   "",
 
-  "",
   "",
   "",
   "",
