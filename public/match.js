@@ -1,5 +1,5 @@
 let Title = [
-  "LaLiga",
+  "Serie A",
 
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
@@ -16,12 +16,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Osasuna - Elche",
+  "Salernitana - Juventus",
 
-  "Unión Santa Fe - Atlético Tucumán",
-  "Racing Club - Lanús",
-  "Central Córdoba SdE - Arsenal",
-  "Platense - Huracán"
+  "San Lorenzo - Sarmiento",
+  "Boca Juniors - Newell's Old Boys",
+  "Banfield - Independiente"
 ];
 
 let Est = [
