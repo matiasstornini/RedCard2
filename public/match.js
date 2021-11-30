@@ -52,10 +52,10 @@ let Est = [
 ];
 
 let Enl = [
-  AIta[0],
-
-  AArg[0],
   "",
+
+  "",
+  AArg[0],
   "",
   "",
 
@@ -72,6 +72,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "29/11/2021";
+let HOY = "30/11/2021";
 
 //console.log<b>(Est)</b></b>;
