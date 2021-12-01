@@ -65,8 +65,6 @@ export default function ContainedButtons() {
 
   let BB = [
     "",
-
-    "",
     "",
     "",
 
@@ -74,10 +72,6 @@ export default function ContainedButtons() {
 
     "",
 
-    "",
-    "",
-
-    "",
     "",
     "",
     "",
