@@ -80,11 +80,11 @@ export const AArg = [
   </div>,
   <div>
     {" "}
-    <Btn Valor={arg[0]} />{" "}
+    <Btn Valor={arg[6]} />{" "}
   </div>,
   <div>
     {" "}
-    <Btn Valor={arg[3]} />{" "}
+    <Btn Valor={arg[7]} />{" "}
   </div>
 ];
 
