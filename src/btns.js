@@ -73,6 +73,18 @@ export const AArg = [
   <div>
     {" "}
     <Btn Valor={arg[3]} /> <Btn Valor={arg[4]} /> <Btn Valor={arg[5]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={arg[3]} /> <Btn Valor={arg[4]} /> <Btn Valor={arg[5]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={arg[0]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={arg[3]} />{" "}
   </div>
 ];
 
