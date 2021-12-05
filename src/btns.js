@@ -68,7 +68,7 @@ export const ALib = [
 export const AArg = [
   <div>
     {" "}
-    <Btn Valor={arg[0]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
+    <Btn Valor={arg[6]} /> <Btn Valor={arg[1]} /> <Btn Valor={arg[2]} />{" "}
   </div>,
   <div>
     {" "}
