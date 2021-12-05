@@ -82,10 +82,10 @@ export default function ContainedButtons() {
     "",
 
     "",
+    "",
+    "",
     bloque.AArg[3],
     bloque.AArg[4],
-    "",
-    "",
 
     bloque.ACol[0],
     "",
