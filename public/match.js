@@ -58,8 +58,8 @@ let Est = [
 ];
 
 let Enl = [
-  "",
-  "",
+  AFra[0],
+  AIng[0],
 
   "",
   "",
