@@ -23,7 +23,7 @@ let Title = [
 let Match = [
   "Juventus - Malmö FF",
   "Zenit - Chelsea",
-  "Atalanta - Villarreal",
+  "Atalanta - Villarreal (Suspendido)",
   "Bayern München - Barcelona",
   "Benfica - Dynamo Kyiv",
   "Manchester United - Young Boys",
@@ -66,7 +66,7 @@ let Enl = [
   "",
   "",
 
-  AIta[0],
+  "",
   AEsp[0],
   Extra[0],
   AIng[0],
