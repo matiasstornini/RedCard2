@@ -1,12 +1,8 @@
 let Title = [
   "UEFA Champions League",
-  "UEFA Champions League",
-  "UEFA Champions League",
-  "UEFA Champions League",
-  "UEFA Champions League",
-  "UEFA Champions League",
-  "UEFA Champions League",
-  "UEFA Champions League",
+  "UEFA Europa League",
+  "UEFA Europa League",
+  "UEFA Europa League",
 
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
@@ -21,17 +17,14 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Juventus - Malmö FF",
-  "Zenit - Chelsea",
-  "Atalanta - Villarreal (Suspendido)",
-  "Bayern München - Barcelona",
-  "Benfica - Dynamo Kyiv",
-  "Manchester United - Young Boys",
-  "Salzburg - Sevilla",
-  "Wolfsburg - Lille",
+  "Atalanta - Villarreal",
 
-  "Junior - Deportivo Pereira",
-  "Atlético Nacional - Deportivo Cali"
+  "Napoli - Leicester City",
+  "Real Sociedad - PSV",
+  "Celtic - Real Betis",
+
+  "América de Cali - Alianza Petrolera",
+  "Millonarios - Deportes Tolima"
 ];
 
 let Est = [
@@ -64,11 +57,7 @@ let Est = [
 
 let Enl = [
   "",
-  "",
 
-  "",
-  "",
-  "",
   "",
   "",
   "",
@@ -89,6 +78,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "08/12/2021";
+let HOY = "09/12/2021";
 
 //console.log<b>(Est)</b></b>;
