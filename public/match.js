@@ -1,8 +1,7 @@
 let Title = [
-  "UEFA Champions League",
-  "UEFA Europa League",
-  "UEFA Europa League",
-  "UEFA Europa League",
+  "LaLiga",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
 
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
@@ -17,14 +16,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Atalanta - Villarreal",
+  "Mallorca - Celta de Vigo",
 
-  "Napoli - Leicester City",
-  "Real Sociedad - PSV",
-  "Celtic - Real Betis",
-
-  "América de Cali - Alianza Petrolera",
-  "Millonarios - Deportes Tolima"
+  "Platense - Vélez Sarsfield",
+  "Estudiantes - Aldosivi"
 ];
 
 let Est = [
