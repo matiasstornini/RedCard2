@@ -73,23 +73,23 @@ export default function ContainedButtons() {
     "",
     "",
     "",
-    bloque.AEsp[0],
+    "",
+
+    "",
+    "",
 
     "",
     "",
 
     "",
-    bloque.AIta[0],
-
-    bloque.Extra[0],
-    bloque.Extra[1],
+    "",
+    "",
+    "",
+    "",
     bloque.AArg[3],
-    bloque.Extra[4],
-    bloque.Extra[5],
-    "",
     "",
 
-    "",
+    bloque.ACol[0],
     "",
 
     /** */
