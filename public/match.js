@@ -96,18 +96,18 @@ let Est = [
 
 let Enl = [
     "",
-    "",
-    "",
-    "",
+    Extra[0],
+    AIng[0],
+    AIng[1],
     "",
 
-    "",
+    AEsp[0],
     AEsp[0],
     "",
     "",
 
     AAle[0],
-    Extra[0],
+    "",
 
   "",
   "",
