@@ -40,24 +40,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ContainedButtons() {
-  const [theme, setTheme] = useState("dark");
-  /*const Title = [
-    "Conmebol Libertadores",
-    "Conmebol Sudamericana",
-    "Conmebol Sudamericana"
-  ];*/
-
   const classes = useStyles();
-  const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
-  const appliedTheme = createMuiTheme(theme ? light : dark);
 
-  /*useEffect(() => {
-    setTheme(localStorage.getItem("theme"));
-  }, []);
-  /*const handleClick = (theme) => {
-    localStorage.setItem("theme", theme);
-    setTheme(theme);
-  };*/
   function refreshPage() {
     window.location.reload(false);
   }
@@ -65,7 +49,7 @@ export default function ContainedButtons() {
 
   let BB = [
     "",
-    "",
+    bloque.AArg[3],
     "",
     "",
 
@@ -127,38 +111,28 @@ export default function ContainedButtons() {
   }
 
   return (
-    <ThemeProvider theme={appliedTheme}>
-      <React.Fragment>
-        <CssBaseline />
-        <Container>
-          <Grid item xs={12}>
-            <Paper className={classes.paper}>
-              <Typography variant="h5" component="h5">
-                Calendario {datef}
-              </Typography>
-              <Titulo />
-            </Paper>
-          </Grid>
-          <div className={classes.root}>
-            <IconButton
-              edge="end"
-              color="inherit"
-              aria-label="mode"
-              onClick={() => setTheme(!theme)}
-            >
-              {icon}
-            </IconButton>
-            <Button variant="outlined" color="secondary" onClick={refreshPage}>
-              <RefreshIcon />
-            </Button>
-          </div>
-          <div>
-            <Divider />
-          </div>
-          <div>{lis}</div>
-        </Container>
-      </React.Fragment>
-    </ThemeProvider>
+    <React.Fragment>
+      <CssBaseline />
+      <Container>
+        <Grid item xs={12}>
+          <Paper className={classes.paper}>
+            <Typography variant="h5" component="h5">
+              Calendario {datef}
+            </Typography>
+            <Titulo />
+          </Paper>
+        </Grid>
+        <div className={classes.root}>
+          <Button variant="outlined" color="secondary" onClick={refreshPage}>
+            <RefreshIcon />
+          </Button>
+        </div>
+        <div>
+          <Divider />
+        </div>
+        <div>{lis}</div>
+      </Container>
+    </React.Fragment>
   );
 }
 export const light = {
