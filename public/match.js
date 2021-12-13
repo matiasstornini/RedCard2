@@ -1,19 +1,6 @@
 let Title = [
   "LaLiga",
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
-
-  "Ligue 1",
-
-  "Serie A",
-  "Serie A",
-
   "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-
-  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
   /**/
@@ -26,21 +13,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Villarreal - Rayo Vallecano",
-  "Osasuna - Barcelona",
-  "Real Betis - Real Sociedad",
-  "Real Madrid - Atlético Madrid",
+  "Cádiz - Granada",
 
-  "PSG - Mónaco",
+  "Banfield - Arsenal",
 
-  "Napoli - Empoli",
-  "Internazionale - Cagliari",
-
-  "San Lorenzo - Newell's Old Boys",
-  "Defensa y Justicia - Lanús",
-  "Talleres Córdoba - Independiente",
-
-  "Alianza Petrolera - Millonarios",
   "América de Cali - Deportes Tolima"
 ];
 
@@ -103,6 +79,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "12/12/2021";
+let HOY = "13/12/2021";
 
 //console.log<b>(Est)</b></b>;
