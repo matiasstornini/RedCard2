@@ -1,7 +1,9 @@
 let Title = [
-  "Amistoso",
   "Premier League",
   "Bundesliga",
+
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -13,11 +15,12 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Barcelona - Boca Juniors",
+  "Arsenal - West Ham United",
 
-  "Manchester City - Leeds United",
+  "Borussia Dortmund - Greuther Fürth",
 
-  "Stuttgart - Bayern München"
+  "Junior - Atlético Nacional",
+  "Deportivo Pereira - Deportivo Cali"
 ];
 
 let Est = [
@@ -79,6 +82,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "14/12/2021";
+let HOY = "15/12/2021";
 
 //console.log<b>(Est)</b></b>;
