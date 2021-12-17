@@ -1,10 +1,7 @@
 let Title = [
-  "Premier League",
-  "Premier League",
-  "Premier League",
-
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "LaLiga",
+  "Serie A",
+  "Bundesliga",
 
   /**/
   "ERROR",
@@ -16,12 +13,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Leicester City - Tottenham Hotspur",
-  "Chelsea - Everton",
-  "Liverpool - Newcastle United",
+  "Celta de Vigo - Espanyol",
 
-  "Deportes Tolima - Alianza Petrolera",
-  "Millonarios - América de Cali"
+  "Salernitana - Internazionale",
+
+  "Bayern München - Wolfsburg"
 ];
 
 let Est = [
@@ -57,9 +53,6 @@ let Enl = [
   "",
   "",
 
-  "",
-  "",
-
   /** */
   /** */
   "error!!1",
@@ -73,6 +66,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "16/12/2021";
+let HOY = "17/12/2021";
 
 //console.log<b>(Est)</b></b>;
