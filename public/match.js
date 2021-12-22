@@ -69,8 +69,8 @@ let Est = [
 ];
 
 let Enl = [
-  AEsp[0],
   "",
+  AEsp[0],
 
   AIng[0],
   AIng[1],
