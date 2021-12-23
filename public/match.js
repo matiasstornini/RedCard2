@@ -1,18 +1,5 @@
 let Title = [
-  "LaLiga",
-  "LaLiga",
-
-  "EFL CUP",
-  "EFL CUP",
-  "EFL CUP",
-
-  "Serie A",
-  "Serie A",
-  "Serie A",
-
-  "Ligue 1",
-
-  "Liga Dimayor Colombia",
+  "",
 
   /**/
   "ERROR",
@@ -23,22 +10,7 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Granada - Atlético Madrid",
-  "Athletic Club - Real Madrid",
-
-  "Brentford - Chelsea",
-  "Liverpool - Leicester City",
-  "Tottenham Hotspur - West Ham United",
-
-  "Internazionale - Torino",
-  "Empoli - Milan",
-  "Napoli - Spezia",
-
-  "Lorient - PSG",
-
-  "Deportes Tolima - Deportivo Cali"
-];
+let Match = ["SIN PARTIDOS"];
 
 let Est = [
   /** ***TEST*** */

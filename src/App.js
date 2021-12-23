@@ -80,8 +80,7 @@ export default function ContainedButtons() {
       <div>
         <Divider />
         <Typography variant="h5" gutterBottom>
-          {Title[i]}
-          {": "}
+          {Title[i]}{" "}
         </Typography>
         <Typography variant="h6" gutterBottom>
           {dta[i]} {Match[i]}
