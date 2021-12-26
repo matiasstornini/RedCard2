@@ -49,10 +49,10 @@ let Est = [
 ];
 
 let Enl = [
-  AIng[0],
-  AIng[1],
-  Extra[0],
   "",
+  "",
+  "",
+  AIng[0],
 
   /** */
   /** */
