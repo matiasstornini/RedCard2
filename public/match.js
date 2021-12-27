@@ -1,8 +1,5 @@
 let Title = [
   "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
 
   /**/
   "ERROR",
@@ -13,12 +10,7 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Manchester City - Leicester City",
-  "Norwich City - Arsenal",
-  "Tottenham Hotspur - Crystal Palace",
-  "Aston Villa - Chelsea"
-];
+let Match = ["Newcastle United - Manchester United"];
 
 let Est = [
   /** ***TEST*** */
