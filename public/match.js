@@ -1,6 +1,5 @@
 let Title = [
-  "Premier League",
-  "Premier League",
+  "LaLiga",
 
   /**/
   "ERROR",
@@ -11,7 +10,7 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = ["Manchester United - Burnley"];
+let Match = ["Valencia - Espanyol"];
 
 let Est = [
   /** ***TEST*** */
@@ -60,6 +59,6 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "30/12/2021";
+let HOY = "31/12/2021";
 
 //console.log<b>(Est)</b></b>;
