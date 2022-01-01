@@ -59,6 +59,13 @@ let Enl = [
   "error!!1"
 ];
 
-let HOY = "01/01/2022";
+function formatDate(date) {
+  var year = date.getFullYear().toString();
+  var month = (date.getMonth() + 101).toString().substring(1);
+  var day = (date.getDate() + 100).toString().substring(1);
+  return day + "/" + month + "/" + year;
+}
 
-//console.log<b>(Est)</b></b>;
+//Usage example:
+//alert(formatDate(new Date()));
+let HOY = formatDate(new Date());
