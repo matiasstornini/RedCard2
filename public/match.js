@@ -1,8 +1,8 @@
 let Title = [
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
   "Premier League",
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
   "COPA DE FRANCIA",
 
   /**/
