@@ -1,9 +1,9 @@
 let Title = [
-  "Premier League",
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
-  "COPA DE FRANCIA",
+  "Copa del Rey",
+  "Copa del Rey",
+  "Copa del Rey",
+  "Copa del Rey",
+  "EFL CUP",
 
   /**/
   "ERROR",
@@ -15,13 +15,12 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Manchester United - Wolverhampton Wanderers",
+  "Cartagena - Valencia",
+  "Linares Deportivo - Barcelona",
+  "Real Valladolid - Real Betis",
+  "Alcoyano - Real Madrid",
 
-  "Villarreal - Levante",
-  "Osasuna - Athletic Club",
-  "Cádiz - Sevilla",
-
-  "Vannes - PSG"
+  "Chelsea - Tottenham Hotspur"
 ];
 
 let Est = [
@@ -54,7 +53,6 @@ let Est = [
 
 let Enl = [
   "",
-
   "",
   "",
   "",
