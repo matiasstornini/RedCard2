@@ -5,6 +5,10 @@ let Title = [
   "Copa del Rey",
   "EFL CUP",
 
+  "Serie A",
+  "Serie A",
+  "Serie A",
+
   /**/
   "ERROR",
   "ERROR",
@@ -15,12 +19,16 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Cartagena - Valencia",
-  "Linares Deportivo - Barcelona",
-  "Real Valladolid - Real Betis",
-  "Alcoyano - Real Madrid",
+  "Real Zaragoza - Sevilla",
+  "Sporting Gijón - Villarreal",
+  "Mancha Real - Athletic Club",
+  "Rayo Majadahonda - Atlético Madrid",
 
-  "Chelsea - Tottenham Hotspur"
+  "Liverpool - Arsenal",
+
+  "Bologna - Internazionale",
+  "Milan - Roma",
+  "Juventus - Napoli"
 ];
 
 let Est = [
@@ -57,6 +65,10 @@ let Enl = [
   "",
   "",
 
+  "",
+
+  AIta[0],
+  "",
   "",
 
   /** */
