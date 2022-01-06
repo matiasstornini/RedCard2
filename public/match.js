@@ -3,7 +3,6 @@ let Title = [
   "Copa del Rey",
   "Copa del Rey",
   "Copa del Rey",
-  "EFL CUP",
 
   "Serie A",
   "Serie A",
@@ -23,8 +22,6 @@ let Match = [
   "Sporting Gijón - Villarreal",
   "Mancha Real - Athletic Club",
   "Rayo Majadahonda - Atlético Madrid",
-
-  "Liverpool - Arsenal",
 
   "Bologna - Internazionale",
   "Milan - Roma",
@@ -63,8 +60,6 @@ let Enl = [
   AEsp[0],
   Extra[0],
   "",
-  "",
-
   "",
 
   "",
