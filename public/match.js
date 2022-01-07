@@ -1,12 +1,6 @@
 let Title = [
-  "Copa del Rey",
-  "Copa del Rey",
-  "Copa del Rey",
-  "Copa del Rey",
-
-  "Serie A",
-  "Serie A",
-  "Serie A",
+  "FA Cup",
+  "Bundesliga",
 
   /**/
   "ERROR",
@@ -18,14 +12,9 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Real Zaragoza - Sevilla",
-  "Sporting Gijón - Villarreal",
-  "Mancha Real - Athletic Club",
-  "Rayo Majadahonda - Atlético Madrid",
+  "Swindon Town - Manchester City",
 
-  "Bologna - Internazionale",
-  "Milan - Roma",
-  "Juventus - Napoli"
+  "Bayern München - Borussia M'gladbach"
 ];
 
 let Est = [
