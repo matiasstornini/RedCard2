@@ -1,5 +1,9 @@
 let Title = [
-  "FA Cup",
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
+  "FA CUP",
   "Bundesliga",
 
   /**/
@@ -12,12 +16,26 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Swindon Town - Manchester City",
+  "Levante - Mallorca",
+  "Real Sociedad - Celta de Vigo",
+  "Granada - Barcelona",
+  "Real Madrid - Valencia",
 
-  "Bayern München - Borussia M'gladbach"
+  "Chelsea - Chesterfield",
+
+  "Eintracht Frankfurt - Borussia Dortmund"
 ];
 
 let Est = [
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,levante,mallorca,509815.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-sociedad,celta-de-vigo,509819.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,granada,fc-barcelona,509814.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-madrid,valencia,509818.php",
+
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,chelsea-london,chesterfield,545558.php",
+
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,eintracht-frankfurt,borussia-dortmund,508786.php",
+
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -46,13 +64,13 @@ let Est = [
 ];
 
 let Enl = [
-  "",
+  AEsp[0],
   "",
   "",
   "",
 
   "",
-  "",
+
   "",
 
   /** */
