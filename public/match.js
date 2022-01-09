@@ -3,8 +3,15 @@ let Title = [
   "LaLiga",
   "LaLiga",
   "LaLiga",
+  "LaLiga",
+  /*"FA CUP",
   "FA CUP",
-  "Bundesliga",
+  "FA CUP",*/
+  "Ligue 1",
+  "Serie A",
+  "Serie A",
+  "Serie A",
+  "Serie A",
 
   /**/
   "ERROR",
@@ -16,14 +23,18 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Levante - Mallorca",
-  "Real Sociedad - Celta de Vigo",
-  "Granada - Barcelona",
-  "Real Madrid - Valencia",
+  "Rayo Vallecano - Real Betis",
+  "Sevilla - Getafe",
+  "Deportivo Alavés - Athletic Club",
+  "Osasuna - Cádiz",
+  "Villarreal - Atlético Madrid",
 
-  "Chelsea - Chesterfield",
+  "Olympique Lyonnais - PSG",
 
-  "Eintracht Frankfurt - Borussia Dortmund"
+  "Venezia - Milan",
+  "Napoli - Sampdoria",
+  "Roma - Juventus",
+  "Internazionale - Lazio"
 ];
 
 let Est = [
@@ -64,6 +75,7 @@ let Est = [
 ];
 
 let Enl = [
+  AEsp[0],
   "",
   "",
   "",
@@ -71,6 +83,9 @@ let Enl = [
 
   "",
 
+  AIta[0],
+  "",
+  "",
   "",
 
   /** */
