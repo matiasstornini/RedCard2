@@ -24,10 +24,6 @@ let Match = [
 ];
 
 let Est = [
-  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,tottenham-hotspur,chelsea-london,546017.php",
-  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
-
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
