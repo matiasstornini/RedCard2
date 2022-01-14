@@ -1,8 +1,5 @@
 let Title = [
-  "SUPERCOPA España",
-  "EFL CUP",
-  "COPA Italia",
-  "COPA Italia",
+  "Bundesliga",
 
   /**/
   "ERROR",
@@ -14,14 +11,7 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Atlético Madrid - Athletic Club",
-
-  "Liverpool - Arsenal",
-
-  "Napoli - Fiorentina",
-  "Milan - Genoa"
-];
+let Match = ["Borussia Dortmund - Freiburg"];
 
 let Est = [
   /** ***TEST*** */
