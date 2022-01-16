@@ -1,11 +1,8 @@
 let Title = [
-  "Premier League",
-  "Premier League",
-  "Bundesliga",
-
   "COPA del Rey",
-
-  "Ligue 1",
+  "LaLiga",
+  "Premier League",
+  "Premier League",
 
   "Serie A",
 
@@ -20,28 +17,25 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Manchester City - Chelsea",
-  "Aston Villa - Manchester United",
-  "Köln - Bayern München",
+  "Atlético Baleares - Valencia",
 
-  "Real Betis - Sevilla",
+  "Elche - Villarreal",
 
-  "PSG - Brest",
+  "Liverpool - Brentford",
+  "Tottenham Hotspur - Arsenal",
 
-  "Juventus - Udinese"
+  "Atalanta - Internazionale"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,manchester-city,chelsea-london,505858.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,aston-villa,manchester-united,505854.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-baleares,valencia,546882.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,elche,villarreal,509828.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,fc-koln,bayern-munchen,508796.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,liverpool,brentford,505857.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-betis,sevilla,546881.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,tottenham-hotspur,arsenal-london,505861.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,paris-saint-germain,brest,508074.php",
-
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,juventus-torino,udinese,523496.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atalanta,internazionale-milano,523493.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -71,13 +65,11 @@ let Est = [
 ];
 
 let Enl = [
-  "",
-  "",
+  Extra[0],
 
-  "",
+  AEsp[0],
 
-  "",
-
+  AIng[0],
   "",
 
   "",
