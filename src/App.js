@@ -56,7 +56,7 @@ export default function ContainedButtons() {
 
     "",
 
-    bloque.AIta[0],
+    "",
 
     /** */
     "error!!1",
