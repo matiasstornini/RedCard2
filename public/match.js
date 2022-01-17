@@ -1,9 +1,5 @@
 let Title = [
-  "COPA del Rey",
-  "LaLiga",
-  "Premier League",
-  "Supercopa España",
-
+  "Serie A",
   "Serie A",
 
   /**/
@@ -16,25 +12,11 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Atlético Baleares - Valencia",
-
-  "Elche - Villarreal",
-
-  "Liverpool - Brentford",
-  "Real Madrid - Athletic Club",
-
-  "Atalanta - Internazionale"
-];
+let Match = ["Bologna - Napoli", "Milan - Spezia"];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-baleares,valencia,546882.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,elche,villarreal,509828.php",
-
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,liverpool,brentford,505857.php",
-
-  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atalanta,internazionale-milano,523493.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,bologna,napoli,523494.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,ac-milan,spezia-calcio,523491.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
