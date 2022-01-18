@@ -1,6 +1,10 @@
 let Title = [
-  "Serie A",
-  "Serie A",
+  "LaLiga",
+  "LaLiga",
+
+  "Premier League",
+
+  "Copa Italia",
 
   /**/
   "ERROR",
@@ -12,11 +16,22 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = ["Bologna - Napoli", "Milan - Spezia"];
+let Match = [
+  "Real Betis - Deportivo Alavés",
+  "Cádiz - Espanyol",
+
+  "Brighton & Hove Albion - Chelsea",
+
+  "Juventus - Sampdoria"
+];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,bologna,napoli,523494.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,ac-milan,spezia-calcio,523491.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-betis,deportivo-alaves,509825.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,cadiz,espanyol-barcelona,509826.php",
+
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,brighton-hove-albion,chelsea-london,505875.php",
+
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,juventus-torino,sampdoria,545602.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
