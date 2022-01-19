@@ -2,6 +2,9 @@ let Title = [
   "LaLiga",
   "LaLiga",
 
+  "Copa del Rey",
+
+  "Premier League",
   "Premier League",
 
   "Copa Italia",
@@ -17,21 +20,26 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Real Betis - Deportivo Alavés",
-  "Cádiz - Espanyol",
+  "Celta de Vigo - Osasuna",
+  "Valencia - Sevilla",
+  "Real Sociedad - Atlético Madrid",
 
-  "Brighton & Hove Albion - Chelsea",
+  "Leicester City - Tottenham Hotspur",
+  "Brentford - Manchester United",
 
-  "Juventus - Sampdoria"
+  "Internazionale - Empoli"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-betis,deportivo-alaves,509825.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,cadiz,espanyol-barcelona,509826.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,celta-de-vigo,osasuna,509827.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,valencia,sevilla,509831.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,brighton-hove-albion,chelsea-london,505875.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-sociedad,atletico-madrid,546885.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,juventus-torino,sampdoria,545602.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,leicester-city,tottenham-hotspur,505808.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,brentford,manchester-united,505805.php",
+
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,internazionale-milano,empoli,545604.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -62,11 +70,11 @@ let Est = [
 
 let Enl = [
   "",
-
   "",
 
   "",
 
+  "",
   "",
 
   "",
