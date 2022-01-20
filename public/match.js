@@ -1,13 +1,13 @@
 let Title = [
-  "LaLiga",
-  "LaLiga",
-
+  "Copa del Rey",
   "Copa del Rey",
 
-  "Premier League",
-  "Premier League",
+  "LaLiga",
 
-  "Copa Italia",
+  "EFL CUP",
+
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -20,26 +20,27 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Celta de Vigo - Osasuna",
-  "Valencia - Sevilla",
-  "Real Sociedad - Atlético Madrid",
+  "Elche - Real Madrid",
+  "Athletic Club - Barcelona",
 
-  "Leicester City - Tottenham Hotspur",
-  "Brentford - Manchester United",
+  "Getafe - Granada",
 
-  "Internazionale - Empoli"
+  "Arsenal - Liverpool",
+
+  "Rionegro Águilas - Atlético Bucaramanga",
+  "América de Cali - Envigado"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,celta-de-vigo,osasuna,509827.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,valencia,sevilla,509831.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,elche,real-madrid,546884.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,athletic-bilbao,fc-barcelona,546883.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-sociedad,atletico-madrid,546885.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,getafe,granada,509829.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,leicester-city,tottenham-hotspur,505808.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,brentford,manchester-united,505805.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,arsenal-london,liverpool,546016.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,internazionale-milano,empoli,545604.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,rionegro-aguilas,atletico-bucaramanga,547511.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,america-de-cali,envigado-fc,547512.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -75,8 +76,8 @@ let Enl = [
   "",
 
   "",
-  "",
 
+  "",
   "",
 
   /** */
