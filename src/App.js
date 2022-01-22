@@ -58,8 +58,8 @@ export default function ContainedButtons() {
 
     "",
 
-    bloque.ACol[0],
     "",
+    bloque.ACol[0],
     "",
 
     /** */
