@@ -66,7 +66,7 @@ let Est = [
 
   "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,ac-milan,juventus-torino,523501.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,ac-milan,juventus-torino,523501.php",
+  "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
 
   "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,independiente-medellin,deportes-tolima,547518.php",
   "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,jaguares-de-cordoba,deportivo-cali,547519.php",
