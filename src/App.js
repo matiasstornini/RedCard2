@@ -54,11 +54,11 @@ export default function ContainedButtons() {
     "",
     "",
 
-    bloque.Extra[0],
+    "",
+    "",
     bloque.AIng[0],
-    "",
 
-    "",
+    bloque.AAle[0],
 
     "",
 
