@@ -64,7 +64,7 @@ export default function ContainedButtons() {
 
     bloque.AFra[0],
 
-    "",
+    bloque.ACol[0],
     "",
     "",
 
