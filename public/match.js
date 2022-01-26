@@ -50,7 +50,6 @@ let Est = [
 let Enl = [
   "",
   "",
-  ACol[0],
   "",
   "",
 
