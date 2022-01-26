@@ -2,6 +2,7 @@ let Title = [
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -14,9 +15,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Envigado - Deportivo Pasto",
-  "Santa Fe - Rionegro Águilas",
-  "Atlético Bucaramanga - Millonarios"
+  "La Equidad - Once Caldas",
+  "Jaguares de Córdoba - Cortuluá",
+  "Deportivo Cali - Deportes Tolima",
+  "Atlético Nacional - Junior"
 ];
 
 let Est = [
