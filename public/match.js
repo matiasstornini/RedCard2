@@ -1,5 +1,8 @@
 let Title = [
-  "Liga Dimayor Colombia",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
@@ -15,10 +18,13 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "La Equidad - Once Caldas",
-  "Jaguares de Córdoba - Cortuluá",
-  "Deportivo Cali - Deportes Tolima",
-  "Atlético Nacional - Junior"
+  "Ecuador - Brazil",
+  "Paraguay - Uruguay",
+  "Chile - Argentina",
+
+  "Unión Magdalena - Alianza Petrolera",
+  "Patriotas Boyacá - Medellín",
+  "Deportivo Pereira - América de Cali"
 ];
 
 let Est = [
@@ -52,17 +58,6 @@ let Est = [
 let Enl = [
   "",
   "",
-  "",
-  ACol[0],
-
-  "",
-  "",
-  "",
-
-  "",
-
-  "",
-
   "",
 
   "",
