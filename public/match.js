@@ -1,11 +1,6 @@
 let Title = [
   "Eliminatorias Conmebol",
   "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -17,24 +12,11 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Ecuador - Brazil",
-  "Paraguay - Uruguay",
-  "Chile - Argentina",
-
-  "Unión Magdalena - Alianza Petrolera",
-  "Patriotas Boyacá - Medellín",
-  "Deportivo Pereira - América de Cali"
-];
+let Match = ["Colombia - Peru", "Venezuela - Bolivia"];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,ecuador,brasil,483708.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,paraguay,uruguay,483709.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,chile,argentina,483710.php",
-
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,union-magdalena,alianza-petrolera,547528.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,patriotas,independiente-medellin,547529.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,deportivo-pereira,america-de-cali,547530.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,colombia,peru,483712.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,venezuela,bolivia,483711.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
