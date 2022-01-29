@@ -1,6 +1,8 @@
 let Title = [
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -12,12 +14,14 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = ["Colombia - Peru", "Venezuela - Bolivia"];
+let Match = [
+  "Cortuluá - Santa Fe",
+  "Rionegro Águilas - Once Caldas",
+  "Junior - La Equidad",
+  "Millonarios - Atlético Nacional"
+];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,colombia,peru,483712.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,venezuela,bolivia,483711.php",
-
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -47,9 +51,6 @@ let Est = [
 
 let Enl = [
   "",
-  "",
-  "",
-
   "",
   "",
   "",
