@@ -1,6 +1,5 @@
 let Title = [
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "Copa Francia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
@@ -15,10 +14,9 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Patriotas Boyacá - Deportivo Pereira",
-  "Medellín - Deportivo Cali",
-  "América de Cali - Atlético Bucaramanga",
-  "Alianza Petrolera - Envigado"
+  "PSG - Nice",
+  "Deportivo Pasto - Jaguares de Córdoba",
+  "Deportes Tolima - Unión Magdalena"
 ];
 
 let Est = [
@@ -53,7 +51,6 @@ let Enl = [
   "",
   "",
   "",
-  ACol[0],
 
   /** */
   /** */
