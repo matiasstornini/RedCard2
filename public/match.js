@@ -1,7 +1,9 @@
 let Title = [
-  "Copa Francia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
 
   /**/
   "ERROR",
@@ -14,9 +16,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "PSG - Nice",
-  "Deportivo Pasto - Jaguares de Córdoba",
-  "Deportes Tolima - Unión Magdalena"
+  "Bolivia - Chile",
+  "Uruguay - Venezuela",
+  "Argentina - Colombia",
+  "Brazil - Paraguay",
+  "Peru - Ecuador"
 ];
 
 let Est = [
@@ -50,7 +54,9 @@ let Est = [
 let Enl = [
   "",
   "",
-  ACol[0],
+  "",
+  "",
+  "",
 
   /** */
   /** */
