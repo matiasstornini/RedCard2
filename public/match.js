@@ -1,9 +1,11 @@
 let Title = [
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
+  "Copa del Rey",
+  "Copa del Rey",
+
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -16,19 +18,16 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Bolivia - Chile",
-  "Uruguay - Venezuela",
-  "Argentina - Colombia",
-  "Brazil - Paraguay",
-  "Peru - Ecuador"
+  "Rayo Vallecano - Mallorca",
+  "Valencia - Cádiz",
+
+  "Atlético Bucaramanga - Alianza Petrolera",
+  "Envigado - Millonarios",
+  "Deportivo Cali - Deportivo Pereira",
+  "Santa Fe - Junior"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,bolivia,chile,483713.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,uruguay,venezuela,483716.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,argentina,colombia,483717.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,brasil,paraguay,483715.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,peru,ecuador,483714.php",
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -58,6 +57,8 @@ let Est = [
 
 let Enl = [
   "",
+  "",
+
   "",
   "",
   "",
