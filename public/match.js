@@ -28,6 +28,13 @@ let Match = [
 ];
 
 let Est = [
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-sociedad,real-betis,547874.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,athletic-bilbao,real-madrid,547875.php",
+
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,la-equidad,rionegro-aguilas,547545.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,union-magdalena,deportivo-pasto,547546.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,jaguares-de-cordoba,patriotas,547547.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-nacional,deportes-tolima,547548.php",
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -56,10 +63,10 @@ let Est = [
 ];
 
 let Enl = [
-  "",
+  AEsp[1],
   "",
 
-  "",
+  ACol[0],
   "",
   "",
   "",
