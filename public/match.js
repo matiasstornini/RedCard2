@@ -18,13 +18,13 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Rayo Vallecano - Mallorca",
-  "Valencia - Cádiz",
+  "Real Sociedad - Real Betis",
+  "Athletic Club - Real Madrid",
 
-  "Atlético Bucaramanga - Alianza Petrolera",
-  "Envigado - Millonarios",
-  "Deportivo Cali - Deportivo Pereira",
-  "Santa Fe - Junior"
+  "La Equidad - Rionegro Águilas",
+  "Unión Magdalena - Deportivo Pasto",
+  "Jaguares de Córdoba - Patriotas Boyacá",
+  "Atlético Nacional - Deportes Tolima"
 ];
 
 let Est = [
@@ -62,7 +62,7 @@ let Enl = [
   "",
   "",
   "",
-  ACol[0],
+  "",
 
   /** */
   /** */
