@@ -1,8 +1,16 @@
 let Title = [
-  "FA Cup",
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
   "LaLiga",
 
-  "Liga Dimayor Colombia",
+  "FA Cup",
+  "FA Cup",
+
+  "Serie A",
+
+  "Bundesliga",
+
   "Liga Dimayor Colombia",
 
   /**/
@@ -16,10 +24,15 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Manchester United - Middlesbrough",
-  "Getafe - Levante",
-  "Cortuluá - América de Cali",
-  "Once Caldas - Medellín"
+  "Elche - Deportivo Alavés",
+  "Mallorca - Cádiz",
+  "Celta de Vigo - Rayo Vallecano",
+  "Osasuna - Sevilla",
+  "Chelsea - Plymouth Argyle",
+  "Manchester City - Fulham",
+  "Internazionale - Milan",
+  "Bayern München - RB Leipzig",
+  "Envigado - Deportivo Cali"
 ];
 
 let Est = [
@@ -53,9 +66,17 @@ let Est = [
 let Enl = [
   "",
   "",
+  "",
+  "",
 
   "",
-  ACol[0],
+  "",
+
+  "",
+
+  "",
+
+  "",
 
   /** */
   /** */
