@@ -27,12 +27,7 @@ let Match = [
   "Elche - Deportivo Alavés",
   "Mallorca - Cádiz",
   "Celta de Vigo - Rayo Vallecano",
-  "Osasuna - Sevilla",
-  "Chelsea - Plymouth Argyle",
-  "Manchester City - Fulham",
-  "Internazionale - Milan",
-  "Bayern München - RB Leipzig",
-  "Envigado - Deportivo Cali"
+  "Osasuna - Sevilla"
 ];
 
 let Est = [
