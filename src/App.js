@@ -59,9 +59,9 @@ export default function ContainedButtons() {
 
     bloque.AConmebol[0],
 
-    bloque.AIta[0],
+    "",
 
-    bloque.AFra[0],
+    "",
 
     "",
     bloque.ACol[0],

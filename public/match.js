@@ -110,9 +110,9 @@ let Enl = [
 
   AConmebol[0],
 
-  AIta[0],
+  "",
 
-  AFra[0],
+  "",
 
   "",
   ACol[0],
