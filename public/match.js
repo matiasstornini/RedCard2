@@ -51,7 +51,7 @@ let Est = [
 ];
 
 let Enl = [
-  AEsp[0],
+  "",
 
   ACol[0],
   "",
