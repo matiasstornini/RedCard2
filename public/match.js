@@ -1,7 +1,8 @@
 let Title = [
-  "LaLiga",
+  "Premier League",
 
-  "Liga Dimayor Colombia",
+  "Coppa Italia",
+
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
@@ -16,10 +17,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Athletic Club - Espanyol",
-  "Alianza Petrolera - Jaguares de Córdoba",
-  "Junior - Rionegro Águilas",
-  "América de Cali - Santa Fe"
+  "Burnley - Manchester United",
+  "Internazionale - Roma",
+
+  "Medellín - Cortuluá",
+  "Deportivo Pereira - Once Caldas"
 ];
 
 let Est = [
@@ -54,6 +56,7 @@ let Enl = [
   "",
 
   "",
+
   "",
   "",
 
