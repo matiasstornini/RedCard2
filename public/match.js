@@ -1,10 +1,11 @@
 let Title = [
   "Premier League",
+  "Premier League",
+  "Premier League",
+
+  "Copa del Rey",
 
   "Coppa Italia",
-
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -17,11 +18,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Burnley - Manchester United",
-  "Internazionale - Roma",
-
-  "Medellín - Cortuluá",
-  "Deportivo Pereira - Once Caldas"
+  "Manchester City - Brentford",
+  "Tottenham Hotspur - Southampton",
+  "Aston Villa - Leeds United",
+  "Rayo Vallecano - Real Betis",
+  "Milan - Lazio"
 ];
 
 let Est = [
@@ -54,11 +55,12 @@ let Est = [
 
 let Enl = [
   "",
-
+  "",
   "",
 
   "",
-  ACol[0],
+
+  "",
 
   /** */
   /** */
