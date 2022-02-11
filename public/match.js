@@ -1,15 +1,16 @@
 let Title = [
-  "Premier League",
-  "Premier League",
+  "LaLiga",
 
-  "Coppa Italia",
-
-  "Copa del Rey",
+  "Ligue 1",
 
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
+
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -22,31 +23,34 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Liverpool - Leicester City",
-  "Wolverhampton Wanderers - Arsenal",
+  "Sevilla - Elche",
 
-  "Juventus - Sassuolo",
+  "PSG - Rennes",
 
-  "Athletic Club - Valencia",
+  "Arsenal - Rosario Central",
+  "Godoy Cruz - Tigre",
+  "Vélez Sarsfield - Aldosivi",
+  "Banfield - San Lorenzo",
 
-  "Patronato - Argentinos Juniors",
-  "Sarmiento - Atlético Tucumán",
-  "Central Córdoba SdE - Barracas Central",
-  "Newell's Old Boys - Defensa y Justicia"
+  "Unión Magdalena - Envigado",
+  "Atlético Bucaramanga - Deportivo Pasto",
+  "Atlético Nacional - Alianza Petrolera"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,liverpool,leicester-city,505882.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,wolverhampton-wanderers,arsenal-london,505879.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,sevilla,elche,509860.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,juventus-torino,sassuolo,548448.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,paris-saint-germain,stade-rennes,508109.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,athletic-bilbao,valencia,548483.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,arsenal-de-sarandi,rosario-central,549158.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,godoy-cruz,tigre,549159.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,velez-sarsfield,aldosivi,549160.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,banfield,san-lorenzo,549161.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,patronato-parana,argentinos-juniors,549154.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,sarmiento,atletico-tucuman,549155.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,central-cordoba,barracas-central,549156.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,newells-old-boys,defensa-y-justicia,549157.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,union-magdalena,envigado-fc,547570.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-bucaramanga,deportivo-pasto,547563.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-nacional,alianza-petrolera,547562.php",
+
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -76,13 +80,14 @@ let Est = [
 
 let Enl = [
   "",
-  "",
 
   "",
 
   "",
-
   "",
+  "",
+  "",
+
   "",
   "",
   "",
