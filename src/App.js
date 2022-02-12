@@ -71,7 +71,7 @@ export default function ContainedButtons() {
     bloque.ACol[0],
     "",
 
-    "",
+    bloque.Extra[1],
 
     /** */
     "error!!1",
