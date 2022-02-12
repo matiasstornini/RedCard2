@@ -22,6 +22,7 @@ let Title = [
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
+  "UFC 271",
   /**/
   "ERROR",
   "ERROR",
@@ -54,7 +55,9 @@ let Match = [
   "Cortuluá - Patriotas Boyacá",
   "La Equidad - Medellín",
   "Once Caldas - Junior",
-  "Rionegro Águilas - América de Cali"
+  "Rionegro Águilas - América de Cali",
+
+  "UFC 271"
 ];
 
 let Est = [
@@ -130,6 +133,8 @@ let Enl = [
   "",
   ACol[0],
   "",
+  "",
+
   "",
 
   /** */
