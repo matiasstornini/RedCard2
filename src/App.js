@@ -60,7 +60,7 @@ export default function ContainedButtons() {
 
     bloque.AIng[1],
 
-    "",
+    bloque.AIta[0],
 
     "",
     "",
