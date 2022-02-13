@@ -110,10 +110,10 @@ let Enl = [
     "",
 
     "",
-    bloque.AArg[0],
+    AArg[0],
     "",
 
-    bloque.ACol[0],
+    ACol[0],
     "",
     "",
 
