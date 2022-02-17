@@ -49,23 +49,23 @@ let Match = [
 ];
 
 let Est = [
-  "",
-  "",
-  "",
-  "",
-  "",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,fc-barcelona,napoli,545377.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,borussia-dortmund,rangers,545378.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,zenit-st-petersburg,real-betis,545383.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,rb-leipzig,real-sociedad,545380.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,sevilla,dinamo-zagreb,545381.php",
 
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,colon,godoy-cruz,549176.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,gimnasia-la-plata,san-lorenzo,549177.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,defensa-y-justicia,racing-club,549178.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,sarmiento,banfield,549179.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-tucuman,platense,549180.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,talleres-de-cordoba,union-de-santa-fe,549181.php",
 
-  "",
-  "",
-  "",
-  "",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,patriotas,once-caldas,547577.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,alianza-petrolera,cortulua,547579.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,deportivo-pasto,deportivo-cali,547573.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,america-de-cali,la-equidad,547571.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -95,23 +95,23 @@ let Est = [
 ];
 
 let Enl = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,fc-barcelona,napoli,545377.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,borussia-dortmund,rangers,545378.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,zenit-st-petersburg,real-betis,545383.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,rb-leipzig,real-sociedad,545380.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,sevilla,dinamo-zagreb,545381.php",
+  "",
+  "",
+  "",
+  "",
+  "",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,colon,godoy-cruz,549176.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,gimnasia-la-plata,san-lorenzo,549177.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,defensa-y-justicia,racing-club,549178.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,sarmiento,banfield,549179.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-tucuman,platense,549180.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,talleres-de-cordoba,union-de-santa-fe,549181.php",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,patriotas,once-caldas,547577.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,alianza-petrolera,cortulua,547579.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,deportivo-pasto,deportivo-cali,547573.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,america-de-cali,la-equidad,547571.php",
+  "",
+  "",
+  "",
+  "",
 
   /** */
   /** */
