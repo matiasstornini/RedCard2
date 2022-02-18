@@ -17,7 +17,7 @@ let Match = ["Elche - Rayo Vallecano", "Juventus - Torino"];
 
 let Est = [
   "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,elche,rayo-vallecano,509866.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,juventus-torino,torino,523536.phps",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,juventus-torino,torino,523536.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
