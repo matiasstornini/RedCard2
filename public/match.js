@@ -5,13 +5,11 @@ let Title = [
   "LaLiga",
 
   "Premier League",
-  "Premier League",
-  "Premier League",
-  "Premier League",
+
+  "Bundesliga",
+  "Bundesliga",
 
   "Serie A",
-
-  "Ligue 1",
 
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
@@ -32,51 +30,47 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Granada - Villarreal",
-  "Osasuna - Atlético Madrid",
-  "Cádiz - Getafe",
-  "Real Madrid - Deportivo Alavés",
+  "Espanyol - Sevilla",
+  "Valencia - Barcelona",
+  "Real Betis - Mallorca",
+  "Athletic Club - Real Sociedad",
 
-  "Arsenal - Brentford",
-  "Liverpool - Norwich City",
-  "Crystal Palace - Chelsea",
-  "Manchester City - Tottenham Hotspur",
+  "Leeds United - Manchester United",
 
-  "Salernitana - Milan",
+  "Bayern München - Greuther Fürth",
+  "Borussia Dortmund - Borussia M'gladbach",
 
-  "Nantes - PSG",
+  "Internazionale - Sassuolo",
 
-  "Arsenal - Huracán",
-  "Estudiantes - Lanús",
-  "Vélez Sarsfield - Independiente",
+  "Platense - Sarmiento",
+  "Boca Juniors - Rosario Central",
+  "Newell's Old Boys - River Plate",
 
-  "Santa Fe - Medellín",
-  "Jaguares de Córdoba - Millonarios",
-  "Atlético Nacional - Unión Magdalena"
+  "Cortuluá - Deportivo Pereira",
+  "Deportivo Cali - Alianza Petrolera",
+  "Junior - América de Cali"
 ];
 
 let Est = [
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,granada,villarreal,509868.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,osasuna,atletico-madrid,509869.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,cadiz,getafe,509864.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-madrid,deportivo-alaves,509870.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,espanyol-barcelona,sevilla,509867.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,valencia,fc-barcelona,509871.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,real-betis,mallorca,509863.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,athletic-bilbao,real-sociedad,509862.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,arsenal-london,brentford,505894.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,liverpool,norwich-city,505899.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,crystal-palace,chelsea-london,505897.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,manchester-city,tottenham-hotspur,505900.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,leeds-united,manchester-united,505898.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,salernitana,ac-milan,523537.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,bayern-munchen,greuther-furth,508830.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,borussia-dortmund,borussia-mgladbach,508831.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,nantes,paris-saint-germain,508115.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,internazionale-milano,sassuolo,523535.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,arsenal-de-sarandi,huracan,549182.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,estudiantes-de-la-plata,lanus,549183.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,velez-sarsfield,independiente,549184.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,platense,sarmiento,549185.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,boca-juniors,rosario-central,549186.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,newells-old-boys,river-plate,549187.php",
 
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,santa-fe,independiente-medellin,547590.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,jaguares-de-cordoba,millonarios,547586.php",
-  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-nacional,union-magdalena,547582.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,cortulua,deportivo-pereira,547584.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,deportivo-cali,alianza-petrolera,547585.php",
+  "https://pirlotv2.herokuapp.com/full/app/test/est?url=https://es.fcstats.com/partido,atletico-junior,america-de-cali,547587.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -106,7 +100,18 @@ let Est = [
 ];
 
 let Enl = [
+  AEsp[0],
   "",
+  "",
+  "",
+
+  AIng[0],
+
+  Extra[0],
+  Extra[1],
+
+  "",
+
   "",
   "",
   "",
@@ -114,19 +119,6 @@ let Enl = [
   "",
   "",
   "",
-  "",
-
-  "",
-
-  "",
-
-  "",
-  "",
-  AArg[0],
-
-  "",
-  "",
-  ACol[0],
 
   /** */
   /** */
