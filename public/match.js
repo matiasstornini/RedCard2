@@ -79,14 +79,14 @@ let Est = [
 ];
 
 let Enl = [
-  AEsp[0],
-  AFra[0],
-
-  AIng[0],
-  AIng[1],
+  "",
+  "",
 
   "",
   "",
+
+  Extra[0],
+  Extra[1],
   "",
   "",
 
