@@ -54,12 +54,12 @@ export default function ContainedButtons() {
     "",
     "",
 
-    bloque.Extra[0],
+    "",
+    "",
+    bloque.AArg[0],
     bloque.Extra[1],
-    "",
-    "",
 
-    "",
+    bloque.Extra[0],
 
     /** */
     "error!!1",
