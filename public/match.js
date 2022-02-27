@@ -108,17 +108,17 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 let Enl = [
   "",
   "",
+  "",
   AEsp[0],
-  "",
-
-  AIng[0],
-
-  AAle[0],
 
   "",
 
   "",
-  "",
+
+  AIta[0],
+
+  Extra[0],
+  Extra[1],
   "",
   "",
 
