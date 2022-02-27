@@ -1,25 +1,20 @@
 let Title = [
-  "Premier League",
-  "Premier League",
-  "Premier League",
-
   "LaLiga",
   "LaLiga",
   "LaLiga",
   "LaLiga",
 
-  "Serie A",
+  "EFL CUP",
 
   "Bundesliga",
 
-  "Ligue 1",
+  "Serie A",
 
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
 
-  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
@@ -35,59 +30,49 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Leeds United - Tottenham Hotspur",
-  "Manchester United - Watford",
-  "Everton - Manchester City",
+  "Villarreal - Espanyol",
+  "Sevilla - Real Betis",
+  "Real Sociedad - Osasuna",
+  "Barcelona - Athletic Club",
 
-  "Mallorca - Valencia",
-  "Getafe - Deportivo Alavés",
-  "Rayo Vallecano - Real Madrid",
-  "Atlético Madrid - Celta de Vigo",
+  "Chelsea - Liverpool",
 
-  "Empoli - Juventus",
+  "Augsburg - Borussia Dortmund",
 
-  "Eintracht Frankfurt - Bayern München",
+  "Lazio - Napoli",
 
-  "PSG - Saint-Étienne",
+  "Estudiantes - Arsenal",
+  "Sarmiento - Unión Santa Fe",
+  "River Plate - Racing Club",
+  "Argentinos Juniors - San Lorenzo",
 
-  "Colón - Barracas Central",
-  "Rosario Central - Godoy Cruz",
-  "Aldosivi - Central Córdoba SdE",
-  "Independiente - Boca Juniors",
-
-  "Envigado - Jaguares de Córdoba",
-  "Deportivo Pereira - La Equidad",
-  "Deportes Tolima - Junior",
-  "Millonarios - Cortuluá"
+  "Unión Magdalena - Deportivo Cali",
+  "Atlético Bucaramanga - Atlético Nacional",
+  "América de Cali - Once Caldas"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,leeds-united,tottenham-hotspur,505910.php",
-  "https://es.fcstats.com/partido,manchester-united,watford,505911.php",
-  "https://es.fcstats.com/partido,everton,manchester-city,505909.php",
+  "https://es.fcstats.com/partido,villarreal,espanyol-barcelona,509881.php",
+  "https://es.fcstats.com/partido,sevilla,real-betis,509880.php",
+  "https://es.fcstats.com/partido,real-sociedad,osasuna,509879.php",
+  "https://es.fcstats.com/partido,fc-barcelona,athletic-bilbao,509873.php",
 
-  "https://es.fcstats.com/partido,mallorca,valencia,509877.php",
-  "https://es.fcstats.com/partido,getafe,deportivo-alaves,509874.php",
-  "https://es.fcstats.com/partido,rayo-vallecano,real-madrid,509878.php",
-  "https://es.fcstats.com/partido,atletico-madrid,celta-de-vigo,509872.php",
+  "https://es.fcstats.com/partido,chelsea-london,liverpool,547936.php",
 
-  "https://es.fcstats.com/partido,empoli,juventus-torino,523543.php",
+  "https://es.fcstats.com/partido,augsburg,borussia-dortmund,508837.php",
 
-  "https://es.fcstats.com/partido,eintracht-frankfurt,bayern-munchen,508841.php",
+  "https://es.fcstats.com/partido,ss-lazio,napoli,523545.php",
 
-  "https://es.fcstats.com/partido,paris-saint-germain,saint-etienne,508127.php",
+  "https://es.fcstats.com/partido,estudiantes-de-la-plata,arsenal-de-sarandi,549201.php",
+  "https://es.fcstats.com/partido,sarmiento,union-de-santa-fe,549208.php",
+  "https://es.fcstats.com/partido,river-plate,racing-club,549206.php",
+  "https://es.fcstats.com/partido,argentinos-juniors,san-lorenzo,549197.php",
 
-  "https://es.fcstats.com/partido,rosario-central,godoy-cruz,549207.php",
-  "https://es.fcstats.com/partido,aldosivi,central-cordoba,549196.php",
-  "https://es.fcstats.com/partido,colon,barracas-central,549199.php",
-  "https://es.fcstats.com/partido,independiente,boca-juniors,549203.php",
-
-  "https://es.fcstats.com/partido,envigado-fc,jaguares-de-cordoba,547595.php",
-  "https://es.fcstats.com/partido,deportivo-pereira,la-equidad,547599.php",
-  "https://es.fcstats.com/partido,deportes-tolima,atletico-junior,547593.php",
-  "https://es.fcstats.com/partido,millonarios,cortulua,547597.php",
+  "https://es.fcstats.com/partido,union-magdalena,deportivo-cali,547600.php",
+  "https://es.fcstats.com/partido,atletico-bucaramanga,atletico-nacional,547592.php",
+  "https://es.fcstats.com/partido,america-de-cali,once-caldas,547591.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -121,11 +106,7 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 }
 
 let Enl = [
-  "",
-  "",
-  "",
-
-  "",
+  AEsp[0],
   "",
   "",
   "",
@@ -144,7 +125,6 @@ let Enl = [
   "",
   "",
   "",
-  ACol[0],
 
   /** */
   /** */
