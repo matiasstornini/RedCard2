@@ -1,12 +1,19 @@
 let Title = [
   "FA Cup",
+  "FA Cup",
+
+  "LaLiga",
 
   "Coppa Italia",
 
-  "Liga Profesional Argentina",
+  "Copa del Rey",
 
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "Conmebol Libertadores",
+  "Conmebol Libertadores",
+  "Conmebol Libertadores",
+  "Conmebol Libertadores",
+
+  "Recopa Sudamericana",
 
   /**/
   "ERROR",
@@ -19,14 +26,21 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Peterborough United - Manchester City",
+  "Luton Town - Chelsea",
+  "Liverpool - Norwich City",
 
-  "Milan - Internazionale",
+  "Mallorca - Real Sociedad",
 
-  "Atlético Tucumán - Patronato",
+  "Fiorentina - Juventus",
 
-  "Deportivo Pasto - Alianza Petrolera",
-  "Medellín - Rionegro Águilas"
+  "Valencia - Athletic Club",
+
+  "Guaraní - América Mineiro",
+  "Universidad Católica - Bolívar",
+  "Estudiantes - Audax Italiano",
+  "Universitario - Barcelona",
+
+  "Palmeiras - Athletico-PR"
 ];
 
 var Est = [];
@@ -65,12 +79,19 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 
 let Enl = [
   "",
-
   "",
 
   "",
 
   "",
+
+  "",
+
+  "",
+  "",
+  "",
+  "",
+
   "",
 
   /** */
