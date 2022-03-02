@@ -78,7 +78,7 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 }
 
 let Enl = [
-  "",
+  AIng[0],
   "",
 
   "",
