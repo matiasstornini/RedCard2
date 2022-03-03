@@ -1,19 +1,9 @@
 let Title = [
-  "FA Cup",
-  "FA Cup",
-
-  "LaLiga",
-
-  "Coppa Italia",
-
   "Copa del Rey",
 
-  "Conmebol Libertadores",
-  "Conmebol Libertadores",
-  "Conmebol Libertadores",
-  "Conmebol Libertadores",
+  "Liga Profesional Argentina",
 
-  "Recopa Sudamericana",
+  "Conmebol Libertadores",
 
   /**/
   "ERROR",
@@ -26,21 +16,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Luton Town - Chelsea",
-  "Liverpool - Norwich City",
+  "Real Betis - Rayo Vallecano",
 
-  "Mallorca - Real Sociedad",
+  "Central Córdoba SdE - Rosario Central",
 
-  "Fiorentina - Juventus",
-
-  "Valencia - Athletic Club",
-
-  "Guaraní - América Mineiro",
-  "Universidad Católica - Bolívar",
-  "Estudiantes - Audax Italiano",
-  "Universitario - Barcelona",
-
-  "Palmeiras - Athletico-PR"
+  "Atlético Nacional - Olimpia"
 ];
 
 var Est = [];
