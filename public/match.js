@@ -1,9 +1,11 @@
 let Title = [
-  "Copa del Rey",
+  "LaLiga",
+
+  "Serie A",
 
   "Liga Profesional Argentina",
-
-  "Conmebol Libertadores",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
 
   /**/
   "ERROR",
@@ -16,11 +18,13 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Real Betis - Rayo Vallecano",
+  "Deportivo Alavés - Sevilla",
 
-  "Central Córdoba SdE - Rosario Central",
+  "Internazionale - Salernitana",
 
-  "Atlético Nacional - Olimpia"
+  "Unión Santa Fe - Platense",
+  "Barracas Central - Aldosivi",
+  "Gimnasia La Plata - Argentinos Juniors"
 ];
 
 var Est = [];
@@ -60,9 +64,11 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 let Enl = [
   "",
 
-  AArg[0],
+  "",
 
-  Extra[0],
+  "",
+  "",
+  "",
 
   /** */
   /** */
