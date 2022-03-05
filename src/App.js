@@ -64,7 +64,7 @@ export default function ContainedButtons() {
     "",
     "",
 
-    blowue.ACol[0],
+    bloque.ACol[0],
     "",
     "",
 
