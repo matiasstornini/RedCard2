@@ -1,16 +1,16 @@
 let Title = [
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
+
   "Premier League",
   "Premier League",
 
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
-  "LaLiga",
+  "Serie A",
+  "Serie A",
 
-  "Bundesliga",
-
-  "Ligue 1",
-
+  "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
@@ -30,49 +30,49 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Burnley - Chelsea",
-  "Liverpool - West Ham United",
+  "Cádiz - Rayo Vallecano",
+  "Elche - Barcelona",
+  "Celta de Vigo - Mallorca",
+  "Real Betis - Atlético Madrid",
 
-  "Osasuna - Villarreal",
-  "Espanyol - Getafe",
-  "Valencia - Granada",
-  "Real Madrid - Real Sociedad",
+  "Watford - Arsenal",
+  "Manchester City - Manchester United",
 
-  "Bayern München - Bayer Leverkusen",
+  "Juventus - Spezia",
+  "Napoli - Milan",
 
-  "Nice - PSG",
+  "Banfield - Defensa y Justicia",
+  "Newell's Old Boys - Atlético Tucumán",
+  "Boca Juniors - Huracán",
+  "Vélez Sarsfield - Estudiantes",
 
-  "San Lorenzo - River Plate",
-  "Patronato - Sarmiento",
-  "Racing Club - Talleres Córdoba",
-
-  "Junior - Unión Magdalena",
-  "Deportivo Cali - América de Cali",
-  "La Equidad - Patriotas Boyacá"
+  "Alianza Petrolera - Atlético Bucaramanga",
+  "Santa Fe - Millonarios",
+  "Atlético Nacional - Medellín"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,burnley,chelsea-london,505915.php",
-  "https://es.fcstats.com/partido,liverpool,west-ham-united,505917.php",
+  "https://es.fcstats.com/partido,cadiz,rayo-vallecano,509885.php",
+  "https://es.fcstats.com/partido,elche,fc-barcelona,509887.php",
+  "https://es.fcstats.com/partido,celta-de-vigo,mallorca,509886.php",
+  "https://es.fcstats.com/partido,real-betis,atletico-madrid,509884.php",
 
-  "https://es.fcstats.com/partido,osasuna,villarreal,509889.php",
-  "https://es.fcstats.com/partido,espanyol-barcelona,getafe,509888.php",
-  "https://es.fcstats.com/partido,valencia,granada,509891.php",
-  "https://es.fcstats.com/partido,real-madrid,real-sociedad,509890.php",
+  "https://es.fcstats.com/partido,watford,arsenal-london,505922.php",
+  "https://es.fcstats.com/partido,manchester-city,manchester-united,505918.php",
 
-  "https://es.fcstats.com/partido,bayern-munchen,bayer-leverkusen,508847.php",
+  "https://es.fcstats.com/partido,juventus-torino,spezia-calcio,523557.php",
+  "https://es.fcstats.com/partido,napoli,ac-milan,523558.php",
 
-  "https://es.fcstats.com/partido,nice,paris-saint-germain,508136.php",
+  "https://es.fcstats.com/partido,banfield,defensa-y-justicia,549211.php",
+  "https://es.fcstats.com/partido,newells-old-boys,atletico-tucuman,549217.php",
+  "https://es.fcstats.com/partido,boca-juniors,huracan,549213.php",
+  "https://es.fcstats.com/partido,velez-sarsfield,estudiantes-de-la-plata,549223.php",
 
-  "https://es.fcstats.com/partido,san-lorenzo,river-plate,549220.php",
-  "https://es.fcstats.com/partido,patronato-parana,sarmiento,549218.php",
-  "https://es.fcstats.com/partido,racing-club,talleres-de-cordoba,549219.php",
-
-  "https://es.fcstats.com/partido,atletico-junior,union-magdalena,547606.php",
-  "https://es.fcstats.com/partido,deportivo-cali,america-de-cali,547604.php",
-  "https://es.fcstats.com/partido,la-equidad,patriotas,547607.php",
+  "https://es.fcstats.com/partido,alianza-petrolera,atletico-bucaramanga,547609.php",
+  "https://es.fcstats.com/partido,santa-fe,millonarios,547610.php",
+  "https://es.fcstats.com/partido,atletico-nacional,independiente-medellin,547602.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -106,6 +106,14 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 }
 
 let Enl = [
+  AEsp[0],
+  "",
+  "",
+  "",
+
+  AIng[0],
+  "",
+
   "",
   "",
 
@@ -115,16 +123,8 @@ let Enl = [
   "",
 
   "",
-
-  "",
-
   "",
   "",
-  AArg[0],
-
-  "",
-  "",
-  ACol[0],
 
   /** */
   /** */
