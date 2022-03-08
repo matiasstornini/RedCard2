@@ -1,12 +1,10 @@
 let Title = [
-  "Premier League",
+  "UEFA Champions League",
+  "UEFA Champions League",
 
-  "LaLiga",
+  "Conmebol Libertadores",
 
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-
+  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
   /**/
@@ -20,20 +18,26 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Tottenham Hotspur - Everton",
+  "Bayern München - Salzburg",
+  "Liverpool - Internazionale",
 
-  "Athletic Club - Levante",
+  "América Mineiro - Barcelona",
 
-  "Godoy Cruz - Independiente",
-  "Arsenal - Lanús",
-  "Tigre - Colón",
-
-  "Cortuluá - Deportes Tolima"
+  "Rionegro Águilas - Envigado",
+  "Jaguares de Córdoba - Deportivo Pasto"
 ];
 
 var Est = [];
 
 let ustat = [
+  "https://es.fcstats.com/partido,bayern-munchen,salzburg,545369.php",
+  "https://es.fcstats.com/partido,liverpool,internazionale-milano,545372.php",
+
+  "https://es.fcstats.com/partido,america-mineiro,barcelona-sc,557662.php",
+
+  "https://es.fcstats.com/partido,rionegro-aguilas,envigado-fc,547601.php",
+  "https://es.fcstats.com/partido,jaguares-de-cordoba,deportivo-pasto,547605.php",
+
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -62,20 +66,18 @@ let ustat = [
 ];
 
 for (var i = 0; i <= ustat.length - 23; i++) {
-  Est.push("" + ustat[i]);
-  //Est.push("https://pirlotv2.herokuapp.com/full/app/test/est?url=" + ustat[i]);
+  //Est.push("" + ustat[i]);
+  Est.push("https://pirlotv2.herokuapp.com/full/app/test/est?url=" + ustat[i]);
 }
 
 let Enl = [
   "",
-
   "",
 
   "",
-  "",
-  Extra[0],
 
-  ACol[0],
+  "",
+  "",
 
   /** */
   /** */
