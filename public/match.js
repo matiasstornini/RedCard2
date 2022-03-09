@@ -2,6 +2,9 @@ let Title = [
   "UEFA Champions League",
   "UEFA Champions League",
 
+  "UEFA Europa League",
+
+  "Conmebol Libertadores",
   "Conmebol Libertadores",
 
   "Liga Dimayor Colombia",
@@ -18,25 +21,29 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Bayern München - Salzburg",
-  "Liverpool - Internazionale",
+  "Manchester City - Sporting CP",
+  "Real Madrid - PSG",
 
-  "América Mineiro - Barcelona",
+  "Real Betis - Eintracht Frankfurt",
 
-  "Rionegro Águilas - Envigado",
-  "Jaguares de Córdoba - Deportivo Pasto"
+  "Everton - Estudiantes",
+  "Fluminense - Olimpia",
+
+  "Deportivo Pereira - Once Caldas"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,bayern-munchen,salzburg,545369.php",
-  "https://es.fcstats.com/partido,liverpool,internazionale-milano,545372.php",
+  "https://es.fcstats.com/partido,manchester-city,sporting-lisbon,545373.php",
+  "https://es.fcstats.com/partido,real-madrid,paris-saint-germain,545375.php",
 
-  "https://es.fcstats.com/partido,america-mineiro,barcelona-sc,557662.php",
+  "https://es.fcstats.com/partido,real-betis,eintracht-frankfurt,557715.php",
 
-  "https://es.fcstats.com/partido,rionegro-aguilas,envigado-fc,547601.php",
-  "https://es.fcstats.com/partido,jaguares-de-cordoba,deportivo-pasto,547605.php",
+  "https://es.fcstats.com/partido,everton-vina-del-mar,estudiantes-de-la-plata,557663.php",
+  "https://es.fcstats.com/partido,fluminense,olimpia-asuncion,557752.php",
+
+  "https://es.fcstats.com/partido,deportivo-pereira,once-caldas,547560.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -74,10 +81,12 @@ let Enl = [
   "",
   "",
 
-  Extra[0],
+  "",
 
   "",
-  ACol[0],
+  "",
+
+  "",
 
   /** */
   /** */
