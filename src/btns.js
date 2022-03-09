@@ -15,6 +15,18 @@ export const AEsp = [
     <Btn Valor={esp[3]} /> <Btn Valor={esp[4]} /> <Btn Valor={esp[5]} />{" "}
   </div>
 ];
+
+export const Chs = [
+  <div>
+    {" "}
+    <Btn Valor={chs[0]} /> <Btn Valor={chs[1]} /> <Btn Valor={chs[2]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={chs[3]} /> <Btn Valor={chs[4]} /> <Btn Valor={chs[5]} />{" "}
+  </div>
+];
+
 export const AIng = [
   <div>
     {" "}
