@@ -1,14 +1,8 @@
 let Title = [
-  "UEFA Champions League",
-  "UEFA Champions League",
-
+  "UEFA Europa League",
   "UEFA Europa League",
 
-  "Conmebol Libertadores",
-  "Conmebol Libertadores",
-
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "Premier League",
 
   /**/
   "ERROR",
@@ -21,29 +15,20 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Manchester City - Sporting CP",
-  "Real Madrid - PSG",
+  "Sevilla - West Ham United",
 
-  "Real Betis - Eintracht Frankfurt",
+  "Barcelona - Galatasaray",
 
-  "Everton - Estudiantes",
-  "Fluminense - Olimpia",
-
-  "Deportivo Pereira - Once Caldas"
+  "Norwich City - Chelsea"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,manchester-city,sporting-lisbon,545373.php",
-  "https://es.fcstats.com/partido,real-madrid,paris-saint-germain,545375.php",
+  "https://es.fcstats.com/partido,sevilla,west-ham-united,557717.php",
+  "https://es.fcstats.com/partido,fc-barcelona,galatasaray,557719.php",
 
-  "https://es.fcstats.com/partido,real-betis,eintracht-frankfurt,557715.php",
-
-  "https://es.fcstats.com/partido,everton-vina-del-mar,estudiantes-de-la-plata,557663.php",
-  "https://es.fcstats.com/partido,fluminense,olimpia-asuncion,557752.php",
-
-  "https://es.fcstats.com/partido,deportivo-pereira,once-caldas,547560.php",
+  "https://es.fcstats.com/partido,norwich-city,chelsea-london,505940.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -82,11 +67,6 @@ let Enl = [
   "",
 
   "",
-
-  "",
-  Extra[0],
-
-  ACol[0],
 
   /** */
   /** */
