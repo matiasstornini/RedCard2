@@ -49,9 +49,9 @@ export default function ContainedButtons() {
 
   let BB = [
     "",
-    bloque.AEsp[1],
+    "",
 
-    bloque.AIng[1],
+    "",
 
     /** */
     "error!!1",
