@@ -1,8 +1,8 @@
 let Title = [
-  "UEFA Europa League",
-  "UEFA Europa League",
+  "LaLiga",
 
-  "Premier League",
+  "Liga Profesional Argentina",
+  "Liga Profesional Argentina",
 
   /**/
   "ERROR",
@@ -15,20 +15,19 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Sevilla - West Ham United",
+  "Atlético Madrid - Cádiz",
 
-  "Barcelona - Galatasaray",
-
-  "Norwich City - Chelsea"
+  "Arsenal - Vélez Sarsfield",
+  "Platense - Patronato"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,sevilla,west-ham-united,557717.php",
-  "https://es.fcstats.com/partido,fc-barcelona,galatasaray,557719.php",
+  "https://es.fcstats.com/partido,atletico-madrid,cadiz,509892.php",
 
-  "https://es.fcstats.com/partido,norwich-city,chelsea-london,505940.php",
+  "https://es.fcstats.com/partido,arsenal-de-sarandi,velez-sarsfield,549226.php",
+  "https://es.fcstats.com/partido,platense,patronato-parana,549232.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
