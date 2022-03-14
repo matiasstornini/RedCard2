@@ -30,6 +30,8 @@ let Match = [
 var Est = [];
 
 let ustat = [
+  "https://es.fcstats.com/partido,mallorca,real-madrid,509898.php",
+  "https://es.fcstats.com/partido,crystal-palace,manchester-city,505928.php",
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -57,9 +59,9 @@ let ustat = [
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estaisticas-no-disp.html"
 ];
 
-for (var i = 0; i <= ustat.length - 0; i++) {
-  Est.push("" + ustat[i]);
-  //Est.push("https://pirlotv2.herokuapp.com/full/app/test/est?url=" + ustat[i]);
+for (var i = 0; i <= ustat.length - 23; i++) {
+  //Est.push("" + ustat[i]);
+  Est.push("https://pirlotv2.herokuapp.com/full/app/test/est?url=" + ustat[i]);
 }
 
 let Enl = [
