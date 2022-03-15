@@ -1,11 +1,8 @@
 let Title = [
-  "LaLiga",
+  "UEFA Champions League",
+  "UEFA Champions League",
 
-  "Premier League",
-
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
+  "Conmebol Libertadores",
 
   /**/
   "ERROR",
@@ -18,20 +15,20 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Mallorca - Real Madrid",
+  "Ajax - Benfica",
+  "Manchester United - Atlético Madrid",
 
-  "Crystal Palace - Manchester City",
-
-  "Atlético Tucumán - Racing Club",
-  "Argentinos Juniors - Defensa y Justicia",
-  "Independiente - Central Córdoba SdE"
+  "Barcelona - América Mineiro"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,mallorca,real-madrid,509898.php",
-  "https://es.fcstats.com/partido,crystal-palace,manchester-city,505928.php",
+  "https://es.fcstats.com/partido,ajax-amsterdam,benfica-lisbon,545368.php",
+  "https://es.fcstats.com/partido,manchester-united,atletico-madrid,545374.php",
+
+  "https://es.fcstats.com/partido,barcelona-sc,america-mineiro,557665.php",
+
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -66,23 +63,8 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 
 let Enl = [
   "",
-
-  "",
   "",
 
-  Extra[0],
-  Extra[1],
-  "",
-  "",
-
-  "",
-  "",
-
-  "",
-
-  "",
-  "",
-  "",
   "",
 
   /** */
