@@ -1,8 +1,18 @@
 let Title = [
+  "Bundesliga",
+
+  "Premier League",
+  "Premier League",
+
   "UEFA Champions League",
   "UEFA Champions League",
 
   "Conmebol Libertadores",
+  "Conmebol Libertadores",
+
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -15,19 +25,39 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Ajax - Benfica",
-  "Manchester United - Atlético Madrid",
+  "Mainz 05 - Borussia Dortmund",
 
-  "Barcelona - América Mineiro"
+  "Brighton & Hove Albion - Tottenham Hotspur",
+  "Arsenal - Liverpool",
+
+  "Juventus - Villarreal",
+  "Lille - Chelsea",
+
+  "Estudiantes - Everton",
+  "Olimpia - Fluminense",
+
+  "Deportes Tolima - Patriotas Boyacá",
+  "Atlético Bucaramanga - Deportivo Cali",
+  "Deportivo Pasto - Santa Fe"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,ajax-amsterdam,benfica-lisbon,545368.php",
-  "https://es.fcstats.com/partido,manchester-united,atletico-madrid,545374.php",
+  "https://es.fcstats.com/partido,fsv-mainz-05,borussia-dortmund,508851.php",
 
-  "https://es.fcstats.com/partido,barcelona-sc,america-mineiro,557665.php",
+  "https://es.fcstats.com/partido,brighton-hove-albion,tottenham-hotspur,505796.php",
+  "https://es.fcstats.com/partido,arsenal-london,liverpool,505904.php",
+
+  "https://es.fcstats.com/partido,juventus-torino,villarreal,545370.php",
+  "https://es.fcstats.com/partido,lille,chelsea-london,545371.php",
+
+  "https://es.fcstats.com/partido,estudiantes-de-la-plata,everton-vina-del-mar,557666.php",
+  "https://es.fcstats.com/partido,olimpia-asuncion,fluminense,557753.php",
+
+  "https://es.fcstats.com/partido,deportes-tolima,patriotas,547614.php",
+  "https://es.fcstats.com/partido,atletico-bucaramanga,deportivo-cali,547613.php",
+  "https://es.fcstats.com/partido,deportivo-pasto,santa-fe,547615.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -63,9 +93,19 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 
 let Enl = [
   "",
+
+  "",
   "",
 
-  Extra[0],
+  "",
+  "",
+
+  "",
+  "",
+
+  "",
+  "",
+  "",
 
   /** */
   /** */
