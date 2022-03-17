@@ -1,17 +1,7 @@
 let Title = [
-  "Bundesliga",
-
-  "Premier League",
-  "Premier League",
-
-  "UEFA Champions League",
-  "UEFA Champions League",
-
-  "Conmebol Libertadores",
-  "Conmebol Libertadores",
-
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "UEFA Europa League",
+  "UEFA Europa League",
+  "UEFA Europa League",
   "Liga Dimayor Colombia",
 
   /**/
@@ -25,39 +15,21 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Mainz 05 - Borussia Dortmund",
+  "Galatasaray - Barcelona",
+  "Eintracht Frankfurt - Real Betis",
+  "West Ham United - Sevilla",
 
-  "Brighton & Hove Albion - Tottenham Hotspur",
-  "Arsenal - Liverpool",
-
-  "Juventus - Villarreal",
-  "Lille - Chelsea",
-
-  "Estudiantes - Everton",
-  "Olimpia - Fluminense",
-
-  "Deportes Tolima - Patriotas Boyacá",
-  "Atlético Bucaramanga - Deportivo Cali",
-  "Deportivo Pasto - Santa Fe"
+  "Atlético Nacional - Jaguares de Córdoba"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,fsv-mainz-05,borussia-dortmund,508851.php",
+  "https://es.fcstats.com/partido,galatasaray,fc-barcelona,557724.php",
+  "https://es.fcstats.com/partido,eintracht-frankfurt,real-betis,557726.php",
+  "https://es.fcstats.com/partido,west-ham-united,sevilla,557728.php",
 
-  "https://es.fcstats.com/partido,brighton-hove-albion,tottenham-hotspur,505796.php",
-  "https://es.fcstats.com/partido,arsenal-london,liverpool,505904.php",
-
-  "https://es.fcstats.com/partido,juventus-torino,villarreal,545370.php",
-  "https://es.fcstats.com/partido,lille,chelsea-london,545371.php",
-
-  "https://es.fcstats.com/partido,estudiantes-de-la-plata,everton-vina-del-mar,557666.php",
-  "https://es.fcstats.com/partido,olimpia-asuncion,fluminense,557753.php",
-
-  "https://es.fcstats.com/partido,deportes-tolima,patriotas,547614.php",
-  "https://es.fcstats.com/partido,atletico-bucaramanga,deportivo-cali,547613.php",
-  "https://es.fcstats.com/partido,deportivo-pasto,santa-fe,547615.php",
+  "https://es.fcstats.com/partido,atletico-nacional,jaguares-de-cordoba,547612.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -93,19 +65,10 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 
 let Enl = [
   "",
-
   "",
   "",
 
   "",
-  "",
-
-  "",
-  Extra[0],
-
-  "",
-  "",
-  ACol[0],
 
   /** */
   /** */
