@@ -1,15 +1,15 @@
 let Title = [
-  "Premier League",
+  "Ligue 1",
 
+  "LaLiga",
   "LaLiga",
   "LaLiga",
   "LaLiga",
   "LaLiga",
 
   "Serie A",
-  "Serie A",
-  "Serie A",
 
+  "FA CUP",
   "FA CUP",
 
   "Bundesliga",
@@ -17,10 +17,6 @@ let Title = [
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -33,55 +29,53 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Aston Villa - Arsenal",
+  "Mónaco - PSG",
 
-  "Deportivo Alavés - Granada",
-  "Elche - Valencia",
-  "Osasuna - Levante",
-  "Rayo Vallecano - Atlético Madrid",
+  "Espanyol - Mallorca",
+  "Cádiz - Villarreal",
+  "Celta de Vigo - Real Betis",
+  "Sevilla - Real Sociedad",
+  "Real Madrid - Barcelona",
 
-  "Napoli - Udinese",
-  "Internazionale - Fiorentina",
-  "Cagliari - Milan",
+  "Juventus - Salernitana",
 
-  "Middlesbrough - Chelsea",
+  "Southampton - Manchester City",
+  "Nottingham Forest - Liverpool",
 
-  "Bayern München - Union Berlin",
+  "Köln - Borussia Dortmund",
 
-  "Lanús - Banfield",
-  "San Lorenzo - Huracán",
-  "Colón - Unión Santa Fe",
-  "Independiente - Racing Club",
+  "Rosario Central - Newell's Old Boys",
+  "Gimnasia La Plata - Estudiantes",
+  "River Plate - Boca Juniors",
 
-  "Alianza Petrolera - Rionegro Águilas",
-  "América de Cali - Medellín"
+  "Envigado - La Equidad",
+  "Deportivo Pereira - Junior"
 ];
 
 var Est = [];
 
 let ustat = [
-  "https://es.fcstats.com/partido,aston-villa,arsenal-london,505934.php",
+  "https://es.fcstats.com/partido,monaco,paris-saint-germain,508155.php",
 
-  "https://es.fcstats.com/partido,deportivo-alaves,granada,509902.php",
-  "https://es.fcstats.com/partido,elche,valencia,509906.php",
-  "https://es.fcstats.com/partido,osasuna,levante,509908.php",
-  "https://es.fcstats.com/partido,rayo-vallecano,atletico-madrid,509909.php",
+  "https://es.fcstats.com/partido,espanyol-barcelona,mallorca,509907.php",
+  "https://es.fcstats.com/partido,cadiz,villarreal,509904.php",
+  "https://es.fcstats.com/partido,celta-de-vigo,real-betis,509905.php",
+  "https://es.fcstats.com/partido,sevilla,real-sociedad,509911.php",
+  "https://es.fcstats.com/partido,real-madrid,fc-barcelona,509910.php",
 
-  "https://es.fcstats.com/partido,napoli,udinese,523578.php",
-  "https://es.fcstats.com/partido,internazionale-milano,fiorentina,523576.php",
-  "https://es.fcstats.com/partido,cagliari-calcio,ac-milan,523573.php",
+  "https://es.fcstats.com/partido,juventus-torino,salernitana,523577.php",
 
-  "https://es.fcstats.com/partido,middlesbrough,chelsea-london,558831.php",
+  "https://es.fcstats.com/partido,southampton,manchester-city,558833.php",
+  "https://es.fcstats.com/partido,nottingham-forest,liverpool,558834.php",
 
-  "https://es.fcstats.com/partido,bayern-munchen,union-berlin,508864.php",
+  "https://es.fcstats.com/partido,fc-koln,borussia-dortmund,508866.php",
 
-  "https://es.fcstats.com/partido,lanus,banfield,549246.php",
-  "https://es.fcstats.com/partido,san-lorenzo,huracan,549249.php",
-  "https://es.fcstats.com/partido,colon,union-de-santa-fe,549242.php",
-  "https://es.fcstats.com/partido,independiente,racing-club,549245.php",
+  "https://es.fcstats.com/partido,rosario-central,newells-old-boys,549248.php",
+  "https://es.fcstats.com/partido,gimnasia-la-plata,estudiantes-de-la-plata,549244.php",
+  "https://es.fcstats.com/partido,river-plate,boca-juniors,549247.php",
 
-  "https://es.fcstats.com/partido,alianza-petrolera,rionegro-aguilas,547619.php",
-  "https://es.fcstats.com/partido,america-de-cali,independiente-medellin,547611.php",
+  "https://es.fcstats.com/partido,envigado-fc,la-equidad,547616.php",
+  "https://es.fcstats.com/partido,deportivo-pereira,atletico-junior,547618.php",
 
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
@@ -116,28 +110,27 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 }
 
 let Enl = [
+  AFra[0],
+
+  AEsp[0],
+  "",
+  "",
+  "",
+  "",
+
+  AIta[0],
+
+  "",
+  "",
+
   "",
 
   "",
   "",
   "",
-  "",
 
   "",
   "",
-  "",
-
-  "",
-
-  "",
-
-  "",
-  "",
-  "",
-  AArg[0],
-
-  ACol[0],
-  ACol[0],
 
   /** */
   /** */
