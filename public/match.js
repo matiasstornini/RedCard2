@@ -18,6 +18,9 @@ let Title = [
   "Liga Profesional Argentina",
   "Liga Profesional Argentina",
 
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
+
   /**/
   "ERROR",
   "ERROR",
@@ -126,8 +129,8 @@ let Enl = [
   "",
 
   "",
-  AArg[0],
   "",
+  AArg[0],
 
   ACol[0],
   "",
