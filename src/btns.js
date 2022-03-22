@@ -19,7 +19,15 @@ export const AEsp = [
 export const Chs = [
   <div>
     {" "}
-    <Btn Valor={chs[0]} /> <Btn Valor={chs[1]} /> <Btn Valor={chs[2]} />{" "}
+    <Btn Valor={chs[0]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={chs[1]} />{" "}
+  </div>,
+  <div>
+    {" "}
+    <Btn Valor={chs[2]} />{" "}
   </div>,
   <div>
     {" "}
