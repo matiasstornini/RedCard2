@@ -66,10 +66,10 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 
 let Enl = [
   "",
-  AArg[0],
+  "",
 
   "",
-  ACol[0],
+  "",
 
   /** */
   /** */
