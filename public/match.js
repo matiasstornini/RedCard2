@@ -16,11 +16,11 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Defensa y Justicia - Arsenal",
-  "Argentinos Juniors - Vélez Sarsfield",
+  "Atlético Tucumán - Central Córdoba SdE",
+  "Talleres Córdoba - Godoy Cruz",
 
-  "Jaguares de Córdoba - Unión Magdalena",
-  "Deportivo Cali - Atlético Nacional"
+  "Once Caldas - Deportes Tolima",
+  "Patriotas Boyacá - América de Cali"
 ];
 
 var Est = [];
