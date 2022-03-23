@@ -1,7 +1,6 @@
 let Title = [
-  "Liga Profesional Argentina",
-  "Liga Profesional Argentina",
-
+  "Liga Dimayor Colombia",
+  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
 
@@ -16,11 +15,10 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Atlético Tucumán - Central Córdoba SdE",
-  "Talleres Córdoba - Godoy Cruz",
-
-  "Once Caldas - Deportes Tolima",
-  "Patriotas Boyacá - América de Cali"
+  "Cortuluá - Envigado",
+  "La Equidad - Alianza Petrolera",
+  "Rionegro Águilas - Deportivo Pereira",
+  "Medellín - Millonarios"
 ];
 
 var Est = [];
@@ -66,10 +64,10 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 
 let Enl = [
   "",
-  Chs[0],
+  "",
 
-  ACol[0],
-  ACol[0],
+  "",
+  "",
 
   /** */
   /** */
