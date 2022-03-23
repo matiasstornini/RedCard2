@@ -65,11 +65,11 @@ for (var i = 0; i <= ustat.length - 23; i++) {
 }
 
 let Enl = [
-  Chs[0],
   "",
+  Chs[0],
 
   ACol[0],
-  "",
+  ACol[0],
 
   /** */
   /** */
