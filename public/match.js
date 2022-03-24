@@ -30,14 +30,6 @@ let Match = [
 var Est = [];
 
 let ustat = [
-  "",
-  "",
-
-  "",
-  "",
-  "",
-  "",
-
   /** ***TEST*** */
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estadisticas-no-disp.html",
