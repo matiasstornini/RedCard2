@@ -1,8 +1,11 @@
 let Title = [
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "Eliminatorias UEFA",
+  "Eliminatorias UEFA",
+
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
 
   /**/
   "ERROR",
@@ -15,10 +18,13 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Cortuluá - Envigado",
-  "La Equidad - Alianza Petrolera",
-  "Rionegro Águilas - Deportivo Pereira",
-  "Medellín - Millonarios"
+  "Italia - Macedonia del Norte",
+  "Portugal - Turquía",
+
+  "Uruguay - Peru",
+  "Colombia - Bolivia",
+  "Paraguay - Ecuador",
+  "Brazil - Chile"
 ];
 
 var Est = [];
@@ -27,6 +33,8 @@ let ustat = [
   "",
   "",
 
+  "",
+  "",
   "",
   "",
 
@@ -57,14 +65,16 @@ let ustat = [
   "https://pirlotv-redirecciones.blogspot.com/2020/09/estaisticas-no-disp.html"
 ];
 
-for (var i = 0; i <= ustat.length - 23; i++) {
-  //Est.push("" + ustat[i]);
-  Est.push("https://pirlotv2.herokuapp.com/full/app/test/est?url=" + ustat[i]);
+for (var i = 0; i <= ustat.length - 0; i++) {
+  Est.push("" + ustat[i]);
+  //Est.push("https://pirlotv2.herokuapp.com/full/app/test/est?url=" + ustat[i]);
 }
 
 let Enl = [
   "",
+  "",
 
+  "",
   "",
   "",
   "",
