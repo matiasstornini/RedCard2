@@ -1,8 +1,4 @@
 let Title = [
-  "Amistoso",
-  "Amistoso",
-  "Amistoso",
-  "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
@@ -17,14 +13,9 @@ let Title = [
   "ERROR"
 ];
 let Match = [
-  "Inglaterra - Suiza",
-  "España - Albania",
-  "Alemania - Israel",
-
-  "Atlético Bucaramanga - Jaguares de Córdoba",
-  "Envigado - Once Caldas",
-  "Unión Magdalena - Rionegro Águilas",
-  "Deportivo Pereira - Medellín"
+  "Deportivo Cali - Cortuluá",
+  "Alianza Petrolera - Patriotas Boyacá",
+  "Deportes Tolima - América de Cali"
 ];
 
 var Est = [];
@@ -66,11 +57,6 @@ let Enl = [
   "",
   "",
   "",
-
-  "",
-  "",
-  "",
-  ACol[0],
 
   /** */
   /** */
