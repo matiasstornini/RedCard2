@@ -1,7 +1,7 @@
 let Title = [
   "Liga Dimayor Colombia",
   "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+
   /**/
   "ERROR",
   "ERROR",
@@ -12,11 +12,7 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Deportivo Cali - Cortuluá",
-  "Alianza Petrolera - Patriotas Boyacá",
-  "Deportes Tolima - América de Cali"
-];
+let Match = ["Deportivo Pasto - La Equidad", "Atlético Nacional - Santa Fe"];
 
 var Est = [];
 
@@ -56,7 +52,6 @@ for (var i = 0; i <= ustat.length - 0; i++) {
 let Enl = [
   "",
   "",
-  ACol[0],
 
   /** */
   /** */
