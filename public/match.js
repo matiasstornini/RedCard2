@@ -1,6 +1,17 @@
 let Title = [
-  "Liga Dimayor Colombia",
-  "Liga Dimayor Colombia",
+  "Eliminatorias UEFA",
+
+  "Amistoso",
+  "Amistoso",
+  "Amistoso",
+  "Amistoso",
+  "Amistoso",
+
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
+  "Eliminatorias Conmebol",
 
   /**/
   "ERROR",
@@ -12,7 +23,21 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = ["Deportivo Pasto - La Equidad", "Atlético Nacional - Santa Fe"];
+let Match = [
+  "Portugal - Macedonia",
+
+  "España - Islandia",
+  "Inglaterra	- Costa de Marfil",
+  "Paises Bajos	- Alemania",
+  "Turquia	- Italia",
+  "Francia - Sudafrica",
+
+  "Peru - Paraguay",
+  "Venezuela	- Colombia",
+  "Bolivia	- Brasil",
+  "Chile	- Uruguay	",
+  "Ecuador	- Argentina"
+];
 
 var Est = [];
 
@@ -51,7 +76,18 @@ for (var i = 0; i <= ustat.length - 0; i++) {
 
 let Enl = [
   "",
-  ACol[0],
+
+  "",
+  "",
+  "",
+  "",
+  "",
+
+  "",
+  "",
+  "",
+  "",
+  "",
 
   /** */
   /** */
