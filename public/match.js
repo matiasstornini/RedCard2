@@ -1,17 +1,5 @@
 let Title = [
-  "Eliminatorias UEFA",
-
-  "Amistoso",
-  "Amistoso",
-  "Amistoso",
-  "Amistoso",
-  "Amistoso",
-
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
-  "Eliminatorias Conmebol",
+  "Liga Dimayor Colombia",
 
   /**/
   "ERROR",
@@ -23,21 +11,7 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = [
-  "Portugal - Macedonia",
-
-  "España - Islandia",
-  "Inglaterra	- Costa de Marfil",
-  "Paises Bajos	- Alemania",
-  "Turquia	- Italia",
-  "Francia - Sudafrica",
-
-  "Peru - Paraguay",
-  "Venezuela	- Colombia",
-  "Bolivia	- Brasil",
-  "Chile	- Uruguay	",
-  "Ecuador	- Argentina"
-];
+let Match = ["Millonarios - Junior"];
 
 var Est = [];
 
