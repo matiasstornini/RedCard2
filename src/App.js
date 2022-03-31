@@ -129,7 +129,7 @@ export default function ContainedButtons() {
         </div>
         <div>
           <Typography variant="h6" gutterBottom>
-            Reinciciar APP (Si reiniciando la app sigues viendo este mensaje,
+            Reinciar APP (Si reiniciando la app sigues viendo este mensaje,
             contactanos por Instagram)
           </Typography>
         </div>
