@@ -74,7 +74,7 @@ export default function ContainedButtons() {
     "error!!1"
   ];
 
-  for (let i = 0; i < Match.length; i++) {
+  for (let i = 0; i < 0; i++) {
     lis.push(
       <div>
         <Divider />
@@ -127,7 +127,11 @@ export default function ContainedButtons() {
         <div>
           <Divider />
         </div>
-        <div>{lis}</div>
+        <div>
+          <Typography variant="h6" gutterBottom>
+            Reinciciar APP
+          </Typography>
+        </div>
       </Container>
     </React.Fragment>
   );
