@@ -1,5 +1,15 @@
 let Title = [
-  "Liga Dimayor Colombia",
+  "Premier League",
+  "Premier League",
+  "Premier League",
+  "Premier League",
+
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
+  "LaLiga",
+
+  "Bundesliga",
 
   /**/
   "ERROR",
@@ -11,7 +21,19 @@ let Title = [
   "ERROR",
   "ERROR"
 ];
-let Match = ["Millonarios - Junior"];
+let Match = [
+  "Liverpool - Watford",
+  "Burnley - Manchester City",
+  "Chelsea - Brentford",
+  "Manchester United - Leicester City",
+
+  "Getafe - Mallorca",
+  "Levante - Villarreal",
+  "Celta de Vigo - Real Madrid",
+  "Atlético Madrid - Deportivo Alavés",
+
+  "Freiburg - Bayern München"
+];
 
 var Est = [];
 
@@ -50,13 +72,18 @@ for (var i = 0; i <= ustat.length - 0; i++) {
 
 let Enl = [
   "",
-
-  "",
-  "",
-  "",
-  "",
+  AIng[0],
+  AIng[1],
   "",
 
+  "",
+  AEsp[0],
+  "",
+  "",
+
+  AAle[0],
+
+  "",
   "",
   "",
   "",
