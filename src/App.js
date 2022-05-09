@@ -15,11 +15,13 @@ import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Btn from "./btn";
 import * as bloque from "./btns";
+import data from "./Gen.json";
 
 import Titulo from "./titulo";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
+import { indigo } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,10 +47,46 @@ export default function ContainedButtons() {
   function refreshPage() {
     window.location.reload(false);
   }
+
+  const DisplayData = data.map((info, i) => {
+    var dta = [];
+    var date = new Date(info.dt * 1000);
+    var hours = date.getHours();
+    var minutes = "0" + date.getMinutes();
+    var formattedTime =
+      hours + ":" + minutes.substr(-2); /*+ ':' + seconds.substr(-2)*/
+    dta.push(formattedTime);
+
+    return (
+      <tr key={i}>
+        <Typography variant="h5" gutterBottom>
+          {info.Competicion}
+        </Typography>
+        <Typography variant="h6" gutterBottom>
+          {dta} {info.Partido}
+        </Typography>
+        {info.Enlacematch !== 0 ? (
+          <div className={classes.root}>
+            <Btn Valor={info.EnlaceMatchs.valor1} />{" "}
+            <Btn Valor={info.EnlaceMatchs.valor2} />{" "}
+            <Btn Valor={info.EnlaceMatchs.valor3} />
+          </div>
+        ) : (
+          ""
+        )}
+        <div>
+          <Button variant="contained" color="primary" href={info.Estadisticas}>
+            Estadisticas
+          </Button>
+        </div>
+      </tr>
+    );
+  });
+
   var lis = [];
 
   let BB = [
-    "",
+    bloque.Extra[0],
 
     "",
     "",
@@ -74,7 +112,7 @@ export default function ContainedButtons() {
     "error!!1"
   ];
 
-  for (let i = 0; i < 0; i++) {
+  /*for (let i = 0; i < Match.length; i++) {
     lis.push(
       <div>
         <Divider />
@@ -83,29 +121,30 @@ export default function ContainedButtons() {
           {": "}
         </Typography>
         <Typography variant="h6" gutterBottom>
-          {dta[i]} {Match[i]}
+          {" "}
+          {DisplayData}
         </Typography>
       </div>
-    );
-    /*SWITCH*/
+    );*/
+  /*SWITCH*/
 
-    switch (i) {
+  /*switch (i) {
       case i:
         lis.push(<div className={classes.root}>{BB[i]}</div>);
         break;
       default:
       //console.log("default");
-    }
-    /*SWITCH*/
+    }*/
+  /*SWITCH*/
 
-    lis.push(
+  /*lis.push(
       <div className={classes.root}>
         <Button variant="contained" color="primary" href={Est[i]}>
           Estadisticas
         </Button>
       </div>
     );
-  }
+  }*/
 
   return (
     <React.Fragment>
@@ -127,12 +166,7 @@ export default function ContainedButtons() {
         <div>
           <Divider />
         </div>
-        <div>
-          <Typography variant="h6" gutterBottom>
-            Reinciar APP (Si reiniciando la app sigues viendo este mensaje,
-            contactanos por Instagram)
-          </Typography>
-        </div>
+        <div>{DisplayData}</div>
       </Container>
     </React.Fragment>
   );
