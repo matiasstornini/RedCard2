@@ -1,0 +1,44 @@
+[
+  {
+    "dt": "1652036400",
+    "Partido": "Atlético Madrid - Real Madrid",
+    "Competicion": "LaLiga",
+    "Estadisticas": "",
+    "Switch": 0,
+    "EnlaceMatchs": {
+      "valor1": "",
+      "valor2": "",
+      "valor3": "",
+      "valor4": "",
+      "valor5": ""
+    }
+  },
+  {
+    "dt": "1652202000",
+    "Partido": "Valencia - Real Betis",
+    "Competicion": "LaLiga",
+    "Estadisticas": "",
+    "Switch": 0,
+    "EnlaceMatchs": {
+      "valor1": "",
+      "valor2": "",
+      "valor3": "",
+      "valor4": "",
+      "valor5": ""
+    }
+  },
+  {
+    "dt": "1652205600",
+    "Partido": "Granada - Athletic Club",
+    "Competicion": "LaLiga",
+    "Estadisticas": "",
+    "Switch": 0,
+    "EnlaceMatchs": {
+      "valor1": "",
+      "valor2": "",
+      "valor3": "",
+      "valor4": "",
+      "valor5": ""
+    }
+  }
+]
