@@ -1,3 +1,10 @@
-<IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "*"
-</IfModule>
+# ----------------------------------------------------------------------
+# Allow loading of external fonts
+# ----------------------------------------------------------------------
+<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+    <IfModule mod_headers.c>
+        SetEnvIf Origin "http(s)?://(www\.)?(https://redcard1.netlify.app/|https://5ovu5.csb.app/|development.google.com|otherdomain.example|dev02.otherdomain.example)$" AccessControlAllowOrigin=$0
+        Header add Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+        Header merge Vary Origin
+    </IfModule>
+</FilesMatch>
