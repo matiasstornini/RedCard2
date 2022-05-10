@@ -16,7 +16,7 @@ import Btn from "./btn";
 import Button from "@material-ui/core/Button";
 
 export default (props) => {
-  const url = "https://5ovu5.csb.app/Datos.json";
+  const url = "https://redcard1.netlify.app/Datos.json";
   const [todos, setTodos] = useState();
   const fetchApi = async () => {
     const response = await fetch(url);
