@@ -24,6 +24,17 @@ import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
 import { indigo } from "@material-ui/core/colors";
 
+const isDark = window.matchMedia("(prefers-color-scheme:dark)").matches;
+const lightTheme = {
+  backgroundColor: "white",
+  color: "black"
+};
+
+const darkTheme = {
+  backgroundColor: "#35353a",
+  color: "white"
+};
+
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
@@ -42,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function ContainedButtons() {
+export default function MainJS() {
   const classes = useStyles();
 
   function refreshPage() {
@@ -50,28 +61,30 @@ export default function ContainedButtons() {
   }
 
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>
-            <Typography variant="h5" component="h5">
-              Calendario {datef}
-            </Typography>
-            <Titulo />
-          </Paper>
-        </Grid>
-        <div className={classes.root}>
-          <Button variant="outlined" color="secondary" onClick={refreshPage}>
-            <RefreshIcon />
-          </Button>
-        </div>
-        <div>
-          <Divider />
-        </div>
-        <AllData />
-      </Container>
-    </React.Fragment>
+    <div style={isDark ? darkTheme : lightTheme}>
+      <React.Fragment>
+        <CssBaseline />
+        <Container>
+          <Grid item xs={12}>
+            <Paper className={classes.paper}>
+              <Typography variant="h5" component="h5">
+                Calendario {datef}
+              </Typography>
+              <Titulo />
+            </Paper>
+          </Grid>
+          <div className={classes.root}>
+            <Button variant="outlined" color="secondary" onClick={refreshPage}>
+              <RefreshIcon />
+            </Button>
+          </div>
+          <div>
+            <Divider />
+          </div>
+          <AllData />
+        </Container>
+      </React.Fragment>
+    </div>
   );
 }
 export const light = {

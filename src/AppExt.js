@@ -1,21 +1,36 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  Table,
-  TableHead,
-  TableBody,
-  TableRow,
-  TableCell,
-  TableFooter,
-  TableContainer,
-  Paper
-} from "@material-ui/core";
+  makeStyles,
+  createMuiTheme,
+  ThemeProvider
+} from "@material-ui/core/styles";
+
 import Typography from "@material-ui/core/Typography";
 import Btn from "./btn";
 
 import Button from "@material-ui/core/Button";
+const useStyles = makeStyles((theme) => ({
+  root: {
+    "& > *": {
+      margin: theme.spacing(1)
+    }
+  },
+  margin: {
+    margin: theme.spacing(1)
+  },
+  extendedIcon: {
+    marginRight: theme.spacing(1)
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: "center"
+  }
+}));
 
 export default (props) => {
+  const classes = useStyles();
+
   const url = "Datos.json";
   const [todos, setTodos] = useState();
   const fetchApi = async () => {
@@ -27,7 +42,7 @@ export default (props) => {
     fetchApi();
   }, []);
   return (
-    <tr>
+    <div>
       {/*{props.data.rows.map((item, indx) => {*/}
       {!todos
         ? "Cargando..."
@@ -47,16 +62,24 @@ export default (props) => {
                 <Typography variant="h6" gutterBottom>
                   {dta} {todo.Partido}
                 </Typography>
-                {todo.Switch !== 0 ? (
-                  <div>
-                    <Btn Valor={todo.EnlaceMatchs.valor1} />{" "}
-                    <Btn Valor={todo.EnlaceMatchs.valor2} />{" "}
+                <div className={classes.root}>
+                  {todo.EnlaceMatchs.valor1 !== "" ? (
+                    <Btn Valor={todo.EnlaceMatchs.valor1} />
+                  ) : (
+                    ""
+                  )}{" "}
+                  {todo.EnlaceMatchs.valor2 !== "" ? (
+                    <Btn Valor={todo.EnlaceMatchs.valor2} />
+                  ) : (
+                    ""
+                  )}{" "}
+                  {todo.EnlaceMatchs.valor3 !== "" ? (
                     <Btn Valor={todo.EnlaceMatchs.valor3} />
-                  </div>
-                ) : (
-                  ""
-                )}
-                <div>
+                  ) : (
+                    ""
+                  )}
+                </div>
+                <div className={classes.root}>
                   <Button
                     variant="contained"
                     color="primary"
@@ -69,6 +92,6 @@ export default (props) => {
             );
           })}
       {/*})}*/}
-    </tr>
+    </div>
   );
 };
