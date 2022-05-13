@@ -62,23 +62,27 @@ export default (props) => {
                 <Typography variant="h6" gutterBottom>
                   {dta} {todo.Partido}
                 </Typography>
-                <div className={classes.root}>
-                  {todo.EnlaceMatchs.valor1 !== "" ? (
-                    <Btn Valor={todo.EnlaceMatchs.valor1} />
-                  ) : (
-                    ""
-                  )}{" "}
-                  {todo.EnlaceMatchs.valor2 !== "" ? (
-                    <Btn Valor={todo.EnlaceMatchs.valor2} />
-                  ) : (
-                    ""
-                  )}{" "}
-                  {todo.EnlaceMatchs.valor3 !== "" ? (
-                    <Btn Valor={todo.EnlaceMatchs.valor3} />
-                  ) : (
-                    ""
-                  )}
-                </div>
+                {todo.Switch !== 0 ? (
+                  <div className={classes.root}>
+                    {todo.EnlaceMatchs.valor1 !== "" ? (
+                      <Btn Valor={todo.EnlaceMatchs.valor1} />
+                    ) : (
+                      ""
+                    )}{" "}
+                    {todo.EnlaceMatchs.valor2 !== "" ? (
+                      <Btn Valor={todo.EnlaceMatchs.valor2} />
+                    ) : (
+                      ""
+                    )}{" "}
+                    {todo.EnlaceMatchs.valor3 !== "" ? (
+                      <Btn Valor={todo.EnlaceMatchs.valor3} />
+                    ) : (
+                      ""
+                    )}
+                  </div>
+                ) : (
+                  ""
+                )}
                 <div className={classes.root}>
                   <Button
                     variant="contained"
