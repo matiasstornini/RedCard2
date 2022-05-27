@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
-import App from "./Main";
+import App from "./Matchs";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

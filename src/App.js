@@ -166,7 +166,7 @@ export default function ContainedButtons() {
         <div>
           <Divider />
         </div>
-        <div>{DisplayData}</div>
+        {/*<div>{DisplayData}</div>*/}
       </Container>
     </React.Fragment>
   );
